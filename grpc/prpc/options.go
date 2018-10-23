@@ -18,11 +18,10 @@ import (
 	"fmt"
 	"time"
 
+	"go.chromium.org/luci/common/retry"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
-
-	"go.chromium.org/luci/common/retry"
 )
 
 // Options controls how RPC requests are sent.
@@ -31,8 +30,9 @@ type Options struct {
 
 	// UserAgent is the value of User-Agent HTTP header.
 	// If empty, DefaultUserAgent is used.
-	UserAgent string
-	Insecure  bool // if true, use HTTP instead of HTTPS.
+	UserAgent     string
+	Insecure      bool // if true, use HTTP instead of HTTPS.
+	Authorization string
 
 	// PerRPCTimeout, if > 0, is a timeout that is applied to each RPC. If the
 	// client Context has a shorter deadline, this timeout will not be applied.

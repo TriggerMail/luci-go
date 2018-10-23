@@ -27,18 +27,16 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-
-	"golang.org/x/net/context/ctxhttp"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/metadata"
-
 	"go.chromium.org/luci/common/clock"
 	"go.chromium.org/luci/common/errors"
 	"go.chromium.org/luci/common/logging"
 	"go.chromium.org/luci/common/retry"
 	"go.chromium.org/luci/common/retry/transient"
 	"go.chromium.org/luci/grpc/grpcutil"
+	"golang.org/x/net/context/ctxhttp"
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/metadata"
 )
 
 const (
@@ -370,11 +368,15 @@ func prepareRequest(host, serviceName, methodName string, contentLength int, inf
 	}
 
 	// Set headers.
+
 	req.Header.Set("Content-Type", inf.ContentType())
 	req.Header.Set("Accept", outf.ContentType())
 	userAgent := options.UserAgent
 	if userAgent == "" {
 		userAgent = DefaultUserAgent
+	}
+	if options.Authorization != "" {
+		req.Header.Set("Authorization", options.Authorization)
 	}
 	req.Header.Set("User-Agent", userAgent)
 	req.ContentLength = int64(contentLength)

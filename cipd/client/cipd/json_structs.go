@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/proto/google"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
+	"github.com/TriggerMail/luci-go/cipd/common"
 )
 
 // Helper structs and functions for working with JSON representation of CIPD

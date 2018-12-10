@@ -3,7 +3,7 @@
 
 package crimson
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -26,7 +26,7 @@ var _ = math.Inf
 const _ = proto.ProtoPackageIsVersion2 // please upgrade the proto package
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/machine-db/api/crimson/v1/crimson.proto", fileDescriptor_46e41eaf4c273b9a)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/machine-db/api/crimson/v1/crimson.proto", fileDescriptor_46e41eaf4c273b9a)
 }
 
 var fileDescriptor_46e41eaf4c273b9a = []byte{
@@ -1353,5 +1353,5 @@ var _Crimson_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/machine-db/api/crimson/v1/crimson.proto",
+	Metadata: "github.com/TriggerMail/luci-go/machine-db/api/crimson/v1/crimson.proto",
 }

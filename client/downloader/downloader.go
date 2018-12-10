@@ -22,11 +22,11 @@ import (
 	"path/filepath"
 	"sync"
 
-	"go.chromium.org/luci/client/internal/common"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
+	"github.com/TriggerMail/luci-go/client/internal/common"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/isolated"
+	"github.com/TriggerMail/luci-go/common/isolatedclient"
 )
 
 // Downloader is a high level interface to an isolatedclient.Client.

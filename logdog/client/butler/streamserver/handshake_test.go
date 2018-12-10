@@ -24,11 +24,11 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamproto"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 func writePanic(w io.Writer, d []byte) {

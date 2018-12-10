@@ -20,18 +20,18 @@ import (
 	"sort"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/buildbucket/access"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/TriggerMail/luci-go/buildbucket/access"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/templates"
 
-	"go.chromium.org/luci/milo/buildsource"
-	"go.chromium.org/luci/milo/buildsource/buildbot/buildstore"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/common/model"
+	"github.com/TriggerMail/luci-go/milo/buildsource"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbot/buildstore"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/milo/common/model"
 )
 
 // BuildersRelativeHandler is responsible for rendering a builders list page according to project.

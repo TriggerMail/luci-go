@@ -21,18 +21,18 @@ import (
 	"strconv"
 	"strings"
 
-	"go.chromium.org/luci/buildbucket"
-	"go.chromium.org/luci/buildbucket/proto"
-	bbv1 "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
-	"go.chromium.org/luci/common/data/strpair"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/common/types"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/buildbucket"
+	"github.com/TriggerMail/luci-go/buildbucket/proto"
+	bbv1 "github.com/TriggerMail/luci-go/common/api/buildbucket/buildbucket/v1"
+	"github.com/TriggerMail/luci-go/common/data/strpair"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
+	"github.com/TriggerMail/luci-go/server/auth"
 
-	"go.chromium.org/luci/milo/api/buildbot"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/common/model"
+	"github.com/TriggerMail/luci-go/milo/api/buildbot"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/milo/common/model"
 )
 
 // This file implements conversion of buildbucket builds to buildbot builds.

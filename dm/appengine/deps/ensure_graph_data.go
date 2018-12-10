@@ -23,19 +23,19 @@ import (
 	"github.com/golang/protobuf/proto"
 	ds "go.chromium.org/gae/service/datastore"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
 
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/api/template"
+	dm "github.com/TriggerMail/luci-go/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/dm/api/template"
 
-	"go.chromium.org/luci/tumble"
+	"github.com/TriggerMail/luci-go/tumble"
 
-	"go.chromium.org/luci/dm/appengine/distributor"
-	"go.chromium.org/luci/dm/appengine/model"
-	"go.chromium.org/luci/dm/appengine/mutate"
+	"github.com/TriggerMail/luci-go/dm/appengine/distributor"
+	"github.com/TriggerMail/luci-go/dm/appengine/model"
+	"github.com/TriggerMail/luci-go/dm/appengine/mutate"
 )
 
 func (d *deps) runEnsureGraphDepsWalk(c context.Context, req *dm.EnsureGraphDataReq, newAttempts *dm.AttemptList) (*dm.GraphData, error) {

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sync"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // registry is a registry of Resolver key mapped to the Formatter to use to

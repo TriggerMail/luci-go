@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 func init() {

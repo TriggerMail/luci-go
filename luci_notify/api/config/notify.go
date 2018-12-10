@@ -15,7 +15,7 @@
 package config
 
 import (
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
+	buildbucketpb "github.com/TriggerMail/luci-go/buildbucket/proto"
 )
 
 // ShouldNotify is the predicate function for whether a trigger's conditions have been met.

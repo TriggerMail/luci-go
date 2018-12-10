@@ -20,9 +20,9 @@ import (
 	"github.com/kr/pretty"
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/common/api/swarming/swarming/v1"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 func cmdRequestShow(defaultAuthOpts auth.Options) *subcommands.Command {

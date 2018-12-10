@@ -33,12 +33,12 @@ import (
 	"reflect"
 	"strings"
 
-	"go.chromium.org/luci/common/data/cmpbin"
-	"go.chromium.org/luci/common/errors"
-	luciProto "go.chromium.org/luci/common/proto"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient"
-	"go.chromium.org/luci/config/server/cfgclient/backend/format"
+	"github.com/TriggerMail/luci-go/common/data/cmpbin"
+	"github.com/TriggerMail/luci-go/common/errors"
+	luciProto "github.com/TriggerMail/luci-go/common/proto"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/format"
 
 	"github.com/golang/protobuf/proto"
 )
@@ -46,7 +46,7 @@ import (
 var typeOfProtoMessage = reflect.TypeOf((*proto.Message)(nil)).Elem()
 
 // BinaryFormat is the resolver's binary protobuf format string.
-const BinaryFormat = "go.chromium.org/luci/server/config/TextProto:binary"
+const BinaryFormat = "github.com/TriggerMail/luci-go/server/config/TextProto:binary"
 
 // init registers this format in the registry of formats.
 func init() {

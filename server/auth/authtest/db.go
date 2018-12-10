@@ -18,11 +18,11 @@ import (
 	"context"
 	"net"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/authdb"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
 )
 
 // FakeDB implements user group checking part of db.DB (IsMember).

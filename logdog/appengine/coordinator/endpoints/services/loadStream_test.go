@@ -21,13 +21,13 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"go.chromium.org/gae/filter/featureBreaker"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	"go.chromium.org/luci/logdog/appengine/coordinator"
-	ct "go.chromium.org/luci/logdog/appengine/coordinator/coordinatorTest"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator"
+	ct "github.com/TriggerMail/luci-go/logdog/appengine/coordinator/coordinatorTest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestLoadStream(t *testing.T) {

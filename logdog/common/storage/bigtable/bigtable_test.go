@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/logdog/common/storage"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/logdog/common/storage"
 
 	"cloud.google.com/go/bigtable"
 

@@ -25,9 +25,9 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"go.chromium.org/luci/cipd/client/cipd/fs"
-	"go.chromium.org/luci/cipd/client/cipd/pkg"
-	"go.chromium.org/luci/cipd/common"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/fs"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/pkg"
+	"github.com/TriggerMail/luci-go/cipd/common"
 )
 
 // PackageDef defines how exactly to build a package.

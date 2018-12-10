@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/target"
-	srvtsmon "go.chromium.org/luci/server/tsmon"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/tsmon"
+	"github.com/TriggerMail/luci-go/common/tsmon/target"
+	srvtsmon "github.com/TriggerMail/luci-go/server/tsmon"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

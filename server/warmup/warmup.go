@@ -22,9 +22,9 @@ import (
 	"net/http"
 	"sync"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 // Callback will be called during warmup.

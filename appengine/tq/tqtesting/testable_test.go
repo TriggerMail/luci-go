@@ -24,9 +24,9 @@ import (
 	"go.chromium.org/gae/impl/memory"
 	"go.chromium.org/gae/service/taskqueue"
 
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/appengine/tq"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/any"
@@ -35,7 +35,7 @@ import (
 	"github.com/golang/protobuf/ptypes/wrappers"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 var epoch = time.Unix(1500000000, 0).UTC()

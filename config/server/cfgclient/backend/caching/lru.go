@@ -19,11 +19,11 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/data/caching/lru"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/data/caching/lru"
+	"github.com/TriggerMail/luci-go/server/auth"
 
-	"go.chromium.org/luci/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
 )
 
 // LRUBackend wraps b, applying the additional cache to its results.

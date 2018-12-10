@@ -24,14 +24,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/data/recordio"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/iotools"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/common/data/recordio"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/iotools"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func gen(i int) *logpb.LogEntry {

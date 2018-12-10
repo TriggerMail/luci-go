@@ -7,9 +7,9 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	messages "go.chromium.org/luci/server/auth/delegation/messages"
-	api "go.chromium.org/luci/tokenserver/api"
-	v1 "go.chromium.org/luci/tokenserver/api/minter/v1"
+	messages "github.com/TriggerMail/luci-go/server/auth/delegation/messages"
+	api "github.com/TriggerMail/luci-go/tokenserver/api"
+	v1 "github.com/TriggerMail/luci-go/tokenserver/api/minter/v1"
 	math "math"
 )
 
@@ -691,7 +691,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/tokenserver/api/bq/bq.proto", fileDescriptor_e0cc6154e6d463f7)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/tokenserver/api/bq/bq.proto", fileDescriptor_e0cc6154e6d463f7)
 }
 
 var fileDescriptor_e0cc6154e6d463f7 = []byte{

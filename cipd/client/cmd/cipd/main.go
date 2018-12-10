@@ -25,9 +25,9 @@ package main
 import (
 	"os"
 
-	"go.chromium.org/luci/cipd/client/cli"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
+	"github.com/TriggerMail/luci-go/cipd/client/cli"
+	"github.com/TriggerMail/luci-go/common/data/rand/mathrand"
+	"github.com/TriggerMail/luci-go/hardcoded/chromeinfra"
 )
 
 func main() {

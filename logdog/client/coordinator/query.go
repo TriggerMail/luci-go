@@ -18,10 +18,10 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/logs/v1"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 // QueryTrinary is a 3-value query option type.

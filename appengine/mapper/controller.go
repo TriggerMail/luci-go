@@ -25,16 +25,16 @@ import (
 
 	"go.chromium.org/gae/service/datastore"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/common/sync/parallel"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
 
-	"go.chromium.org/luci/appengine/tq"
+	"github.com/TriggerMail/luci-go/appengine/tq"
 
-	"go.chromium.org/luci/appengine/mapper/internal/tasks"
-	"go.chromium.org/luci/appengine/mapper/splitter"
+	"github.com/TriggerMail/luci-go/appengine/mapper/internal/tasks"
+	"github.com/TriggerMail/luci-go/appengine/mapper/splitter"
 )
 
 // ID identifies a mapper registered in the controller.

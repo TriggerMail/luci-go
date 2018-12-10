@@ -19,9 +19,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/git"
-	"go.chromium.org/luci/common/proto/gitiles"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/proto/git"
+	"github.com/TriggerMail/luci-go/common/proto/gitiles"
 )
 
 // DefaultLimit is the default maximum number of commits to load.

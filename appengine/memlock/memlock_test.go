@@ -24,8 +24,8 @@ import (
 	"go.chromium.org/gae/filter/featureBreaker"
 	"go.chromium.org/gae/impl/memory"
 	mc "go.chromium.org/gae/service/memcache"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

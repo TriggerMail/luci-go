@@ -19,11 +19,11 @@ import (
 
 	"github.com/golang/protobuf/ptypes/empty"
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/clock"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	"go.chromium.org/luci/logdog/appengine/coordinator"
+	"github.com/TriggerMail/luci-go/common/clock"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator"
 
 	"google.golang.org/grpc/codes"
 )

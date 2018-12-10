@@ -22,18 +22,18 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/common/tsmon/monitor"
-	"go.chromium.org/luci/common/tsmon/runtimestats"
-	"go.chromium.org/luci/common/tsmon/store"
-	"go.chromium.org/luci/common/tsmon/target"
-	"go.chromium.org/luci/common/tsmon/versions"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/tsmon"
+	"github.com/TriggerMail/luci-go/common/tsmon/metric"
+	"github.com/TriggerMail/luci-go/common/tsmon/monitor"
+	"github.com/TriggerMail/luci-go/common/tsmon/runtimestats"
+	"github.com/TriggerMail/luci-go/common/tsmon/store"
+	"github.com/TriggerMail/luci-go/common/tsmon/target"
+	"github.com/TriggerMail/luci-go/common/tsmon/versions"
 
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 // State holds the state and configuration of the tsmon library.

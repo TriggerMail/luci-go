@@ -28,19 +28,19 @@ import (
 	"google.golang.org/grpc/codes"
 
 	"go.chromium.org/gae/impl/memory"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/git"
-	gitilespb "go.chromium.org/luci/common/proto/gitiles"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/config/validation"
-	api "go.chromium.org/luci/scheduler/api/scheduler/v1"
-	"go.chromium.org/luci/scheduler/appengine/messages"
-	"go.chromium.org/luci/scheduler/appengine/task"
-	"go.chromium.org/luci/scheduler/appengine/task/utils/tasktest"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/proto/git"
+	gitilespb "github.com/TriggerMail/luci-go/common/proto/gitiles"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/config/validation"
+	api "github.com/TriggerMail/luci-go/scheduler/api/scheduler/v1"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/messages"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/task"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/task/utils/tasktest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 var _ task.Manager = (*TaskManager)(nil)

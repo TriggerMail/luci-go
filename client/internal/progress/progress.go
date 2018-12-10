@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/client/internal/common"
-	"go.chromium.org/luci/common/data/text/units"
+	"github.com/TriggerMail/luci-go/client/internal/common"
+	"github.com/TriggerMail/luci-go/common/data/text/units"
 )
 
 // Group identifies a column group to keep progress for.

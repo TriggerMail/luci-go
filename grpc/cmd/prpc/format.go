@@ -17,8 +17,8 @@ package main
 import (
 	"flag"
 
-	"go.chromium.org/luci/common/flag/flagenum"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/TriggerMail/luci-go/common/flag/flagenum"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
 )
 
 type formatFlag prpc.Format

@@ -21,10 +21,10 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/data/stringset"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
+	api "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
 )
 
 var (

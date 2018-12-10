@@ -19,12 +19,12 @@
 package adminsrv
 
 import (
-	"go.chromium.org/luci/appengine/gaeauth/server/gaesigner"
+	"github.com/TriggerMail/luci-go/appengine/gaeauth/server/gaesigner"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/certconfig"
-	"go.chromium.org/luci/tokenserver/appengine/impl/delegation"
-	"go.chromium.org/luci/tokenserver/appengine/impl/machinetoken"
-	"go.chromium.org/luci/tokenserver/appengine/impl/serviceaccounts"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/certconfig"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/delegation"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/machinetoken"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/serviceaccounts"
 )
 
 // AdminServer implements admin.AdminServer RPC interface.

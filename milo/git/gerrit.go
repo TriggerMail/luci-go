@@ -20,7 +20,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"go.chromium.org/gae/service/memcache"
-	gerritpb "go.chromium.org/luci/common/proto/gerrit"
+	gerritpb "github.com/TriggerMail/luci-go/common/proto/gerrit"
 )
 
 // CLEmail implements Client interface.

@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/TriggerMail/luci-go/common/system/filesystem"
 )
 
 // Build constructs a filesystem hierarchy given a layout.

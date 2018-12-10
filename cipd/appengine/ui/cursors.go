@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"go.chromium.org/gae/service/memcache"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 type cursorKind string

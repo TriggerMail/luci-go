@@ -21,10 +21,10 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/appengine/mapper"
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/appengine/mapper"
+	"github.com/TriggerMail/luci-go/common/errors"
 
-	api "go.chromium.org/luci/cipd/api/admin/v1"
+	api "github.com/TriggerMail/luci-go/cipd/api/admin/v1"
 )
 
 // A registry of mapping job configurations.

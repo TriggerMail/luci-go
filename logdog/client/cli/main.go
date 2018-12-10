@@ -26,16 +26,16 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/clock/clockflag"
-	"go.chromium.org/luci/common/errors"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/logdog/client/coordinator"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/auth/client/authcli"
+	"github.com/TriggerMail/luci-go/common/cli"
+	"github.com/TriggerMail/luci-go/common/clock/clockflag"
+	"github.com/TriggerMail/luci-go/common/errors"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging/gologger"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
+	"github.com/TriggerMail/luci-go/logdog/client/coordinator"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 func init() {

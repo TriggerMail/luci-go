@@ -18,8 +18,8 @@ import (
 	"context"
 
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/dm/appengine/model"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/dm/appengine/model"
 )
 
 // filterExisting removes the FwdDep objects which already exist.

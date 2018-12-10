@@ -17,7 +17,7 @@ package buildbot
 import (
 	"encoding/json"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 type Log struct {

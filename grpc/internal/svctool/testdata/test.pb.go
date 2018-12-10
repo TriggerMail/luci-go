@@ -15,13 +15,13 @@ It has these top-level messages:
 */
 package test
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import sub "go.chromium.org/luci/grpc/internal/svctool/testdata/sub"
-import google_protobuf "go.chromium.org/luci/common/proto/google"
+import sub "github.com/TriggerMail/luci-go/grpc/internal/svctool/testdata/sub"
+import google_protobuf "github.com/TriggerMail/luci-go/common/proto/google"
 
 import (
 	context "golang.org/x/net/context"
@@ -326,7 +326,7 @@ var _S2_serviceDesc = grpc.ServiceDesc{
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/grpc/internal/svctool/testdata/test.proto", fileDescriptor0)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/grpc/internal/svctool/testdata/test.proto", fileDescriptor0)
 }
 
 var fileDescriptor0 = []byte{

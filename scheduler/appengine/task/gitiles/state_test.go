@@ -25,10 +25,10 @@ import (
 
 	"go.chromium.org/gae/impl/memory"
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/store"
-	"go.chromium.org/luci/common/tsmon/target"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/TriggerMail/luci-go/common/tsmon"
+	"github.com/TriggerMail/luci-go/common/tsmon/store"
+	"github.com/TriggerMail/luci-go/common/tsmon/target"
+	"github.com/TriggerMail/luci-go/common/tsmon/types"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -344,7 +344,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/machine-db/api/crimson/v1/dracs.proto", fileDescriptor_0e7c5f5f1ce4adfa)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/machine-db/api/crimson/v1/dracs.proto", fileDescriptor_0e7c5f5f1ce4adfa)
 }
 
 var fileDescriptor_0e7c5f5f1ce4adfa = []byte{

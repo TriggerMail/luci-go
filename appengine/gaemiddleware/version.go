@@ -15,7 +15,7 @@
 package gaemiddleware
 
 import (
-	"go.chromium.org/luci/common/tsmon/versions"
+	"github.com/TriggerMail/luci-go/common/tsmon/versions"
 )
 
 // Version is a semantic version of base luci-go GAE library.
@@ -29,5 +29,5 @@ import (
 const Version = "1.0.0"
 
 func init() {
-	versions.Register("go.chromium.org/luci/appengine/gaemiddleware", Version)
+	versions.Register("github.com/TriggerMail/luci-go/appengine/gaemiddleware", Version)
 }

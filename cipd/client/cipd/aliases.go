@@ -19,7 +19,7 @@ package cipd
 // dependency cycles.
 
 import (
-	"go.chromium.org/luci/cipd/client/cipd/deployer"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/deployer"
 )
 
 // ParanoidMode specifies how paranoid EnsurePackages should be.

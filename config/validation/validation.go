@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // Error is an error with details of failed validation.

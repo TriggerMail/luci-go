@@ -15,7 +15,7 @@
 package appengine
 
 import (
-	"go.chromium.org/luci/milo/frontend"
+	"github.com/TriggerMail/luci-go/milo/frontend"
 )
 
 func init() {

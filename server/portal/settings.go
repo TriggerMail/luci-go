@@ -20,10 +20,10 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/xsrf"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/xsrf"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/templates"
 )
 
 type fieldWithValue struct {

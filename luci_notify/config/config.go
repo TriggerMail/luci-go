@@ -24,14 +24,14 @@ import (
 
 	"go.chromium.org/gae/service/datastore"
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/parallel"
-	configInterface "go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/validation"
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
+	configInterface "github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/validation"
+	notifypb "github.com/TriggerMail/luci-go/luci_notify/api/config"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 // parsedProjectConfigSet contains all configurations of a project.

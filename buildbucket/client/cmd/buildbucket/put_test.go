@@ -17,10 +17,10 @@ package main
 import (
 	"testing"
 
-	"go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
+	"github.com/TriggerMail/luci-go/common/api/buildbucket/buildbucket/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestPut(t *testing.T) {

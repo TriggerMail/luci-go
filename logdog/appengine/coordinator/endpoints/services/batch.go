@@ -18,12 +18,12 @@ import (
 	"context"
 	"sync"
 
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/services/v1"
 
-	"go.chromium.org/luci/common/gcloud/gae"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/common/gcloud/gae"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
 
 	"github.com/golang/protobuf/proto"
 )

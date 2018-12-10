@@ -19,9 +19,9 @@ import (
 	"net/url"
 	"strings"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/tumble"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/tumble"
 )
 
 const handlerPattern = "/tq/distributor/:cfgName"

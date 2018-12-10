@@ -18,7 +18,7 @@ import (
 	"context"
 	"io"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 // Use registers a JSON based logger as default logger of the context that

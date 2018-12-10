@@ -15,8 +15,8 @@
 package ui
 
 import (
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/templates"
 )
 
 func projectPage(c *router.Context) {

@@ -23,7 +23,7 @@ import (
 	"go.chromium.org/gae/impl/memory"
 	ds "go.chromium.org/gae/service/datastore"
 
-	"go.chromium.org/luci/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/dm/api/service/v1"
 )
 
 func TestBackdepEdge(t *testing.T) {

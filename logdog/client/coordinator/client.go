@@ -15,10 +15,10 @@
 package coordinator
 
 import (
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/grpc/prpc"
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
+	logdog "github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/logs/v1"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 var (

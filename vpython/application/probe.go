@@ -21,13 +21,13 @@ import (
 	"os/exec"
 	"strings"
 
-	"go.chromium.org/luci/vpython/python"
+	"github.com/TriggerMail/luci-go/vpython/python"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/common/system/exitcode"
-	"go.chromium.org/luci/common/system/prober"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/system/environ"
+	"github.com/TriggerMail/luci-go/common/system/exitcode"
+	"github.com/TriggerMail/luci-go/common/system/prober"
 )
 
 const (

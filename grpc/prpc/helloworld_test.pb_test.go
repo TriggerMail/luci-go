@@ -196,7 +196,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/grpc/prpc/helloworld_test.proto", fileDescriptor_a601d72b9fd9e561)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/grpc/prpc/helloworld_test.proto", fileDescriptor_a601d72b9fd9e561)
 }
 
 var fileDescriptor_a601d72b9fd9e561 = []byte{
@@ -306,7 +306,7 @@ var _Greeter_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/grpc/prpc/helloworld_test.proto",
+	Metadata: "github.com/TriggerMail/luci-go/grpc/prpc/helloworld_test.proto",
 }
 
 // CalcClient is the client API for Calc service.
@@ -386,5 +386,5 @@ var _Calc_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/grpc/prpc/helloworld_test.proto",
+	Metadata: "github.com/TriggerMail/luci-go/grpc/prpc/helloworld_test.proto",
 }

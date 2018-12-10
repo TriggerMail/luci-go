@@ -213,7 +213,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/buildbucket/proto/step.proto", fileDescriptor_7b6755933d248870)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/buildbucket/proto/step.proto", fileDescriptor_7b6755933d248870)
 }
 
 var fileDescriptor_7b6755933d248870 = []byte{

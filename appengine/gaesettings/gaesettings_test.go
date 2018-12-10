@@ -26,8 +26,8 @@ import (
 	"go.chromium.org/gae/impl/memory"
 	ds "go.chromium.org/gae/service/datastore"
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

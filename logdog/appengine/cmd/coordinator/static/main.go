@@ -22,8 +22,8 @@ package stub
 import (
 	"net/http"
 
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/warmup"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/warmup"
 )
 
 func init() {

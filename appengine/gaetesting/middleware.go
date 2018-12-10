@@ -19,9 +19,9 @@ import (
 	"flag"
 
 	"go.chromium.org/gae/impl/memory"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/secrets/testsecrets"
+	"github.com/TriggerMail/luci-go/common/logging/gologger"
+	"github.com/TriggerMail/luci-go/server/caching"
+	"github.com/TriggerMail/luci-go/server/secrets/testsecrets"
 )
 
 var goLogger = flag.Bool("test.gologger", false, "Enable console logging during test.")

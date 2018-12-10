@@ -20,15 +20,15 @@ import (
 	"time"
 
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/distributor/fake"
-	"go.chromium.org/luci/dm/appengine/model"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/dm/appengine/distributor/fake"
+	"github.com/TriggerMail/luci-go/dm/appengine/model"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestScheduleExecution(t *testing.T) {

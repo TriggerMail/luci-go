@@ -23,7 +23,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"go.chromium.org/luci/common/system/environ"
+	"github.com/TriggerMail/luci-go/common/system/environ"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

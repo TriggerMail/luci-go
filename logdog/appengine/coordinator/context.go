@@ -20,14 +20,14 @@ import (
 
 	"go.chromium.org/gae/service/datastore"
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/auth/identity"
-	log "go.chromium.org/luci/common/logging"
-	cfglib "go.chromium.org/luci/config"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
-	"go.chromium.org/luci/logdog/appengine/coordinator/config"
-	"go.chromium.org/luci/logdog/common/types"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	cfglib "github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/logdog/api/config/svcconfig"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator/config"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
+	"github.com/TriggerMail/luci-go/server/auth"
 
 	"google.golang.org/grpc/codes"
 )

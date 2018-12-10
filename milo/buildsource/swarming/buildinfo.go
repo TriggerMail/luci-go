@@ -17,13 +17,13 @@ package swarming
 import (
 	"context"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	miloProto "go.chromium.org/luci/common/proto/milo"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/logdog/common/types"
-	milo "go.chromium.org/luci/milo/api/proto"
-	"go.chromium.org/luci/milo/buildsource/rawpresentation"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	miloProto "github.com/TriggerMail/luci-go/common/proto/milo"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
+	milo "github.com/TriggerMail/luci-go/milo/api/proto"
+	"github.com/TriggerMail/luci-go/milo/buildsource/rawpresentation"
 )
 
 // BuildInfoProvider provides build information.

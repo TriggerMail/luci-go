@@ -20,7 +20,7 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock"
 )
 
 // Defaults for FakeTokenGenerator.

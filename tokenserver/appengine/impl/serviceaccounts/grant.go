@@ -20,11 +20,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
 
-	"go.chromium.org/luci/tokenserver/api"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/tokensigning"
+	"github.com/TriggerMail/luci-go/tokenserver/api"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/utils/tokensigning"
 )
 
 // tokenSigningContext is used to make sure grant token is not misused in

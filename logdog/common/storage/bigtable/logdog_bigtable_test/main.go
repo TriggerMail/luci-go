@@ -23,17 +23,17 @@ import (
 	"os"
 	"strings"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/errors"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/logdog/common/storage"
-	"go.chromium.org/luci/logdog/common/storage/bigtable"
-	"go.chromium.org/luci/logdog/common/storage/memory"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/auth/client/authcli"
+	"github.com/TriggerMail/luci-go/common/cli"
+	"github.com/TriggerMail/luci-go/common/data/rand/mathrand"
+	"github.com/TriggerMail/luci-go/common/errors"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging/gologger"
+	"github.com/TriggerMail/luci-go/logdog/common/storage"
+	"github.com/TriggerMail/luci-go/logdog/common/storage/bigtable"
+	"github.com/TriggerMail/luci-go/logdog/common/storage/memory"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 
 	cloudBT "cloud.google.com/go/bigtable"
 	"github.com/golang/protobuf/proto"
@@ -41,7 +41,7 @@ import (
 
 	"google.golang.org/api/option"
 
-	"go.chromium.org/luci/hardcoded/chromeinfra"
+	"github.com/TriggerMail/luci-go/hardcoded/chromeinfra"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

@@ -21,11 +21,11 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butler/output"
-	"go.chromium.org/luci/logdog/common/types"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/client/butler/output"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 // logOutput is an Output implementation that logs messages to its contexts'

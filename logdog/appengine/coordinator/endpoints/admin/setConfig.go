@@ -18,10 +18,10 @@ import (
 	"context"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/admin/v1"
-	"go.chromium.org/luci/logdog/appengine/coordinator/config"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/admin/v1"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator/config"
 
 	"google.golang.org/grpc/codes"
 )

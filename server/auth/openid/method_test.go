@@ -24,18 +24,18 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
-	"go.chromium.org/luci/server/auth/signing/signingtest"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/secrets/testsecrets"
-	"go.chromium.org/luci/server/settings"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/authtest"
+	"github.com/TriggerMail/luci-go/server/auth/signing/signingtest"
+	"github.com/TriggerMail/luci-go/server/caching"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/secrets/testsecrets"
+	"github.com/TriggerMail/luci-go/server/settings"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestFullFlow(t *testing.T) {

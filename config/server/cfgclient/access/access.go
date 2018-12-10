@@ -29,14 +29,14 @@ import (
 	"context"
 	"strings"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/errors"
-	configPB "go.chromium.org/luci/common/proto/config"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
-	"go.chromium.org/luci/config/server/cfgclient/textproto"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/errors"
+	configPB "github.com/TriggerMail/luci-go/common/proto/config"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/textproto"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // ErrNoAccess is an error returned by CheckAccess if the supplied Authority

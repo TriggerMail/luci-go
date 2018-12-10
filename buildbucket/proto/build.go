@@ -19,7 +19,7 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	"go.chromium.org/luci/common/data/strpair"
+	"github.com/TriggerMail/luci-go/common/data/strpair"
 )
 
 // RunDuration returns duration between build start and end.

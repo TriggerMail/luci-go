@@ -17,7 +17,7 @@ package metadata
 import (
 	"testing"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
+	api "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

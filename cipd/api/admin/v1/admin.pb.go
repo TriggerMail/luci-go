@@ -3,13 +3,13 @@
 
 package api
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	empty "github.com/golang/protobuf/ptypes/empty"
-	mapper "go.chromium.org/luci/appengine/mapper"
+	mapper "github.com/TriggerMail/luci-go/appengine/mapper"
 	context "golang.org/x/net/context"
 	grpc "google.golang.org/grpc"
 	math "math"
@@ -316,7 +316,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/cipd/api/admin/v1/admin.proto", fileDescriptor_d3c583be32ae6c76)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/cipd/api/admin/v1/admin.proto", fileDescriptor_d3c583be32ae6c76)
 }
 
 var fileDescriptor_d3c583be32ae6c76 = []byte{
@@ -577,5 +577,5 @@ var _Admin_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/cipd/api/admin/v1/admin.proto",
+	Metadata: "github.com/TriggerMail/luci-go/cipd/api/admin/v1/admin.proto",
 }

@@ -19,7 +19,7 @@ import (
 	"errors"
 	"time"
 
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 var (

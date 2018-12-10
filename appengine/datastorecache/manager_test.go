@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 
 	"go.chromium.org/gae/service/datastore"
 

@@ -21,12 +21,12 @@ import (
 	"github.com/golang/mock/gomock"
 
 	"go.chromium.org/gae/impl/memory"
-	"go.chromium.org/luci/auth/identity"
-	gerritpb "go.chromium.org/luci/common/proto/gerrit"
-	"go.chromium.org/luci/milo/api/config"
-	"go.chromium.org/luci/milo/git/gitacls"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	gerritpb "github.com/TriggerMail/luci-go/common/proto/gerrit"
+	"github.com/TriggerMail/luci-go/milo/api/config"
+	"github.com/TriggerMail/luci-go/milo/git/gitacls"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/authtest"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

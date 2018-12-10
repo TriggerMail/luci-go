@@ -26,18 +26,18 @@ import (
 	"google.golang.org/grpc/codes"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/appengine/gaemiddleware"
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/appengine/gaemiddleware"
+	"github.com/TriggerMail/luci-go/appengine/gaemiddleware/standard"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/server/router"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/api/admin/v1"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/delegation"
-	"go.chromium.org/luci/tokenserver/appengine/impl/machinetoken"
-	"go.chromium.org/luci/tokenserver/appengine/impl/serviceaccounts"
-	"go.chromium.org/luci/tokenserver/appengine/impl/services/admin/adminsrv"
-	"go.chromium.org/luci/tokenserver/appengine/impl/services/admin/certauthorities"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/delegation"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/machinetoken"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/serviceaccounts"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/services/admin/adminsrv"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/services/admin/certauthorities"
 )
 
 var (

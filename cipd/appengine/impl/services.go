@@ -20,11 +20,11 @@
 package impl
 
 import (
-	"go.chromium.org/luci/appengine/tq"
+	"github.com/TriggerMail/luci-go/appengine/tq"
 
-	"go.chromium.org/luci/cipd/appengine/impl/admin"
-	"go.chromium.org/luci/cipd/appengine/impl/cas"
-	"go.chromium.org/luci/cipd/appengine/impl/repo"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/admin"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/cas"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/repo"
 )
 
 var (

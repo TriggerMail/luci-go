@@ -19,8 +19,8 @@ import (
 
 	"go.chromium.org/gae/service/datastore"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 )
 
 // runTxn runs a datastore transaction retrying the body on transient errors or

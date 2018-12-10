@@ -20,8 +20,8 @@ import (
 	"os"
 	"sort"
 
-	"go.chromium.org/luci/common/iotools"
-	"go.chromium.org/luci/common/isolated"
+	"github.com/TriggerMail/luci-go/common/iotools"
+	"github.com/TriggerMail/luci-go/common/isolated"
 )
 
 // osOpen wraps os.Open to allow faking out during tests.

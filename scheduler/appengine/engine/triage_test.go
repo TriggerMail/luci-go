@@ -23,16 +23,16 @@ import (
 	"go.chromium.org/gae/filter/featureBreaker"
 	"go.chromium.org/gae/service/datastore"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/scheduler/appengine/engine/policy"
-	"go.chromium.org/luci/scheduler/appengine/internal"
-	"go.chromium.org/luci/scheduler/appengine/messages"
-	"go.chromium.org/luci/scheduler/appengine/task"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/engine/policy"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/internal"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/messages"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/task"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestTriageOp(t *testing.T) {

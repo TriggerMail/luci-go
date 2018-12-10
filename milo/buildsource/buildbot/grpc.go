@@ -23,16 +23,16 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/iotools"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/milo/api/buildbot"
-	"go.chromium.org/luci/milo/api/proto"
-	"go.chromium.org/luci/milo/buildsource/buildbot/buildstore"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/common/iotools"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/tsmon/field"
+	"github.com/TriggerMail/luci-go/common/tsmon/metric"
+	"github.com/TriggerMail/luci-go/milo/api/buildbot"
+	"github.com/TriggerMail/luci-go/milo/api/proto"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbot/buildstore"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 var apiUsage = metric.NewCounter(

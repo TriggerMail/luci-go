@@ -309,7 +309,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/client/flagpb/unmarshal_test.proto", fileDescriptor_7e62106924695bf0)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/client/flagpb/unmarshal_test.proto", fileDescriptor_7e62106924695bf0)
 }
 
 var fileDescriptor_7e62106924695bf0 = []byte{

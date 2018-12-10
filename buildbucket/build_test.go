@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/buildbucket/proto"
-	v1 "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
-	"go.chromium.org/luci/common/data/strpair"
+	"github.com/TriggerMail/luci-go/buildbucket/proto"
+	v1 "github.com/TriggerMail/luci-go/common/api/buildbucket/buildbucket/v1"
+	"github.com/TriggerMail/luci-go/common/data/strpair"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestBuild(t *testing.T) {

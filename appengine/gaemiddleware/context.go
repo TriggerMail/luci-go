@@ -24,17 +24,17 @@ import (
 	"go.chromium.org/gae/filter/readonly"
 	"go.chromium.org/gae/service/datastore"
 
-	"go.chromium.org/luci/common/data/caching/cacheContext"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/data/caching/cacheContext"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
 
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/settings"
-	"go.chromium.org/luci/server/warmup"
+	"github.com/TriggerMail/luci-go/server/caching"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/settings"
+	"github.com/TriggerMail/luci-go/server/warmup"
 
-	"go.chromium.org/luci/appengine/gaesecrets"
-	"go.chromium.org/luci/appengine/gaesettings"
+	"github.com/TriggerMail/luci-go/appengine/gaesecrets"
+	"github.com/TriggerMail/luci-go/appengine/gaesettings"
 )
 
 // errSimulatedMemcacheOutage is returned by all memcache calls if

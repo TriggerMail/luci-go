@@ -18,9 +18,9 @@ import (
 	"context"
 	"os"
 
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
-	"go.chromium.org/luci/logdog/client/cli"
+	"github.com/TriggerMail/luci-go/common/data/rand/mathrand"
+	"github.com/TriggerMail/luci-go/hardcoded/chromeinfra"
+	"github.com/TriggerMail/luci-go/logdog/client/cli"
 )
 
 func main() {

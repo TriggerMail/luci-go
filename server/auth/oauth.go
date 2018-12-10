@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/gcloud/googleoauth"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/caching/layered"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/gcloud/googleoauth"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/server/caching"
+	"github.com/TriggerMail/luci-go/server/caching/layered"
 )
 
 // ErrBadOAuthToken is returned by GoogleOAuth2Method if the access token it

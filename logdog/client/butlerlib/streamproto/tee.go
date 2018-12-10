@@ -21,7 +21,7 @@ import (
 	"io"
 	"os"
 
-	"go.chromium.org/luci/common/flag/flagenum"
+	"github.com/TriggerMail/luci-go/common/flag/flagenum"
 )
 
 // TeeType is an enumeration of tee configuration options.

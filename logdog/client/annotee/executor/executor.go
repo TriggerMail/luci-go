@@ -22,11 +22,11 @@ import (
 	"os/exec"
 
 	"github.com/golang/protobuf/proto"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/exitcode"
-	"go.chromium.org/luci/logdog/client/annotee"
-	"go.chromium.org/luci/logdog/client/annotee/annotation"
-	"go.chromium.org/luci/logdog/common/types"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/system/exitcode"
+	"github.com/TriggerMail/luci-go/logdog/client/annotee"
+	"github.com/TriggerMail/luci-go/logdog/client/annotee/annotation"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 // Executor bootstraps an application, running its output through a Processor.

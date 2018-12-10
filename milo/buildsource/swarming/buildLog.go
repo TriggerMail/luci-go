@@ -21,7 +21,7 @@ import (
 	"sort"
 
 	mc "go.chromium.org/gae/service/memcache"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 // swarmingBuildLogImpl is the implementation for getting a log name from

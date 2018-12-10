@@ -19,7 +19,7 @@ import (
 	"sort"
 
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/dm/api/service/v1"
 )
 
 // FwdDep describes a 'depends-on' relation between two Attempts. It has a

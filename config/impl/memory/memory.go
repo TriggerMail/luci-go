@@ -27,8 +27,8 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/config"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/config"
 )
 
 // Files is all files comprising some config set.

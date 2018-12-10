@@ -19,8 +19,8 @@ import (
 	"errors"
 	"testing"
 
-	"go.chromium.org/luci/common/data/caching/lru"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/common/data/caching/lru"
+	"github.com/TriggerMail/luci-go/server/caching"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -17,7 +17,7 @@ package fetcher
 import (
 	"container/list"
 
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
 )
 
 type logBuffer struct {

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

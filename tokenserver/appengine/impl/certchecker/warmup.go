@@ -17,10 +17,10 @@ package certchecker
 import (
 	"context"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/warmup"
-	"go.chromium.org/luci/tokenserver/appengine/impl/certconfig"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/server/warmup"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/certconfig"
 )
 
 func init() {

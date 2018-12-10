@@ -24,7 +24,7 @@ import (
 	"net/url"
 	"testing"
 
-	"go.chromium.org/luci/config"
+	"github.com/TriggerMail/luci-go/config"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

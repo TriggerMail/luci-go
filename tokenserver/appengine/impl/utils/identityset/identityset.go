@@ -21,8 +21,8 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 type identSet map[identity.Identity]struct{}

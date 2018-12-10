@@ -18,13 +18,13 @@ import (
 	"context"
 	"net/http"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
-	logdog "go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1"
-	"go.chromium.org/luci/logdog/client/coordinator"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
+	"github.com/TriggerMail/luci-go/hardcoded/chromeinfra"
+	logdog "github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/logs/v1"
+	"github.com/TriggerMail/luci-go/logdog/client/coordinator"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // acceptableLogdogHosts is the (hard-coded) list of accepted logdog hosts.

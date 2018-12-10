@@ -3,12 +3,12 @@
 
 package gitiles
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	git "go.chromium.org/luci/common/proto/git"
+	git "github.com/TriggerMail/luci-go/common/proto/git"
 	context "golang.org/x/net/context"
 	grpc "google.golang.org/grpc"
 	math "math"
@@ -309,7 +309,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/common/proto/gitiles/gitiles.proto", fileDescriptor_4cdf9f15dd6bc12a)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/common/proto/gitiles/gitiles.proto", fileDescriptor_4cdf9f15dd6bc12a)
 }
 
 var fileDescriptor_4cdf9f15dd6bc12a = []byte{
@@ -474,5 +474,5 @@ var _Gitiles_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/common/proto/gitiles/gitiles.proto",
+	Metadata: "github.com/TriggerMail/luci-go/common/proto/gitiles/gitiles.proto",
 }

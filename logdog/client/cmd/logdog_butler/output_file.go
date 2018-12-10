@@ -17,9 +17,9 @@ package main
 import (
 	"errors"
 
-	"go.chromium.org/luci/common/flag/multiflag"
-	"go.chromium.org/luci/logdog/client/butler/output"
-	fileOutput "go.chromium.org/luci/logdog/client/butler/output/file"
+	"github.com/TriggerMail/luci-go/common/flag/multiflag"
+	"github.com/TriggerMail/luci-go/logdog/client/butler/output"
+	fileOutput "github.com/TriggerMail/luci-go/logdog/client/butler/output/file"
 )
 
 func init() {

@@ -20,7 +20,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	pb "go.chromium.org/luci/common/tsmon/ts_mon_proto"
+	pb "github.com/TriggerMail/luci-go/common/tsmon/ts_mon_proto"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

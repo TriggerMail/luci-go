@@ -24,10 +24,10 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/server/caching"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/api/admin/v1"
 )
 
 // CA defines one trusted Certificate Authority (imported from config).

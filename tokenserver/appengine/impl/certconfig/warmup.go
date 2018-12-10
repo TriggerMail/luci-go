@@ -17,7 +17,7 @@ package certconfig
 import (
 	"context"
 
-	"go.chromium.org/luci/server/warmup"
+	"github.com/TriggerMail/luci-go/server/warmup"
 )
 
 func init() {

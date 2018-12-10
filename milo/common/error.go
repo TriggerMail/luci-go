@@ -17,7 +17,7 @@ package common
 import (
 	"net/http"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // ErrorCode represents milo's internal error code system. The subsystems in

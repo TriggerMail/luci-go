@@ -22,9 +22,9 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	"go.chromium.org/gae/service/datastore/serialize"
 	mc "go.chromium.org/gae/service/memcache"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/memlogger"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging/memlogger"
 )
 
 func TestTumbleFiddlyBits(t *testing.T) {

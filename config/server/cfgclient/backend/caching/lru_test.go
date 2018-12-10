@@ -19,15 +19,15 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/data/caching/lru"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/impl/memory"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/data/caching/lru"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/impl/memory"
 
-	"go.chromium.org/luci/config/server/cfgclient"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
-	"go.chromium.org/luci/config/server/cfgclient/backend/client"
-	"go.chromium.org/luci/config/server/cfgclient/backend/testconfig"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/client"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/testconfig"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

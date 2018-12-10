@@ -21,8 +21,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	"go.chromium.org/gae/service/info"
 	tq "go.chromium.org/gae/service/taskqueue"
-	"go.chromium.org/luci/common/gcloud/pubsub"
-	dm "go.chromium.org/luci/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/common/gcloud/pubsub"
+	dm "github.com/TriggerMail/luci-go/dm/api/service/v1"
 )
 
 // Config represents the configuration for a single instance of a given

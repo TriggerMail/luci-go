@@ -16,10 +16,10 @@
 //
 // Usage example:
 //
-//   import "go.chromium.org/luci/common/api/buildbucket/swarmbucket/v1"
+//   import "github.com/TriggerMail/luci-go/common/api/buildbucket/swarmbucket/v1"
 //   ...
 //   swarmbucketService, err := swarmbucket.New(oauthHttpClient)
-package swarmbucket // import "go.chromium.org/luci/common/api/buildbucket/swarmbucket/v1"
+package swarmbucket // import "github.com/TriggerMail/luci-go/common/api/buildbucket/swarmbucket/v1"
 
 import (
 	"bytes"

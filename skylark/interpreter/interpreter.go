@@ -73,8 +73,8 @@ import (
 	"github.com/google/skylark"
 	"github.com/google/skylark/skylarkstruct"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/skylark/skylarkproto"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/skylark/skylarkproto"
 )
 
 // ErrNoStdlibModule should be returned by the stdlib loader function if the

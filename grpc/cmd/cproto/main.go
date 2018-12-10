@@ -25,10 +25,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.chromium.org/luci/common/flag/stringlistflag"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/system/exitcode"
+	"github.com/TriggerMail/luci-go/common/flag/stringlistflag"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging/gologger"
+	"github.com/TriggerMail/luci-go/common/system/exitcode"
 )
 
 var (

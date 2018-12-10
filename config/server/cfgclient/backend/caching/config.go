@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/common/errors"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
 )
 
 // Schema is the current package's cache schema.

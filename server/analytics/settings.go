@@ -20,8 +20,8 @@ import (
 	"html/template"
 	"regexp"
 
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/TriggerMail/luci-go/server/portal"
+	"github.com/TriggerMail/luci-go/server/settings"
 )
 
 // settingsKey is key for global GAE settings (described by analyticsSettings struct)

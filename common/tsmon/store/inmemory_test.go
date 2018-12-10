@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/common/tsmon/store/storetest"
-	"go.chromium.org/luci/common/tsmon/target"
+	"github.com/TriggerMail/luci-go/common/tsmon/store/storetest"
+	"github.com/TriggerMail/luci-go/common/tsmon/target"
 )
 
 func TestInMemory(t *testing.T) {

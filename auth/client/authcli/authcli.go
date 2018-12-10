@@ -55,8 +55,8 @@
 //
 //	import (
 //	  ...
-//	  "go.chromium.org/luci/client/authcli"
-//	  "go.chromium.org/luci/common/cli"
+//	  "github.com/TriggerMail/luci-go/client/authcli"
+//	  "github.com/TriggerMail/luci-go/common/cli"
 //	)
 //
 //	func GetApplication(defaultAuthOpts auth.Options) *cli.Application {
@@ -98,13 +98,13 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/integration/localauth"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/gcloud/googleoauth"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/exitcode"
-	"go.chromium.org/luci/lucictx"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/auth/integration/localauth"
+	"github.com/TriggerMail/luci-go/common/cli"
+	"github.com/TriggerMail/luci-go/common/gcloud/googleoauth"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/system/exitcode"
+	"github.com/TriggerMail/luci-go/lucictx"
 )
 
 // CommandParams specifies various parameters for a subcommand.

@@ -27,13 +27,13 @@ import (
 
 	"go.chromium.org/gae/service/info"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/data/rand/mathrand"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/server/caching"
 )
 
 // GetAccessToken returns an OAuth access token representing app's service

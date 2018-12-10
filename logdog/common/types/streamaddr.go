@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 const logDogURLScheme = "logdog"

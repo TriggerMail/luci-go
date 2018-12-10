@@ -17,7 +17,7 @@ package tsmon
 import (
 	"flag"
 
-	"go.chromium.org/luci/common/flag/flagenum"
+	"github.com/TriggerMail/luci-go/common/flag/flagenum"
 )
 
 // FlushType is a flush type enumeration.

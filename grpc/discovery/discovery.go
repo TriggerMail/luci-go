@@ -23,7 +23,7 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
 )
 
 // New creates a discovery server for all the given services.

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sort"
 
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
 )
 
 // builderStream is builder data that is tracked for each individual stream.

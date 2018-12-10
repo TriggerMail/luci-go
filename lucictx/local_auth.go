@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // ErrNoLocalAuthAccount is returned by SwitchLocalAccount if requested account

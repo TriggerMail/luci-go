@@ -19,8 +19,8 @@ import (
 	"os/exec"
 	"syscall"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 type WindowsStrategy struct {

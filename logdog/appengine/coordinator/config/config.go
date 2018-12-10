@@ -18,12 +18,12 @@ import (
 	"context"
 	"net/url"
 
-	"go.chromium.org/luci/common/errors"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient"
-	"go.chromium.org/luci/config/server/cfgclient/textproto"
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
+	"github.com/TriggerMail/luci-go/common/errors"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/textproto"
+	"github.com/TriggerMail/luci-go/logdog/api/config/svcconfig"
 )
 
 var (

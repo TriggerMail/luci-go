@@ -29,13 +29,13 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/logging"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/client/cipd/fs"
-	"go.chromium.org/luci/cipd/client/cipd/pkg"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/fs"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/pkg"
+	"github.com/TriggerMail/luci-go/cipd/common"
 )
 
 // VerificationMode defines whether to verify hash or not.

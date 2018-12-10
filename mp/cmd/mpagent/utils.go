@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"text/template"
 
-	machine "go.chromium.org/luci/common/api/machine_provider/machine/v1"
+	machine "github.com/TriggerMail/luci-go/common/api/machine_provider/machine/v1"
 )
 
 // MachineProvider encapsulates a client for interacting with Machine Provider.

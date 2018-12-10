@@ -22,10 +22,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.chromium.org/luci/client/internal/common"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/runtime/tracer"
+	"github.com/TriggerMail/luci-go/client/internal/common"
+	"github.com/TriggerMail/luci-go/common/isolated"
+	"github.com/TriggerMail/luci-go/common/isolatedclient"
+	"github.com/TriggerMail/luci-go/common/runtime/tracer"
 )
 
 type walkItem struct {

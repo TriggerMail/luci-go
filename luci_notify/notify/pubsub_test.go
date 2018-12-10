@@ -27,22 +27,22 @@ import (
 	"go.chromium.org/gae/service/datastore"
 	"go.chromium.org/gae/service/user"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/appengine/tq/tqtesting"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/logging/memlogger"
-	gitpb "go.chromium.org/luci/common/proto/git"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/appengine/tq"
+	"github.com/TriggerMail/luci-go/appengine/tq/tqtesting"
+	buildbucketpb "github.com/TriggerMail/luci-go/buildbucket/proto"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/logging/memlogger"
+	gitpb "github.com/TriggerMail/luci-go/common/proto/git"
 
-	apicfg "go.chromium.org/luci/luci_notify/api/config"
-	"go.chromium.org/luci/luci_notify/config"
-	"go.chromium.org/luci/luci_notify/internal"
-	"go.chromium.org/luci/luci_notify/testutil"
+	apicfg "github.com/TriggerMail/luci-go/luci_notify/api/config"
+	"github.com/TriggerMail/luci-go/luci_notify/config"
+	"github.com/TriggerMail/luci-go/luci_notify/internal"
+	"github.com/TriggerMail/luci-go/luci_notify/testutil"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func pubsubDummyBuild(builder string, status buildbucketpb.Status, creationTime time.Time, revision string, notifyEmails ...EmailNotify) *Build {

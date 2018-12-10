@@ -23,13 +23,13 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/caching/layered"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/server/caching"
+	"github.com/TriggerMail/luci-go/server/caching/layered"
 
-	"go.chromium.org/luci/cipd/appengine/impl/gs"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/gs"
 )
 
 const (

@@ -20,14 +20,14 @@ import (
 	"net/url"
 	"strings"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/tsmon/monitor"
-	"go.chromium.org/luci/common/tsmon/store"
-	"go.chromium.org/luci/common/tsmon/target"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/tsmon/monitor"
+	"github.com/TriggerMail/luci-go/common/tsmon/store"
+	"github.com/TriggerMail/luci-go/common/tsmon/target"
 
-	"go.chromium.org/luci/hardcoded/chromeinfra"
+	"github.com/TriggerMail/luci-go/hardcoded/chromeinfra"
 )
 
 // Store returns the global metric store that contains all the metric values for

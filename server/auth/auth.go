@@ -19,14 +19,14 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth/delegation"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/server/auth/delegation"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 var (

@@ -15,9 +15,9 @@
 package policy
 
 import (
-	"go.chromium.org/luci/config/validation"
+	"github.com/TriggerMail/luci-go/config/validation"
 
-	"go.chromium.org/luci/scheduler/appengine/messages"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/messages"
 )
 
 // ValidateDefinition validates the triggering policy message.

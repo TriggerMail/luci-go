@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/data/text/units"
-	"go.chromium.org/luci/common/isolated"
+	"github.com/TriggerMail/luci-go/common/data/text/units"
+	"github.com/TriggerMail/luci-go/common/isolated"
 )
 
 // Cache is a cache of objects.

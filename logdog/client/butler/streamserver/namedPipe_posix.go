@@ -22,8 +22,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.chromium.org/luci/common/errors"
-	log "go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/errors"
+	log "github.com/TriggerMail/luci-go/common/logging"
 )
 
 // maxPOSIXNamedSocketLength is the maximum length of a UNIX domain socket.

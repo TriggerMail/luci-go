@@ -3,7 +3,7 @@
 
 package api
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -498,7 +498,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/cipd/api/cipd/v1/cas.proto", fileDescriptor_df64270f060b5e81)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/cipd/api/cipd/v1/cas.proto", fileDescriptor_df64270f060b5e81)
 }
 
 var fileDescriptor_df64270f060b5e81 = []byte{
@@ -857,5 +857,5 @@ var _Storage_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/cipd/api/cipd/v1/cas.proto",
+	Metadata: "github.com/TriggerMail/luci-go/cipd/api/cipd/v1/cas.proto",
 }

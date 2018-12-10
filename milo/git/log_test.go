@@ -23,16 +23,16 @@ import (
 
 	"go.chromium.org/gae/impl/memory"
 	"go.chromium.org/gae/service/memcache"
-	"go.chromium.org/luci/auth/identity"
-	gitpb "go.chromium.org/luci/common/proto/git"
-	gitilespb "go.chromium.org/luci/common/proto/gitiles"
-	"go.chromium.org/luci/milo/api/config"
-	"go.chromium.org/luci/milo/git/gitacls"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	gitpb "github.com/TriggerMail/luci-go/common/proto/git"
+	gitilespb "github.com/TriggerMail/luci-go/common/proto/gitiles"
+	"github.com/TriggerMail/luci-go/milo/api/config"
+	"github.com/TriggerMail/luci-go/milo/git/gitacls"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/authtest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestLog(t *testing.T) {

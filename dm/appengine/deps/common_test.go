@@ -21,13 +21,13 @@ import (
 	"github.com/golang/protobuf/proto"
 	ds "go.chromium.org/gae/service/datastore"
 	"go.chromium.org/gae/service/datastore/dumper"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/distributor/fake"
-	"go.chromium.org/luci/dm/appengine/model"
-	"go.chromium.org/luci/dm/appengine/mutate"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
-	"go.chromium.org/luci/tumble"
+	dm "github.com/TriggerMail/luci-go/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/dm/appengine/distributor/fake"
+	"github.com/TriggerMail/luci-go/dm/appengine/model"
+	"github.com/TriggerMail/luci-go/dm/appengine/mutate"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/authtest"
+	"github.com/TriggerMail/luci-go/tumble"
 )
 
 func testSetup() (ttest *tumble.Testing, c context.Context, dist *fake.Distributor, s testDepsServer) {

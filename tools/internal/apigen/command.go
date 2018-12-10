@@ -20,8 +20,8 @@ import (
 	"os/exec"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	log "go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/clock"
+	log "github.com/TriggerMail/luci-go/common/logging"
 )
 
 const shutdownWait = 20 * time.Second

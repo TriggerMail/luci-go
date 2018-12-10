@@ -17,7 +17,7 @@ package types
 import (
 	"time"
 
-	"go.chromium.org/luci/common/tsmon/distribution"
+	"github.com/TriggerMail/luci-go/common/tsmon/distribution"
 )
 
 // Metric is the low-level interface provided by all metrics.

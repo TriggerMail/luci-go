@@ -18,12 +18,12 @@ import (
 	"os"
 	"testing"
 
-	"go.chromium.org/luci/auth"
-	swarming "go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/common/flag/stringmapflag"
+	"github.com/TriggerMail/luci-go/auth"
+	swarming "github.com/TriggerMail/luci-go/common/api/swarming/swarming/v1"
+	"github.com/TriggerMail/luci-go/common/flag/stringmapflag"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func init() {

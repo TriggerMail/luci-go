@@ -15,7 +15,7 @@
 package rawpresentation
 
 import (
-	miloProto "go.chromium.org/luci/common/proto/milo"
+	miloProto "github.com/TriggerMail/luci-go/common/proto/milo"
 )
 
 // Streams represents a group of LogDog Streams with a single entry point.

@@ -16,10 +16,10 @@
 //
 // Usage example:
 //
-//   import "go.chromium.org/luci/common/api/swarming/swarming/v1"
+//   import "github.com/TriggerMail/luci-go/common/api/swarming/swarming/v1"
 //   ...
 //   swarmingService, err := swarming.New(oauthHttpClient)
-package swarming // import "go.chromium.org/luci/common/api/swarming/swarming/v1"
+package swarming // import "github.com/TriggerMail/luci-go/common/api/swarming/swarming/v1"
 
 import (
 	"bytes"

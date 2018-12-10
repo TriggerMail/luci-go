@@ -17,7 +17,7 @@ package dm
 import (
 	"fmt"
 
-	template "go.chromium.org/luci/common/data/text/templateproto"
+	template "github.com/TriggerMail/luci-go/common/data/text/templateproto"
 )
 
 // JSONObjectMaxLength is the maximum number of bytes that may be present in the

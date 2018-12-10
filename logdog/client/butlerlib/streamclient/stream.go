@@ -18,9 +18,9 @@ import (
 	"errors"
 	"io"
 
-	"go.chromium.org/luci/common/data/recordio"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/TriggerMail/luci-go/common/data/recordio"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamproto"
 )
 
 // Stream is an individual LogDog Butler stream.

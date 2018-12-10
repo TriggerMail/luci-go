@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"go.chromium.org/gae/impl/memory"
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go.chromium.org/luci/milo/buildsource/swarming/testdata"
+	"github.com/TriggerMail/luci-go/milo/buildsource/swarming/testdata"
 )
 
 var testSvc = &testdata.TestCase{

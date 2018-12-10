@@ -21,10 +21,10 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/system/exitcode"
-	"go.chromium.org/luci/mmutex/lib"
+	"github.com/TriggerMail/luci-go/common/cli"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/system/exitcode"
+	"github.com/TriggerMail/luci-go/mmutex/lib"
 )
 
 var cmdShared = &subcommands.Command{

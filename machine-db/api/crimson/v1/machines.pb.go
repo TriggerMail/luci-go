@@ -6,7 +6,7 @@ package crimson
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	v1 "go.chromium.org/luci/machine-db/api/common/v1"
+	v1 "github.com/TriggerMail/luci-go/machine-db/api/common/v1"
 	field_mask "google.golang.org/genproto/protobuf/field_mask"
 	math "math"
 )
@@ -456,7 +456,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/machine-db/api/crimson/v1/machines.proto", fileDescriptor_17aa8e73038b4213)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/machine-db/api/crimson/v1/machines.proto", fileDescriptor_17aa8e73038b4213)
 }
 
 var fileDescriptor_17aa8e73038b4213 = []byte{

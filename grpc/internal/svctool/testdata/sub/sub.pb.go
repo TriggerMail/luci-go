@@ -42,7 +42,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/grpc/internal/svctool/testdata/sub/sub.proto", fileDescriptor0)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/grpc/internal/svctool/testdata/sub/sub.proto", fileDescriptor0)
 }
 
 var fileDescriptor0 = []byte{

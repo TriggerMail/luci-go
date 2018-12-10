@@ -35,9 +35,9 @@ import (
 	"strings"
 	"text/template"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/flag/fixflagpos"
-	"go.chromium.org/luci/common/flag/stringlistflag"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/flag/fixflagpos"
+	"github.com/TriggerMail/luci-go/common/flag/stringlistflag"
 )
 
 // defaultExts lists glob patterns for files to put into generated

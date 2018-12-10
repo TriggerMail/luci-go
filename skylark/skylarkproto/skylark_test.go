@@ -28,7 +28,7 @@ import (
 	"github.com/google/skylark/skylarktest"
 
 	// Register proto types in the protobuf lib registry.
-	_ "go.chromium.org/luci/skylark/skylarkproto/testprotos"
+	_ "github.com/TriggerMail/luci-go/skylark/skylarkproto/testprotos"
 )
 
 func init() {

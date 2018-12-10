@@ -17,12 +17,12 @@ package policy
 import (
 	"testing"
 
-	"go.chromium.org/luci/config/validation"
+	"github.com/TriggerMail/luci-go/config/validation"
 
-	"go.chromium.org/luci/scheduler/appengine/messages"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/messages"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestValidation(t *testing.T) {

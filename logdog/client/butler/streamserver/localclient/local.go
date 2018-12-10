@@ -17,9 +17,9 @@ package localclient
 import (
 	"io"
 
-	"go.chromium.org/luci/logdog/client/butler"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/TriggerMail/luci-go/logdog/client/butler"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamclient"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamproto"
 )
 
 // localClient is a Client implementation that is directly bound to a Butler

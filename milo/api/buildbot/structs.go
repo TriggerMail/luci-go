@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go.chromium.org/luci/milo/common/model"
-	"go.chromium.org/luci/milo/frontend/ui"
+	"github.com/TriggerMail/luci-go/milo/common/model"
+	"github.com/TriggerMail/luci-go/milo/frontend/ui"
 )
 
 // Step represents a single step in a buildbot build.

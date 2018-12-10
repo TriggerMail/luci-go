@@ -22,23 +22,23 @@ import (
 
 	"go.chromium.org/gae/service/info"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/auth/authtest"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/auth/signing/signingtest"
-	"go.chromium.org/luci/tokenserver/api"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/authdb"
+	"github.com/TriggerMail/luci-go/server/auth/authtest"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
+	"github.com/TriggerMail/luci-go/server/auth/signing/signingtest"
+	"github.com/TriggerMail/luci-go/tokenserver/api"
+	"github.com/TriggerMail/luci-go/tokenserver/api/minter/v1"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/proto/google"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func testingContext(caller identity.Identity) context.Context {

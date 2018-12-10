@@ -18,16 +18,16 @@ import (
 	"context"
 	"testing"
 
-	configPB "go.chromium.org/luci/common/proto/config"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
-	"go.chromium.org/luci/config/server/cfgclient/backend/format"
+	configPB "github.com/TriggerMail/luci-go/common/proto/config"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/format"
 
 	"github.com/golang/protobuf/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func tpb(msg proto.Message) string { return proto.MarshalTextString(msg) }

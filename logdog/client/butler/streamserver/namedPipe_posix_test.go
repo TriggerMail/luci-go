@@ -24,10 +24,10 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamclient"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func withTempDir(t *testing.T, fn func(string)) func() {

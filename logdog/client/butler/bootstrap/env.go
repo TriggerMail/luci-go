@@ -16,9 +16,9 @@
 package bootstrap
 
 import (
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/logdog/client/butlerlib/bootstrap"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/common/system/environ"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/bootstrap"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 // Environment is the set of configuration parameters for the bootstrap.

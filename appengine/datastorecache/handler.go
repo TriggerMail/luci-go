@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // ErrDeleteCacheEntry is a sentinel error value that, if returned from a

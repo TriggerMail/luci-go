@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	srcman "go.chromium.org/luci/common/proto/srcman"
+	srcman "github.com/TriggerMail/luci-go/common/proto/srcman"
 	math "math"
 )
 
@@ -1081,7 +1081,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/common/proto/milo/annotations.proto", fileDescriptor_5bd7e67978ee4b61)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/common/proto/milo/annotations.proto", fileDescriptor_5bd7e67978ee4b61)
 }
 
 var fileDescriptor_5bd7e67978ee4b61 = []byte{

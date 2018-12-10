@@ -24,10 +24,10 @@ import (
 	"unicode"
 
 	"github.com/golang/protobuf/proto"
-	"go.chromium.org/luci/common/proto/milo"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/TriggerMail/luci-go/common/proto/milo"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamclient"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamproto"
 )
 
 // filesystemClient is a streamproto.Client implementation that writes generated

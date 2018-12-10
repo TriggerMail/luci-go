@@ -407,7 +407,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/logdog/api/config/svcconfig/config.proto", fileDescriptor_d90d5c2d0a680180)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/logdog/api/config/svcconfig/config.proto", fileDescriptor_d90d5c2d0a680180)
 }
 
 var fileDescriptor_d90d5c2d0a680180 = []byte{

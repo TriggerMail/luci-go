@@ -17,7 +17,7 @@ package assertions
 import (
 	"fmt"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 
 	"github.com/smartystreets/assertions"
 )

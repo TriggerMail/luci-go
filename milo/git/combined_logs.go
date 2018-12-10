@@ -26,12 +26,12 @@ import (
 	"google.golang.org/grpc/status"
 
 	"go.chromium.org/gae/service/datastore"
-	gitilesapi "go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	gitpb "go.chromium.org/luci/common/proto/git"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/sync/parallel"
+	gitilesapi "github.com/TriggerMail/luci-go/common/api/gitiles"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	gitpb "github.com/TriggerMail/luci-go/common/proto/git"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
 )
 
 // A structure to keep a list of commits for some ref.

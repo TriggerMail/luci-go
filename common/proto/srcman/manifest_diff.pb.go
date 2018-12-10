@@ -6,7 +6,7 @@ package srcman
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	git "go.chromium.org/luci/common/proto/git"
+	git "github.com/TriggerMail/luci-go/common/proto/git"
 	math "math"
 )
 
@@ -319,7 +319,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/common/proto/srcman/manifest_diff.proto", fileDescriptor_36818c0267d64e2d)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/common/proto/srcman/manifest_diff.proto", fileDescriptor_36818c0267d64e2d)
 }
 
 var fileDescriptor_36818c0267d64e2d = []byte{

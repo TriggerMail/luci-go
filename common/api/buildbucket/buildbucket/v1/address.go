@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go.chromium.org/luci/common/data/strpair"
+	"github.com/TriggerMail/luci-go/common/data/strpair"
 )
 
 // FormatBuildAddress returns a value for TagBuildAddress tag.

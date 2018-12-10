@@ -19,8 +19,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/milo/common/model"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/milo/common/model"
 )
 
 type Result int

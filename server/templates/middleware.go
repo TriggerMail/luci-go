@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 // WithTemplates is middleware that lazily loads template bundle and injects it

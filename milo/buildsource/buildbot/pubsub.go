@@ -23,15 +23,15 @@ import (
 	"net/http"
 	"strings"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/milo/api/buildbot"
-	"go.chromium.org/luci/milo/buildsource/buildbot/buildstore"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/tsmon/field"
+	"github.com/TriggerMail/luci-go/common/tsmon/metric"
+	"github.com/TriggerMail/luci-go/milo/api/buildbot"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbot/buildstore"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 var (

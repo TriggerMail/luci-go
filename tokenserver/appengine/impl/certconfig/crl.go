@@ -25,16 +25,16 @@ import (
 	"time"
 
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/data/caching/lazyslot"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/common/data/caching/lazyslot"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/api/admin/v1"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/shards"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/utils"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/utils/shards"
 )
 
 // CRLShardCount is a number of shards to use for storing CRL in the datastore.

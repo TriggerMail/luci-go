@@ -18,10 +18,10 @@ import (
 	"context"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/appengine/mapper"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/appengine/mapper"
+	"github.com/TriggerMail/luci-go/common/logging"
 
-	api "go.chromium.org/luci/cipd/api/admin/v1"
+	api "github.com/TriggerMail/luci-go/cipd/api/admin/v1"
 )
 
 func init() {

@@ -22,9 +22,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/config"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/proto/config"
+	"github.com/TriggerMail/luci-go/server/router"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -19,8 +19,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/errors"
-	. "go.chromium.org/luci/common/testing/assertions"
+	"github.com/TriggerMail/luci-go/common/errors"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestTagMap(t *testing.T) {

@@ -21,11 +21,11 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 
-	"go.chromium.org/luci/machine-db/api/config/v1"
-	"go.chromium.org/luci/machine-db/appengine/database"
+	"github.com/TriggerMail/luci-go/machine-db/api/config/v1"
+	"github.com/TriggerMail/luci-go/machine-db/appengine/database"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestOSes(t *testing.T) {

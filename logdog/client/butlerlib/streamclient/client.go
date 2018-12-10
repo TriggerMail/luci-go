@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"io"
 
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamproto"
 )
 
 // Client is a client to a LogDog Butler StreamServer. A Client will connect

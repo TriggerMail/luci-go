@@ -22,9 +22,9 @@ import (
 	"context"
 	"net/url"
 
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/impl/erroring"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/impl/erroring"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
 )
 
 // New produces backend.B instance that returns the given error for all calls.

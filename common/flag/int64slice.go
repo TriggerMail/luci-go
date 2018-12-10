@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // int64SliceFlag is a flag.Value implementation representing an []int64.

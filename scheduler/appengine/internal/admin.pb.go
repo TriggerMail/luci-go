@@ -3,13 +3,13 @@
 
 package internal
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	v1 "go.chromium.org/luci/scheduler/api/scheduler/v1"
+	v1 "github.com/TriggerMail/luci-go/scheduler/api/scheduler/v1"
 	context "golang.org/x/net/context"
 	grpc "google.golang.org/grpc"
 	math "math"
@@ -201,7 +201,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/scheduler/appengine/internal/admin.proto", fileDescriptor_44f1f51de3cab948)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/scheduler/appengine/internal/admin.proto", fileDescriptor_44f1f51de3cab948)
 }
 
 var fileDescriptor_44f1f51de3cab948 = []byte{
@@ -331,5 +331,5 @@ var _Admin_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/scheduler/appengine/internal/admin.proto",
+	Metadata: "github.com/TriggerMail/luci-go/scheduler/appengine/internal/admin.proto",
 }

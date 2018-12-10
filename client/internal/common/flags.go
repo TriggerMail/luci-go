@@ -24,9 +24,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/runtime/tracer"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging/gologger"
+	"github.com/TriggerMail/luci-go/common/runtime/tracer"
 )
 
 // Flags contains values parsed from command line arguments.

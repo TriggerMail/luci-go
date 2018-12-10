@@ -30,15 +30,15 @@ import (
 	"google.golang.org/api/pubsub/v1"
 
 	"go.chromium.org/gae/service/info"
-	bbv1 "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/config/validation"
+	bbv1 "github.com/TriggerMail/luci-go/common/api/buildbucket/buildbucket/v1"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/config/validation"
 
-	"go.chromium.org/luci/scheduler/appengine/messages"
-	"go.chromium.org/luci/scheduler/appengine/task"
-	"go.chromium.org/luci/scheduler/appengine/task/utils"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/messages"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/task"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/task/utils"
 )
 
 const (

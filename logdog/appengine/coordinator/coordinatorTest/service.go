@@ -17,12 +17,12 @@ package coordinatorTest
 import (
 	"context"
 
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
-	"go.chromium.org/luci/logdog/appengine/coordinator"
-	"go.chromium.org/luci/logdog/appengine/coordinator/config"
-	"go.chromium.org/luci/logdog/appengine/coordinator/endpoints"
-	"go.chromium.org/luci/logdog/appengine/coordinator/flex"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/logdog/api/config/svcconfig"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator/config"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator/endpoints"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator/flex"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 // Services is a testing stub for a coordinator.Services instance that allows

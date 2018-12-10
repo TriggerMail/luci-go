@@ -19,8 +19,8 @@ import (
 	"strconv"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/services/v1"
 
 	gcps "cloud.google.com/go/pubsub"
 	"github.com/golang/protobuf/proto"

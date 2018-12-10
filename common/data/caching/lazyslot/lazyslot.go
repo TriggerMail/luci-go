@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 // ExpiresImmediately can be returned by the fetcher callback to indicate that

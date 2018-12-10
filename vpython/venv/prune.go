@@ -19,10 +19,10 @@ import (
 
 	"github.com/danjacques/gofslock/fslock"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 // pruneReadDirSize is the number of entries to read in a directory at a time

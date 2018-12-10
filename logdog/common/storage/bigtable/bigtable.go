@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/logdog/common/storage"
+	"github.com/TriggerMail/luci-go/logdog/common/storage"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
 
 	"cloud.google.com/go/bigtable"
 	"google.golang.org/grpc/codes"

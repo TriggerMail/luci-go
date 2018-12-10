@@ -20,12 +20,12 @@ import (
 	"net"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/appengine/gaeauth/server/internal/authdbimpl"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/TriggerMail/luci-go/appengine/gaeauth/server/internal/authdbimpl"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/server/auth/authdb"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
 )
 
 // errNotConfigured is returned on real GAE if auth service URL is not set.

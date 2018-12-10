@@ -20,9 +20,9 @@ import (
 	"strings"
 	"sync"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/system/environ"
+	"github.com/TriggerMail/luci-go/common/system/filesystem"
 )
 
 // Interpreter represents a system Python interpreter. It exposes the ability

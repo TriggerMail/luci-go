@@ -27,11 +27,11 @@ import (
 	ds "go.chromium.org/gae/service/datastore"
 	"go.chromium.org/gae/service/taskqueue"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/dm/api/distributor/jobsim"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/distributor"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry"
+	"github.com/TriggerMail/luci-go/dm/api/distributor/jobsim"
+	dm "github.com/TriggerMail/luci-go/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/dm/appengine/distributor"
 )
 
 type jobsimDist struct {

@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // MemorySessionStore implement auth.SessionStore.

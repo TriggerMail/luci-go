@@ -26,9 +26,9 @@ import (
 	"go.chromium.org/gae/service/datastore"
 	"go.chromium.org/gae/service/info"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	configInterface "go.chromium.org/luci/config"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	configInterface "github.com/TriggerMail/luci-go/config"
 )
 
 var EmailTemplateFuncs = map[string]interface{}{

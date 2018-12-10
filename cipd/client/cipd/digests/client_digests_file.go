@@ -25,10 +25,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/common/iotools"
+	"github.com/TriggerMail/luci-go/common/iotools"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
+	"github.com/TriggerMail/luci-go/cipd/common"
 )
 
 // ClientDigestsFile holds a mapping "platform => hash of the client binary for

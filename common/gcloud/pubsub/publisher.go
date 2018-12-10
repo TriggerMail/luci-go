@@ -20,7 +20,7 @@ import (
 	"cloud.google.com/go/pubsub"
 	vkit "cloud.google.com/go/pubsub/apiv1"
 	gax "github.com/googleapis/gax-go"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging"
 	pb "google.golang.org/genproto/googleapis/pubsub/v1"
 )
 

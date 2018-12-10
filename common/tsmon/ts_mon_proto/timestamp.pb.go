@@ -72,7 +72,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/common/tsmon/ts_mon_proto/timestamp.proto", fileDescriptor_7afd1967c97dbebc)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/common/tsmon/ts_mon_proto/timestamp.proto", fileDescriptor_7afd1967c97dbebc)
 }
 
 var fileDescriptor_7afd1967c97dbebc = []byte{

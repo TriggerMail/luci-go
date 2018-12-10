@@ -26,8 +26,8 @@ import (
 	"time"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/TriggerMail/luci-go/server/portal"
+	"github.com/TriggerMail/luci-go/server/settings"
 )
 
 // DefaultExpire is a reasonable default expiration value to use on prod GAE.

@@ -26,12 +26,12 @@ import (
 	"github.com/VividCortex/mysqlerr"
 	"github.com/go-sql-driver/mysql"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
-	"go.chromium.org/luci/machine-db/appengine/database"
-	"go.chromium.org/luci/machine-db/appengine/model"
-	"go.chromium.org/luci/machine-db/common"
+	"github.com/TriggerMail/luci-go/machine-db/api/crimson/v1"
+	"github.com/TriggerMail/luci-go/machine-db/appengine/database"
+	"github.com/TriggerMail/luci-go/machine-db/appengine/model"
+	"github.com/TriggerMail/luci-go/machine-db/common"
 )
 
 // CreateDRAC handles a request to create a new DRAC.

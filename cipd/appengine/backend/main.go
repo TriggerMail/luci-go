@@ -18,10 +18,10 @@ package backend
 import (
 	"net/http"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/appengine/gaemiddleware/standard"
+	"github.com/TriggerMail/luci-go/server/router"
 
-	"go.chromium.org/luci/cipd/appengine/impl"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl"
 )
 
 func init() {

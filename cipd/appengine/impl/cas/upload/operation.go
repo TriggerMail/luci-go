@@ -19,12 +19,12 @@ import (
 	"time"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
+	api "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
 )
 
 // Operation is a datastore entity that represents an upload.

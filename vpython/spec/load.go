@@ -22,12 +22,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.chromium.org/luci/vpython/api/vpython"
+	"github.com/TriggerMail/luci-go/vpython/api/vpython"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	cproto "go.chromium.org/luci/common/proto"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	cproto "github.com/TriggerMail/luci-go/common/proto"
+	"github.com/TriggerMail/luci-go/common/system/filesystem"
 )
 
 // Suffix is the filesystem suffix for a script's partner specification file.

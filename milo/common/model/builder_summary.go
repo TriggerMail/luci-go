@@ -22,7 +22,7 @@ import (
 
 	"go.chromium.org/gae/service/datastore"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 // InvalidBuilderIDURL is returned if a BuilderID cannot be parsed and a URL generated.

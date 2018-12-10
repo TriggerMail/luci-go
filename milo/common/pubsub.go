@@ -11,9 +11,9 @@ import (
 	"cloud.google.com/go/pubsub"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/milo/api/config"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/milo/api/config"
 )
 
 var pubsubClientFactoryKey = "stores a pubsubClientFactory"

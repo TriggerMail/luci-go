@@ -21,9 +21,9 @@ import (
 
 	"go.chromium.org/gae/service/info"
 	"go.chromium.org/gae/service/user"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // UsersAPIAuthMethod implements auth.Method and auth.UsersAPI interfaces on top

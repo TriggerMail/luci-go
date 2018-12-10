@@ -24,11 +24,11 @@ import (
 
 	"golang.org/x/net/context/ctxhttp"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/caching/layered"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/retry"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/caching"
+	"github.com/TriggerMail/luci-go/server/caching/layered"
 )
 
 var emulationEnabledKey = "emulation enabled"

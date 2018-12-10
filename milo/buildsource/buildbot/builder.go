@@ -21,15 +21,15 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/milo/api/buildbot"
-	"go.chromium.org/luci/milo/buildsource/buildbot/buildstore"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/common/model"
-	"go.chromium.org/luci/milo/frontend/ui"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
+	"github.com/TriggerMail/luci-go/milo/api/buildbot"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbot/buildstore"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/milo/common/model"
+	"github.com/TriggerMail/luci-go/milo/frontend/ui"
 )
 
 // builderRef is used for keying specific builds in a master json.

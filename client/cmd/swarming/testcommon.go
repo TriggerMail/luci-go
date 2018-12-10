@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/http"
 
-	"go.chromium.org/luci/common/api/swarming/swarming/v1"
+	"github.com/TriggerMail/luci-go/common/api/swarming/swarming/v1"
 )
 
 type testService struct {

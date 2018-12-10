@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"testing"
 
-	"go.chromium.org/luci/server/auth/signing/signingtest"
+	"github.com/TriggerMail/luci-go/server/auth/signing/signingtest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestParseJSONWebKeySet(t *testing.T) {

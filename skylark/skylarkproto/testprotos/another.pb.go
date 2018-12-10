@@ -64,7 +64,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/skylark/skylarkproto/testprotos/another.proto", fileDescriptor_a72522e9995c770d)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/skylark/skylarkproto/testprotos/another.proto", fileDescriptor_a72522e9995c770d)
 }
 
 var fileDescriptor_a72522e9995c770d = []byte{

@@ -19,7 +19,7 @@
 package delegation
 
 import (
-	"go.chromium.org/luci/common/data/jsontime"
+	"github.com/TriggerMail/luci-go/common/data/jsontime"
 )
 
 const (

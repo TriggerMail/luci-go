@@ -21,9 +21,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/server/auth/service"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/server/auth/service"
+	"github.com/TriggerMail/luci-go/server/router"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

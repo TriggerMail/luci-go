@@ -17,10 +17,10 @@ package main
 import (
 	"testing"
 
-	"go.chromium.org/luci/auth"
+	"github.com/TriggerMail/luci-go/auth"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestBotsParse(t *testing.T) {

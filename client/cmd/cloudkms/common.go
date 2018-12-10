@@ -25,11 +25,11 @@ import (
 
 	cloudkms "google.golang.org/api/cloudkms/v1"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/auth/client/authcli"
+	"github.com/TriggerMail/luci-go/common/cli"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 type commonFlags struct {

@@ -3,7 +3,7 @@
 
 package testservices
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -198,7 +198,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/grpc/discovery/internal/testservices/helloworld.proto", fileDescriptor_825e55f092589445)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/grpc/discovery/internal/testservices/helloworld.proto", fileDescriptor_825e55f092589445)
 }
 
 var fileDescriptor_825e55f092589445 = []byte{
@@ -309,7 +309,7 @@ var _Greeter_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/grpc/discovery/internal/testservices/helloworld.proto",
+	Metadata: "github.com/TriggerMail/luci-go/grpc/discovery/internal/testservices/helloworld.proto",
 }
 
 // CalcClient is the client API for Calc service.
@@ -389,5 +389,5 @@ var _Calc_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/grpc/discovery/internal/testservices/helloworld.proto",
+	Metadata: "github.com/TriggerMail/luci-go/grpc/discovery/internal/testservices/helloworld.proto",
 }

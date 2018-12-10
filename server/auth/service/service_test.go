@@ -30,13 +30,13 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/server/auth/service/protocol"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/auth/signing/signingtest"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/server/auth/service/protocol"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
+	"github.com/TriggerMail/luci-go/server/auth/signing/signingtest"
+	"github.com/TriggerMail/luci-go/server/caching"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestPubSubWorkflow(t *testing.T) {

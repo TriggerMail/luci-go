@@ -3,7 +3,7 @@
 
 package buildbucketpb
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -1160,7 +1160,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/buildbucket/proto/rpc.proto", fileDescriptor_6551d9ae29a9e5a9)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/buildbucket/proto/rpc.proto", fileDescriptor_6551d9ae29a9e5a9)
 }
 
 var fileDescriptor_6551d9ae29a9e5a9 = []byte{
@@ -1618,5 +1618,5 @@ var _Builds_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/buildbucket/proto/rpc.proto",
+	Metadata: "github.com/TriggerMail/luci-go/buildbucket/proto/rpc.proto",
 }

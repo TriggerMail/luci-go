@@ -19,11 +19,11 @@ import (
 	"testing"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/appengine/impl/model"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/model"
+	"github.com/TriggerMail/luci-go/cipd/common"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -27,15 +27,15 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"go.chromium.org/luci/common/clock"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/proto/milo"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/logdog/client/annotee/annotation"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/common/clock"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/proto/milo"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
+	"github.com/TriggerMail/luci-go/logdog/client/annotee/annotation"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamclient"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamproto"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 const (

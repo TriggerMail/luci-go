@@ -223,7 +223,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/logdog/api/config/svcconfig/storage.proto", fileDescriptor_955b461662b6fa9d)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/logdog/api/config/svcconfig/storage.proto", fileDescriptor_955b461662b6fa9d)
 }
 
 var fileDescriptor_955b461662b6fa9d = []byte{

@@ -25,10 +25,10 @@ import (
 	structpb "github.com/golang/protobuf/ptypes/struct"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/proto/google"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
+	api "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
 )
 
 // ProcessingResult holds information extracted from the package instance file.

@@ -24,13 +24,13 @@ import (
 	"google.golang.org/grpc/codes"
 
 	"go.chromium.org/gae/service/info"
-	gaeserver "go.chromium.org/luci/appengine/gaeauth/server"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/xsrf"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	gaeserver "github.com/TriggerMail/luci-go/appengine/gaeauth/server"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/xsrf"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/templates"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
+	"github.com/TriggerMail/luci-go/machine-db/api/crimson/v1"
 )
 
 var serverKey = "server"

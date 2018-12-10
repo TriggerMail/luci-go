@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/client/internal/common"
-	"go.chromium.org/luci/client/internal/progress"
-	"go.chromium.org/luci/common/api/isolate/isolateservice/v1"
-	"go.chromium.org/luci/common/data/text/units"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/runtime/tracer"
+	"github.com/TriggerMail/luci-go/client/internal/common"
+	"github.com/TriggerMail/luci-go/client/internal/progress"
+	"github.com/TriggerMail/luci-go/common/api/isolate/isolateservice/v1"
+	"github.com/TriggerMail/luci-go/common/data/text/units"
+	"github.com/TriggerMail/luci-go/common/isolated"
+	"github.com/TriggerMail/luci-go/common/isolatedclient"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/runtime/tracer"
 )
 
 const (

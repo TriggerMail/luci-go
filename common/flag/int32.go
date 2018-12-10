@@ -18,7 +18,7 @@ import (
 	"flag"
 	"strconv"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // int32Flag is a flag.Value implementation representing an int32.

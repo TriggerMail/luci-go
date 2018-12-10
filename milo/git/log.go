@@ -27,13 +27,13 @@ import (
 	"google.golang.org/grpc/status"
 
 	"go.chromium.org/gae/service/memcache"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	gitpb "go.chromium.org/luci/common/proto/git"
-	gitilespb "go.chromium.org/luci/common/proto/gitiles"
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	gitpb "github.com/TriggerMail/luci-go/common/proto/git"
+	gitilespb "github.com/TriggerMail/luci-go/common/proto/gitiles"
+	"github.com/TriggerMail/luci-go/common/tsmon/field"
+	"github.com/TriggerMail/luci-go/common/tsmon/metric"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // LogOptions are options for Log function.

@@ -18,7 +18,7 @@ import (
 	"context"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/server/auth/service"
+	"github.com/TriggerMail/luci-go/server/auth/service"
 )
 
 // authService is interface for service.AuthService.

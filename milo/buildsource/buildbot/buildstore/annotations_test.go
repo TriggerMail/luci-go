@@ -25,9 +25,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/proto/milo"
-	"go.chromium.org/luci/milo/api/buildbot"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/proto/milo"
+	"github.com/TriggerMail/luci-go/milo/api/buildbot"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

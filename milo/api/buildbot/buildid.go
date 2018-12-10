@@ -17,9 +17,9 @@ package buildbot
 import (
 	"fmt"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 
-	"go.chromium.org/luci/milo/common"
+	"github.com/TriggerMail/luci-go/milo/common"
 )
 
 // BuildID identifies a buildbot build.

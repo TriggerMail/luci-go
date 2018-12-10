@@ -20,10 +20,10 @@ import (
 	"github.com/google/skylark"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 
 	// Register proto types in the protobuf lib registry.
-	_ "go.chromium.org/luci/skylark/skylarkproto/testprotos"
+	_ "github.com/TriggerMail/luci-go/skylark/skylarkproto/testprotos"
 )
 
 func TestInterpreter(t *testing.T) {

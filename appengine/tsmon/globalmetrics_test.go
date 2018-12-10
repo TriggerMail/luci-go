@@ -17,10 +17,10 @@ package tsmon
 import (
 	"testing"
 
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/monitor"
-	"go.chromium.org/luci/common/tsmon/store"
-	"go.chromium.org/luci/common/tsmon/target"
+	"github.com/TriggerMail/luci-go/common/tsmon"
+	"github.com/TriggerMail/luci-go/common/tsmon/monitor"
+	"github.com/TriggerMail/luci-go/common/tsmon/store"
+	"github.com/TriggerMail/luci-go/common/tsmon/target"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

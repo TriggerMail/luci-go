@@ -3,12 +3,12 @@
 
 package milo
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	milo "go.chromium.org/luci/common/proto/milo"
+	milo "github.com/TriggerMail/luci-go/common/proto/milo"
 	context "golang.org/x/net/context"
 	grpc "google.golang.org/grpc"
 	math "math"
@@ -440,7 +440,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/milo/api/proto/buildinfo.proto", fileDescriptor_98f9739304de6fa6)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/milo/api/proto/buildinfo.proto", fileDescriptor_98f9739304de6fa6)
 }
 
 var fileDescriptor_98f9739304de6fa6 = []byte{
@@ -559,5 +559,5 @@ var _BuildInfo_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/milo/api/proto/buildinfo.proto",
+	Metadata: "github.com/TriggerMail/luci-go/milo/api/proto/buildinfo.proto",
 }

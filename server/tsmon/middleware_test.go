@@ -21,13 +21,13 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/common/tsmon/monitor"
-	"go.chromium.org/luci/common/tsmon/store"
-	"go.chromium.org/luci/common/tsmon/target"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/tsmon"
+	"github.com/TriggerMail/luci-go/common/tsmon/metric"
+	"github.com/TriggerMail/luci-go/common/tsmon/monitor"
+	"github.com/TriggerMail/luci-go/common/tsmon/store"
+	"github.com/TriggerMail/luci-go/common/tsmon/target"
+	"github.com/TriggerMail/luci-go/server/router"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

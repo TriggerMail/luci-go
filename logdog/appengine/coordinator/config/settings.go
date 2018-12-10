@@ -17,9 +17,9 @@ package config
 import (
 	"context"
 
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/settings"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/settings"
 )
 
 // globalConfigSettingsKey is the settings key for the Coordinator instance's

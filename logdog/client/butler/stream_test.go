@@ -22,9 +22,9 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/iotools"
-	"go.chromium.org/luci/logdog/client/butler/bundler"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/iotools"
+	"github.com/TriggerMail/luci-go/logdog/client/butler/bundler"
 )
 
 type testBundlerStream struct {

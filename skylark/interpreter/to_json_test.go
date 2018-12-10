@@ -21,7 +21,7 @@ import (
 	"github.com/google/skylark"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestToJSON(t *testing.T) {

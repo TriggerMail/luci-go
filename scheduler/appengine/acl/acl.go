@@ -20,13 +20,13 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/scheduler/appengine/messages"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/config/validation"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/messages"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // Role allows certain actions on a Job or a Trigger.

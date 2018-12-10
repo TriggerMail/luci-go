@@ -21,17 +21,17 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butlerproto"
-	"go.chromium.org/luci/logdog/common/storage/memory"
-	"go.chromium.org/luci/logdog/common/types"
-	cc "go.chromium.org/luci/logdog/server/collector/coordinator"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerproto"
+	"github.com/TriggerMail/luci-go/logdog/common/storage/memory"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
+	cc "github.com/TriggerMail/luci-go/logdog/server/collector/coordinator"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 // TestCollector runs through a series of end-to-end Collector workflows and

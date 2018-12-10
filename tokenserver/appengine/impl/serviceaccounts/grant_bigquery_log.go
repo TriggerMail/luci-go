@@ -22,15 +22,15 @@ import (
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"google.golang.org/appengine"
 
-	"go.chromium.org/luci/common/bq"
+	"github.com/TriggerMail/luci-go/common/bq"
 
-	"go.chromium.org/luci/tokenserver/api"
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
-	bqpb "go.chromium.org/luci/tokenserver/api/bq"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/api"
+	"github.com/TriggerMail/luci-go/tokenserver/api/admin/v1"
+	bqpb "github.com/TriggerMail/luci-go/tokenserver/api/bq"
+	"github.com/TriggerMail/luci-go/tokenserver/api/minter/v1"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/bqlog"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/utils"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/utils/bqlog"
 )
 
 var oauthTokenGrantsLog = bqlog.Log{

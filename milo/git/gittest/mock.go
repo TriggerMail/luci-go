@@ -9,8 +9,8 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	git "go.chromium.org/luci/common/proto/git"
-	git0 "go.chromium.org/luci/milo/git"
+	git "github.com/TriggerMail/luci-go/common/proto/git"
+	git0 "github.com/TriggerMail/luci-go/milo/git"
 )
 
 // MockClient is a mock of Client interface

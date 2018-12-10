@@ -18,7 +18,7 @@ import (
 	"context"
 	"os"
 
-	"go.chromium.org/luci/cipd/client/cipd/pkg"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/pkg"
 )
 
 // deleteOnClose is os.File that self-deletes once it closes.

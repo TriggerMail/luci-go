@@ -22,11 +22,11 @@ import (
 	"net/url"
 	"sync"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/impl/remote"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/impl/remote"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // Provider returns a config.Interface for the supplied parameters.

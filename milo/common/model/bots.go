@@ -21,7 +21,7 @@ import (
 	"sort"
 	"time"
 
-	"go.chromium.org/luci/common/data/strpair"
+	"github.com/TriggerMail/luci-go/common/data/strpair"
 )
 
 // PoolDescriptor describes the attributes of a pool in "tag:value" format.

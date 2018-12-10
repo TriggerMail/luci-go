@@ -21,12 +21,12 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"go.chromium.org/luci/common/data/caching/lru"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/caching/cachingtest"
+	"github.com/TriggerMail/luci-go/common/data/caching/lru"
+	"github.com/TriggerMail/luci-go/server/caching"
+	"github.com/TriggerMail/luci-go/server/caching/cachingtest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 const testScope = "https://example.com/scopes/user.email"

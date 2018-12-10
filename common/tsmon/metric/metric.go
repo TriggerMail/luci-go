@@ -42,11 +42,11 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/distribution"
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/registry"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/TriggerMail/luci-go/common/tsmon"
+	"github.com/TriggerMail/luci-go/common/tsmon/distribution"
+	"github.com/TriggerMail/luci-go/common/tsmon/field"
+	"github.com/TriggerMail/luci-go/common/tsmon/registry"
+	"github.com/TriggerMail/luci-go/common/tsmon/types"
 )
 
 // Int is a non-cumulative integer gauge metric.

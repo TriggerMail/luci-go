@@ -18,12 +18,12 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/proto/google"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
+	api "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestPrefixMetadataToACLs(t *testing.T) {

@@ -17,7 +17,7 @@ package tsmon
 import (
 	"net/http"
 
-	"go.chromium.org/luci/common/iotools"
+	"github.com/TriggerMail/luci-go/common/iotools"
 )
 
 // responseWriter wraps a given http.ResponseWriter, records its

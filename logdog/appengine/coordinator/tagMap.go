@@ -20,8 +20,8 @@ import (
 	"strings"
 
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 // TagMap is tag map that stores log stream tags into the datastore.

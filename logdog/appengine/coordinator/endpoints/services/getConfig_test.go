@@ -17,13 +17,13 @@ package services
 import (
 	"testing"
 
-	"go.chromium.org/luci/config/appengine/gaeconfig"
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	ct "go.chromium.org/luci/logdog/appengine/coordinator/coordinatorTest"
+	"github.com/TriggerMail/luci-go/config/appengine/gaeconfig"
+	"github.com/TriggerMail/luci-go/logdog/api/config/svcconfig"
+	"github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	ct "github.com/TriggerMail/luci-go/logdog/appengine/coordinator/coordinatorTest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestGetConfig(t *testing.T) {

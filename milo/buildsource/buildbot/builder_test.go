@@ -20,10 +20,10 @@ import (
 
 	"go.chromium.org/gae/impl/memory"
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/milo/api/buildbot"
-	"go.chromium.org/luci/milo/buildsource/buildbot/buildstore"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/milo/api/buildbot"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbot/buildstore"
+	"github.com/TriggerMail/luci-go/server/caching"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

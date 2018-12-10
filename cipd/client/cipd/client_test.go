@@ -30,22 +30,22 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/client/cipd/builder"
-	"go.chromium.org/luci/cipd/client/cipd/deployer"
-	"go.chromium.org/luci/cipd/client/cipd/digests"
-	"go.chromium.org/luci/cipd/client/cipd/fs"
-	"go.chromium.org/luci/cipd/client/cipd/internal"
-	"go.chromium.org/luci/cipd/client/cipd/pkg"
-	"go.chromium.org/luci/cipd/client/cipd/platform"
-	"go.chromium.org/luci/cipd/client/cipd/template"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/builder"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/deployer"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/digests"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/fs"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/internal"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/pkg"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/platform"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/template"
+	"github.com/TriggerMail/luci-go/cipd/common"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

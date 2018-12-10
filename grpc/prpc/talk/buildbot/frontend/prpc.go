@@ -15,11 +15,11 @@
 package buildbot
 
 import (
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/grpc/discovery"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
+	"github.com/TriggerMail/luci-go/server/router"
 
-	"go.chromium.org/luci/grpc/prpc/talk/buildbot/proto"
+	"github.com/TriggerMail/luci-go/grpc/prpc/talk/buildbot/proto"
 )
 
 func InstallAPIRoutes(r *router.Router, base router.MiddlewareChain) {

@@ -15,8 +15,8 @@
 package cfgclient
 
 import (
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/config"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/config"
 )
 
 // Resolver resolves configuration data into a native type.

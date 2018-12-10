@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/common/data/recordio"
-	"go.chromium.org/luci/common/data/treapstore"
-	"go.chromium.org/luci/logdog/common/storage"
+	"github.com/TriggerMail/luci-go/common/data/recordio"
+	"github.com/TriggerMail/luci-go/common/data/treapstore"
+	"github.com/TriggerMail/luci-go/logdog/common/storage"
 )
 
 type storageItem struct {

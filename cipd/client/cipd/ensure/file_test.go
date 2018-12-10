@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"testing"
 
-	"go.chromium.org/luci/cipd/client/cipd/deployer"
-	"go.chromium.org/luci/cipd/client/cipd/template"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/deployer"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/template"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

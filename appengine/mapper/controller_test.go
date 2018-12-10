@@ -23,17 +23,17 @@ import (
 
 	"go.chromium.org/gae/service/datastore"
 
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/appengine/tq/tqtesting"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/appengine/tq"
+	"github.com/TriggerMail/luci-go/appengine/tq/tqtesting"
 
-	"go.chromium.org/luci/appengine/mapper/internal/tasks"
-	"go.chromium.org/luci/appengine/mapper/splitter"
+	"github.com/TriggerMail/luci-go/appengine/mapper/internal/tasks"
+	"github.com/TriggerMail/luci-go/appengine/mapper/splitter"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -17,12 +17,12 @@ package main
 import (
 	"os"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/flag/nestedflagset"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/client/butler"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/flag/nestedflagset"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/logdog/client/butler"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamproto"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 
 	"github.com/maruel/subcommands"
 )

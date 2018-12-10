@@ -21,12 +21,12 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/impl/memory"
-	"go.chromium.org/luci/config/server/cfgclient/backend/testconfig"
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/impl/memory"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/testconfig"
+	"github.com/TriggerMail/luci-go/logdog/api/config/svcconfig"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

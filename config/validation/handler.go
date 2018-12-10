@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/config"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/proto/config"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 const (

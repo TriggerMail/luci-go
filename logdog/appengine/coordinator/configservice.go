@@ -18,9 +18,9 @@ import (
 	"context"
 	"sync"
 
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
-	"go.chromium.org/luci/logdog/appengine/coordinator/config"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/logdog/api/config/svcconfig"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator/config"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 // ConfigProvider is a set of support services used by Coordinator to fetch

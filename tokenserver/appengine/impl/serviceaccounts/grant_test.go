@@ -21,12 +21,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/auth/signing/signingtest"
-	"go.chromium.org/luci/tokenserver/api"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
+	"github.com/TriggerMail/luci-go/server/auth/signing/signingtest"
+	"github.com/TriggerMail/luci-go/tokenserver/api"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestSignGrant(t *testing.T) {

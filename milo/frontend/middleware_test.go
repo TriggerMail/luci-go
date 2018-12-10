@@ -21,14 +21,14 @@ import (
 	"time"
 
 	"github.com/julienschmidt/httprouter"
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/impl/memory"
-	"go.chromium.org/luci/config/server/cfgclient/backend/testconfig"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/impl/memory"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/testconfig"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/authtest"
+	"github.com/TriggerMail/luci-go/server/router"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

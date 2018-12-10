@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/templates"
 
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/milo/buildsource/buildbot"
-	"go.chromium.org/luci/milo/buildsource/buildbucket"
-	"go.chromium.org/luci/milo/frontend/ui"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbot"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbucket"
+	"github.com/TriggerMail/luci-go/milo/frontend/ui"
 )
 
 // openSearchXML is the template used to serve the OpenSearch Description Document.

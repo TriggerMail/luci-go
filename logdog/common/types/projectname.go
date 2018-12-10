@@ -17,7 +17,7 @@ package types
 import (
 	"flag"
 
-	"go.chromium.org/luci/config"
+	"github.com/TriggerMail/luci-go/config"
 )
 
 // ProjectName is a luci-config project name.

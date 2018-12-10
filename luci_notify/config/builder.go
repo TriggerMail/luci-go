@@ -18,9 +18,9 @@ import (
 	"time"
 
 	"go.chromium.org/gae/service/datastore"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
+	buildbucketpb "github.com/TriggerMail/luci-go/buildbucket/proto"
 
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
+	notifypb "github.com/TriggerMail/luci-go/luci_notify/api/config"
 )
 
 // Builder represents the state of the last build seen from a particular

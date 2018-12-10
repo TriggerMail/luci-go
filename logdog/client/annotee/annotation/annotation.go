@@ -24,11 +24,11 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/proto/milo"
-	"go.chromium.org/luci/common/proto/srcman"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/proto/milo"
+	"github.com/TriggerMail/luci-go/common/proto/srcman"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 // UpdateType is information sent to the Updated callback to indicate the nature

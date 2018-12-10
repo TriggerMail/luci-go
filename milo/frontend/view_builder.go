@@ -5,10 +5,10 @@
 package frontend
 
 import (
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/templates"
 
-	"go.chromium.org/luci/milo/buildsource"
+	"github.com/TriggerMail/luci-go/milo/buildsource"
 )
 
 // BuilderHandler is responsible for taking a universal builder ID and rendering

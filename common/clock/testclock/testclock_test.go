@@ -20,7 +20,7 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock"
 )
 
 func TestTestClock(t *testing.T) {

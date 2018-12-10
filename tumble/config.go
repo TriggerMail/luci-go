@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/common/clock/clockflag"
-	"go.chromium.org/luci/server/settings"
+	"github.com/TriggerMail/luci-go/common/clock/clockflag"
+	"github.com/TriggerMail/luci-go/server/settings"
 )
 
 const (

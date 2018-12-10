@@ -20,10 +20,10 @@ import (
 	"strings"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/auth/identity"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/logdog/api/config/svcconfig"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // IsAdminUser tests whether the current user belongs to the administrative

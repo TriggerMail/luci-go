@@ -28,7 +28,7 @@ func TestLoader(t *testing.T) {
 	t.Parallel()
 
 	Convey("Works", t, func() {
-		dict, err := LoadProtoModule("go.chromium.org/luci/skylark/skylarkproto/testprotos/test.proto")
+		dict, err := LoadProtoModule("github.com/TriggerMail/luci-go/skylark/skylarkproto/testprotos/test.proto")
 		So(err, ShouldBeNil)
 		So(len(dict), ShouldEqual, 1)
 

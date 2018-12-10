@@ -21,9 +21,9 @@ import (
 	"sync"
 	"testing"
 
-	service "go.chromium.org/luci/common/api/isolate/isolateservice/v1"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
+	service "github.com/TriggerMail/luci-go/common/api/isolate/isolateservice/v1"
+	"github.com/TriggerMail/luci-go/common/isolated"
+	"github.com/TriggerMail/luci-go/common/isolatedclient"
 )
 
 type fakeIsolateService struct {

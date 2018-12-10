@@ -21,10 +21,10 @@ import (
 	"fmt"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/appengine/mapper"
-	"go.chromium.org/luci/cipd/appengine/impl/model"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/appengine/mapper"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/model"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 )
 
 // markedTag is a root entity created for each tag marked by some particular

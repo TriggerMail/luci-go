@@ -19,7 +19,7 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/auth/identity"
+	"github.com/TriggerMail/luci-go/auth/identity"
 )
 
 func TestState(t *testing.T) {

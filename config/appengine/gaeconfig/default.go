@@ -21,23 +21,23 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.chromium.org/luci/appengine/datastorecache"
-	"go.chromium.org/luci/config/appengine/backend/datastore"
-	"go.chromium.org/luci/config/appengine/backend/memcache"
-	"go.chromium.org/luci/config/impl/filesystem"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
-	"go.chromium.org/luci/config/server/cfgclient/backend/caching"
-	"go.chromium.org/luci/config/server/cfgclient/backend/client"
-	"go.chromium.org/luci/config/server/cfgclient/backend/erroring"
-	"go.chromium.org/luci/config/server/cfgclient/backend/format"
-	"go.chromium.org/luci/config/server/cfgclient/backend/testconfig"
-	serverCaching "go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/appengine/datastorecache"
+	"github.com/TriggerMail/luci-go/config/appengine/backend/datastore"
+	"github.com/TriggerMail/luci-go/config/appengine/backend/memcache"
+	"github.com/TriggerMail/luci-go/config/impl/filesystem"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/caching"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/client"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/erroring"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/format"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/testconfig"
+	serverCaching "github.com/TriggerMail/luci-go/server/caching"
+	"github.com/TriggerMail/luci-go/server/router"
 
 	"go.chromium.org/gae/service/info"
 
 	// Import to register the corresponding formatter.
-	_ "go.chromium.org/luci/config/server/cfgclient/textproto"
+	_ "github.com/TriggerMail/luci-go/config/server/cfgclient/textproto"
 )
 
 // ErrNotConfigured is returned by cfgclient methods if the config service URL

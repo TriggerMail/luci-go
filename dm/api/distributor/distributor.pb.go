@@ -6,8 +6,8 @@ package distributor
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	jobsim "go.chromium.org/luci/dm/api/distributor/jobsim"
-	v1 "go.chromium.org/luci/dm/api/distributor/swarming/v1"
+	jobsim "github.com/TriggerMail/luci-go/dm/api/distributor/jobsim"
+	v1 "github.com/TriggerMail/luci-go/dm/api/distributor/swarming/v1"
 	math "math"
 )
 
@@ -293,7 +293,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/dm/api/distributor/distributor.proto", fileDescriptor_ae589283bac413cb)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/dm/api/distributor/distributor.proto", fileDescriptor_ae589283bac413cb)
 }
 
 var fileDescriptor_ae589283bac413cb = []byte{

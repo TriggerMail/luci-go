@@ -19,14 +19,14 @@ import (
 
 	"go.chromium.org/gae/service/datastore"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/config"
-	memcfg "go.chromium.org/luci/config/impl/memory"
-	"go.chromium.org/luci/config/server/cfgclient/backend/testconfig"
-	"go.chromium.org/luci/config/validation"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/config"
+	memcfg "github.com/TriggerMail/luci-go/config/impl/memory"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/testconfig"
+	"github.com/TriggerMail/luci-go/config/validation"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestConfig(t *testing.T) {

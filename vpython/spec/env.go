@@ -18,9 +18,9 @@ import (
 	"io/ioutil"
 	"sort"
 
-	"go.chromium.org/luci/vpython/api/vpython"
+	"github.com/TriggerMail/luci-go/vpython/api/vpython"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 
 	"github.com/golang/protobuf/proto"
 )

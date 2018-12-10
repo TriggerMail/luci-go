@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/logdog/common/storage"
+	"github.com/TriggerMail/luci-go/logdog/common/storage"
 )
 
 // Cache is an in-memory storage.Cache implementation.

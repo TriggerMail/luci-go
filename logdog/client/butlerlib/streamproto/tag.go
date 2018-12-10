@@ -19,8 +19,8 @@ import (
 	"flag"
 	"sort"
 
-	"go.chromium.org/luci/common/flag/stringmapflag"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/common/flag/stringmapflag"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 // TagMap is a flags-compatible map used to store stream tags.

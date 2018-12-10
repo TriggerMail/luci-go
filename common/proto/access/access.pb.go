@@ -3,7 +3,7 @@
 
 package access
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -432,7 +432,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/common/proto/access/access.proto", fileDescriptor_4a2d397fb03f91ad)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/common/proto/access/access.proto", fileDescriptor_4a2d397fb03f91ad)
 }
 
 var fileDescriptor_4a2d397fb03f91ad = []byte{
@@ -613,5 +613,5 @@ var _Access_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/common/proto/access/access.proto",
+	Metadata: "github.com/TriggerMail/luci-go/common/proto/access/access.proto",
 }

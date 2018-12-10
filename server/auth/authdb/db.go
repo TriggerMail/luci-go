@@ -18,8 +18,8 @@ import (
 	"context"
 	"net"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
 )
 
 // DB is interface to access a database of authorization related information.

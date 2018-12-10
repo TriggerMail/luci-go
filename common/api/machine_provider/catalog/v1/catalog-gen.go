@@ -16,10 +16,10 @@
 //
 // Usage example:
 //
-//   import "go.chromium.org/luci/common/api/machine_provider/catalog/v1"
+//   import "github.com/TriggerMail/luci-go/common/api/machine_provider/catalog/v1"
 //   ...
 //   catalogService, err := catalog.New(oauthHttpClient)
-package catalog // import "go.chromium.org/luci/common/api/machine_provider/catalog/v1"
+package catalog // import "github.com/TriggerMail/luci-go/common/api/machine_provider/catalog/v1"
 
 import (
 	"bytes"

@@ -3,7 +3,7 @@ package buildstore
 import (
 	"testing"
 
-	"go.chromium.org/luci/milo/api/buildbot"
+	"github.com/TriggerMail/luci-go/milo/api/buildbot"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -26,8 +26,8 @@ import (
 	"os"
 	"strings"
 
-	"go.chromium.org/luci/grpc/internal/svctool"
-	"go.chromium.org/luci/grpc/svcmux"
+	"github.com/TriggerMail/luci-go/grpc/internal/svctool"
+	"github.com/TriggerMail/luci-go/grpc/svcmux"
 )
 
 func generate(c context.Context, a *svctool.GeneratorArgs) error {

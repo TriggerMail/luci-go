@@ -23,10 +23,10 @@ import (
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/proto/google/descutil"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/common/cli"
+	"github.com/TriggerMail/luci-go/common/proto/google/descutil"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
 )
 
 const (

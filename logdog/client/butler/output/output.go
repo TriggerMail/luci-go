@@ -17,7 +17,7 @@ package output
 import (
 	"fmt"
 
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
 )
 
 // Output is a sink endpoint for groups of messages.

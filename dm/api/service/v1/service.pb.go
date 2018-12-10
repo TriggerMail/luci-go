@@ -3,7 +3,7 @@
 
 package dm
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -26,7 +26,7 @@ var _ = math.Inf
 const _ = proto.ProtoPackageIsVersion2 // please upgrade the proto package
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/dm/api/service/v1/service.proto", fileDescriptor_68bd6a527f0765eb)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/dm/api/service/v1/service.proto", fileDescriptor_68bd6a527f0765eb)
 }
 
 var fileDescriptor_68bd6a527f0765eb = []byte{
@@ -270,5 +270,5 @@ var _Deps_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/dm/api/service/v1/service.proto",
+	Metadata: "github.com/TriggerMail/luci-go/dm/api/service/v1/service.proto",
 }

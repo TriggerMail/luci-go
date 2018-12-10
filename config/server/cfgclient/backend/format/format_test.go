@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

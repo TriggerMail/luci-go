@@ -22,9 +22,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/config/validation"
+	"github.com/TriggerMail/luci-go/tokenserver/api/admin/v1"
 )
 
 // ImportDelegationConfigsRPC implements Admin.ImportDelegationConfigs method.

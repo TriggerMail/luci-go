@@ -21,10 +21,10 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/iotools"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/iotools"
 
-	"go.chromium.org/luci/cipd/common"
+	"github.com/TriggerMail/luci-go/cipd/common"
 )
 
 // VersionsFile contains a mapping "(package name, version) -> instance ID" used

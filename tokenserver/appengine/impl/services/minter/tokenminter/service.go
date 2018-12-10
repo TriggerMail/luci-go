@@ -18,15 +18,15 @@
 package tokenminter
 
 import (
-	"go.chromium.org/luci/appengine/gaeauth/server/gaesigner"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/appengine/gaeauth/server/gaesigner"
+	"github.com/TriggerMail/luci-go/server/auth"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/certchecker"
-	"go.chromium.org/luci/tokenserver/appengine/impl/delegation"
-	"go.chromium.org/luci/tokenserver/appengine/impl/machinetoken"
-	"go.chromium.org/luci/tokenserver/appengine/impl/serviceaccounts"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/certchecker"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/delegation"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/machinetoken"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/serviceaccounts"
 
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/api/minter/v1"
 )
 
 // Server implements minter.TokenMinterServer RPC interface.

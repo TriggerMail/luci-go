@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/auth"
-	. "go.chromium.org/luci/common/testing/assertions"
+	"github.com/TriggerMail/luci-go/auth"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

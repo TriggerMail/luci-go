@@ -20,11 +20,11 @@ import (
 	"net/http"
 	"time"
 
-	"go.chromium.org/luci/buildbucket/proto"
-	bbv1 "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
-	"go.chromium.org/luci/common/api/buildbucket/swarmbucket/v1"
-	"go.chromium.org/luci/milo/common/model"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/buildbucket/proto"
+	bbv1 "github.com/TriggerMail/luci-go/common/api/buildbucket/buildbucket/v1"
+	"github.com/TriggerMail/luci-go/common/api/buildbucket/swarmbucket/v1"
+	"github.com/TriggerMail/luci-go/milo/common/model"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 const bbRPCTimeout = time.Minute

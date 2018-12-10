@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"strings"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/config/validation"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/config/validation"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/policy"
+	"github.com/TriggerMail/luci-go/tokenserver/api/admin/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/utils/policy"
 )
 
 // validateConfigBundle validates the structure of a config bundle fetched by

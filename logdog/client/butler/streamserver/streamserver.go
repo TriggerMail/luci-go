@@ -17,7 +17,7 @@ package streamserver
 import (
 	"io"
 
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamproto"
 )
 
 // StreamServer is an interface to a backgound service that allows external

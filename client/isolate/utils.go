@@ -20,7 +20,7 @@ import (
 	"runtime"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // TODO(tandrii): Remove this hacky stuff.

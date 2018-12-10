@@ -29,15 +29,15 @@ import (
 
 	"github.com/danjacques/gofslock/fslock"
 
-	"go.chromium.org/luci/cipd/client/cipd"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/common/system/filesystem"
-	"go.chromium.org/luci/common/testing/testfs"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
-	"go.chromium.org/luci/vpython/api/vpython"
-	"go.chromium.org/luci/vpython/python"
-	"go.chromium.org/luci/vpython/wheel"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/system/environ"
+	"github.com/TriggerMail/luci-go/common/system/filesystem"
+	"github.com/TriggerMail/luci-go/common/testing/testfs"
+	"github.com/TriggerMail/luci-go/hardcoded/chromeinfra"
+	"github.com/TriggerMail/luci-go/vpython/api/vpython"
+	"github.com/TriggerMail/luci-go/vpython/python"
+	"github.com/TriggerMail/luci-go/vpython/wheel"
 )
 
 const testDataDir = "test_data"

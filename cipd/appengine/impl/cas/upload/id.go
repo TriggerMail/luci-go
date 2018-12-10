@@ -20,10 +20,10 @@ import (
 	"time"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/tokens"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/server/tokens"
 )
 
 // opToken describes how to generate HMAC-protected upload operation IDs

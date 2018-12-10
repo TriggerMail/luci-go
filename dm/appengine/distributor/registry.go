@@ -21,13 +21,13 @@ import (
 	"reflect"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient"
-	"go.chromium.org/luci/config/server/cfgclient/textproto"
-	"go.chromium.org/luci/dm/api/distributor"
-	"go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/tumble"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/textproto"
+	"github.com/TriggerMail/luci-go/dm/api/distributor"
+	"github.com/TriggerMail/luci-go/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/tumble"
 
 	"github.com/golang/protobuf/proto"
 )

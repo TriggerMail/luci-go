@@ -25,16 +25,16 @@ import (
 	"google.golang.org/grpc/codes"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/appengine/impl/gs"
-	"go.chromium.org/luci/cipd/appengine/impl/model"
-	"go.chromium.org/luci/cipd/appengine/impl/testutil"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/gs"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/model"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/testutil"
+	"github.com/TriggerMail/luci-go/cipd/common"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func packageReader(data map[string]string) *PackageReader {

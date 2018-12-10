@@ -24,7 +24,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	log "go.chromium.org/luci/common/logging"
+	log "github.com/TriggerMail/luci-go/common/logging"
 
 	"gopkg.in/yaml.v2"
 )

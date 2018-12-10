@@ -18,7 +18,7 @@ import (
 	"context"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 )
 
 // importedPolicyHeader is an entity that holds metadata about a cached policy.

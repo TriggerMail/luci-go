@@ -26,15 +26,15 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
 
-	"go.chromium.org/luci/scheduler/appengine/acl"
-	"go.chromium.org/luci/scheduler/appengine/catalog"
-	"go.chromium.org/luci/scheduler/appengine/engine/cron"
-	"go.chromium.org/luci/scheduler/appengine/engine/dsset"
-	"go.chromium.org/luci/scheduler/appengine/internal"
-	"go.chromium.org/luci/scheduler/appengine/schedule"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/acl"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/catalog"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/engine/cron"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/engine/dsset"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/internal"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/schedule"
 )
 
 // FinishedInvocationsHorizon defines how many invocations to keep in the

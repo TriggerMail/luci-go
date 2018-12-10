@@ -22,10 +22,10 @@ import (
 	"go.chromium.org/gae/service/info"
 	"go.chromium.org/gae/service/user"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // EmailScope is a scope used to identifies user's email. Present in most tokens

@@ -25,22 +25,22 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/grpcmon"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/appengine/gaemiddleware/standard"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/config/validation"
+	"github.com/TriggerMail/luci-go/grpc/discovery"
+	"github.com/TriggerMail/luci-go/grpc/grpcmon"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/router"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/api/admin/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/api/minter/v1"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/services/admin/adminsrv"
-	"go.chromium.org/luci/tokenserver/appengine/impl/services/admin/certauthorities"
-	"go.chromium.org/luci/tokenserver/appengine/impl/services/minter/tokenminter"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/services/admin/adminsrv"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/services/admin/certauthorities"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/services/minter/tokenminter"
 )
 
 // adminPrelude returns a prelude that authorizes only administrators.

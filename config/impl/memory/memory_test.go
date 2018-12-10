@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/config"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/config"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

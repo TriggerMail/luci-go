@@ -25,8 +25,8 @@ import (
 	"strings"
 
 	humanize "github.com/dustin/go-humanize"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
+	"github.com/TriggerMail/luci-go/common/isolated"
+	"github.com/TriggerMail/luci-go/common/isolatedclient"
 )
 
 const (

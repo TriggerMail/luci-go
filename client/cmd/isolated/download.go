@@ -23,11 +23,11 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/client/downloader"
-	"go.chromium.org/luci/client/internal/common"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/client/downloader"
+	"github.com/TriggerMail/luci-go/client/internal/common"
+	"github.com/TriggerMail/luci-go/common/isolated"
+	"github.com/TriggerMail/luci-go/common/isolatedclient"
 )
 
 func cmdDownload(authOpts auth.Options) *subcommands.Command {

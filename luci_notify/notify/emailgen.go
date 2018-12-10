@@ -24,13 +24,13 @@ import (
 
 	"go.chromium.org/gae/service/datastore"
 
-	"go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/data/caching/lru"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/buildbucket/proto"
+	"github.com/TriggerMail/luci-go/common/data/caching/lru"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/server/caching"
 
-	"go.chromium.org/luci/luci_notify/config"
+	"github.com/TriggerMail/luci-go/luci_notify/config"
 )
 
 type EmailTemplateInput struct {

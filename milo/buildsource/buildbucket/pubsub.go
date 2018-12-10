@@ -22,17 +22,17 @@ import (
 	"strings"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/buildbucket"
-	bbv1 "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
-	"go.chromium.org/luci/common/data/strpair"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/common/model"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/buildbucket"
+	bbv1 "github.com/TriggerMail/luci-go/common/api/buildbucket/buildbucket/v1"
+	"github.com/TriggerMail/luci-go/common/data/strpair"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/common/tsmon/field"
+	"github.com/TriggerMail/luci-go/common/tsmon/metric"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/milo/common/model"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 var (

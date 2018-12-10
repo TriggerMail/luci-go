@@ -27,16 +27,16 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	miloProto "go.chromium.org/luci/common/proto/milo"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/coordinator"
-	"go.chromium.org/luci/logdog/common/types"
-	"go.chromium.org/luci/milo/api/buildbot"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	miloProto "github.com/TriggerMail/luci-go/common/proto/milo"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/client/coordinator"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
+	"github.com/TriggerMail/luci-go/milo/api/buildbot"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // This file implements conversion of annotations to buildbot steps and

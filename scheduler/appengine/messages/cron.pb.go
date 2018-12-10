@@ -21,7 +21,7 @@ var _ = math.Inf
 const _ = proto.ProtoPackageIsVersion2 // please upgrade the proto package
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/scheduler/appengine/messages/cron.proto", fileDescriptor_a8260ef1d4d0883d)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/scheduler/appengine/messages/cron.proto", fileDescriptor_a8260ef1d4d0883d)
 }
 
 var fileDescriptor_a8260ef1d4d0883d = []byte{

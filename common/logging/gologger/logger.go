@@ -22,7 +22,7 @@ import (
 	"sync"
 
 	gol "github.com/op/go-logging"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 const (

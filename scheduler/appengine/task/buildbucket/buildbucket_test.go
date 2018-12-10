@@ -26,15 +26,15 @@ import (
 	"google.golang.org/api/pubsub/v1"
 
 	"go.chromium.org/gae/impl/memory"
-	"go.chromium.org/luci/config/validation"
-	api "go.chromium.org/luci/scheduler/api/scheduler/v1"
-	"go.chromium.org/luci/scheduler/appengine/internal"
-	"go.chromium.org/luci/scheduler/appengine/messages"
-	"go.chromium.org/luci/scheduler/appengine/task"
-	"go.chromium.org/luci/scheduler/appengine/task/utils/tasktest"
+	"github.com/TriggerMail/luci-go/config/validation"
+	api "github.com/TriggerMail/luci-go/scheduler/api/scheduler/v1"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/internal"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/messages"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/task"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/task/utils/tasktest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 var _ task.Manager = (*TaskManager)(nil)

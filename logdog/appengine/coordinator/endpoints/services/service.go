@@ -18,12 +18,12 @@ import (
 	"context"
 
 	"github.com/golang/protobuf/proto"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	"go.chromium.org/luci/logdog/appengine/coordinator"
-	"go.chromium.org/luci/logdog/appengine/coordinator/endpoints"
-	"go.chromium.org/luci/logdog/common/types"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator/endpoints"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 // server is a service supporting privileged support services.

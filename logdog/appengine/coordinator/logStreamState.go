@@ -21,7 +21,7 @@ import (
 	"time"
 
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 // ArchivalState describes the archival state of a LogStream.

@@ -25,18 +25,18 @@ import (
 
 	"google.golang.org/api/googleapi"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/client/downloader"
-	"go.chromium.org/luci/client/internal/common"
-	"go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/lhttp"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/auth/client/authcli"
+	"github.com/TriggerMail/luci-go/client/downloader"
+	"github.com/TriggerMail/luci-go/client/internal/common"
+	"github.com/TriggerMail/luci-go/common/api/swarming/swarming/v1"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/isolated"
+	"github.com/TriggerMail/luci-go/common/isolatedclient"
+	"github.com/TriggerMail/luci-go/common/lhttp"
+	"github.com/TriggerMail/luci-go/common/logging/gologger"
+	"github.com/TriggerMail/luci-go/common/retry"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 )
 
 // triggerResults is a set of results from using the trigger subcommand,

@@ -20,10 +20,10 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/settings"
-	"go.chromium.org/luci/server/templates"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/settings"
+	"github.com/TriggerMail/luci-go/server/templates"
 )
 
 type pageIndexEntry struct {

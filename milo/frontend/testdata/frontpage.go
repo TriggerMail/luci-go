@@ -15,9 +15,9 @@
 package testdata
 
 import (
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/frontend/ui"
-	"go.chromium.org/luci/server/templates"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/milo/frontend/ui"
+	"github.com/TriggerMail/luci-go/server/templates"
 )
 
 func Frontpage() []common.TestBundle {

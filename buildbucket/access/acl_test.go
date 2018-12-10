@@ -21,8 +21,8 @@ import (
 
 	"github.com/golang/protobuf/ptypes/duration"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/access"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/proto/access"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

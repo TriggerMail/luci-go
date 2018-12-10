@@ -23,7 +23,7 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/cipd/version"
+	"github.com/TriggerMail/luci-go/cipd/version"
 )
 
 // Version implement subcommand that prints version of CIPD package that

@@ -23,9 +23,9 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging"
 
-	"go.chromium.org/luci/tokenserver/api"
+	"github.com/TriggerMail/luci-go/tokenserver/api"
 )
 
 // stateInToken is stored in the token file in 'tokend_state' field.

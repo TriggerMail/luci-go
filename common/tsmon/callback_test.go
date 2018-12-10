@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/tsmon/field"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/TriggerMail/luci-go/common/tsmon/field"
+	"github.com/TriggerMail/luci-go/common/tsmon/types"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

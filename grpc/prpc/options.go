@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/common/retry"
+	"github.com/TriggerMail/luci-go/common/retry"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

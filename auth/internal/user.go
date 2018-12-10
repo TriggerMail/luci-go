@@ -21,9 +21,9 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/common/gcloud/googleoauth"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/common/gcloud/googleoauth"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 )
 
 type userAuthTokenProvider struct {

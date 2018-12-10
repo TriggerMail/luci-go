@@ -17,7 +17,7 @@ package main
 import (
 	"context"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // getAgent returns an agent which runs on Mac OS.

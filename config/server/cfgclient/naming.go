@@ -18,7 +18,7 @@ import (
 	"context"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/config"
+	"github.com/TriggerMail/luci-go/config"
 )
 
 // ProjectConfigPath is the path of a project's project-wide configuration file.

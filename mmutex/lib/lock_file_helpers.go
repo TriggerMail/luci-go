@@ -24,8 +24,8 @@ import (
 	"github.com/danjacques/gofslock/fslock"
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // LockFileEnvVariable specifies the directory of the lock file.

@@ -18,7 +18,7 @@ import (
 	"context"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 )
 
 // GenerateTokenID produces an int64 that can be used as a token identifier.

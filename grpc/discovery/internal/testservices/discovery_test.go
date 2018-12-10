@@ -25,8 +25,8 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/common/proto/google/descutil"
-	"go.chromium.org/luci/grpc/discovery"
+	"github.com/TriggerMail/luci-go/common/proto/google/descutil"
+	"github.com/TriggerMail/luci-go/grpc/discovery"
 
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 

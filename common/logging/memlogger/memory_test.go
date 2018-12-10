@@ -22,7 +22,7 @@ import (
 
 	cv "github.com/smartystreets/goconvey/convey"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 func TestLogger(t *testing.T) {

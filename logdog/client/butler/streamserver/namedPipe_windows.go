@@ -18,9 +18,9 @@ import (
 	"context"
 	"net"
 
-	"go.chromium.org/luci/common/errors"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
+	"github.com/TriggerMail/luci-go/common/errors"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamclient"
 
 	"github.com/Microsoft/go-winio"
 )

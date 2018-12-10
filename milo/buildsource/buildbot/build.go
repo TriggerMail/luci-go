@@ -26,15 +26,15 @@ import (
 	"strconv"
 	"time"
 
-	"go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/milo/api/buildbot"
-	"go.chromium.org/luci/milo/buildsource/buildbot/buildstore"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/common/model"
-	"go.chromium.org/luci/milo/frontend/ui"
+	"github.com/TriggerMail/luci-go/buildbucket/proto"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/milo/api/buildbot"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbot/buildstore"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/milo/common/model"
+	"github.com/TriggerMail/luci-go/milo/frontend/ui"
 )
 
 // getBanner parses the OS information from the build and maybe returns a banner.

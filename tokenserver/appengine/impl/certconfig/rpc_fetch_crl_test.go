@@ -23,14 +23,14 @@ import (
 	"testing"
 
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/server/auth"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils"
+	"github.com/TriggerMail/luci-go/tokenserver/api/admin/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/utils"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestFetchCRLRPC(t *testing.T) {

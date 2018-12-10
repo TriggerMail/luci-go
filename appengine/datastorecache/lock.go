@@ -18,7 +18,7 @@ import (
 	"context"
 	"strings"
 
-	"go.chromium.org/luci/appengine/memlock"
+	"github.com/TriggerMail/luci-go/appengine/memlock"
 
 	"go.chromium.org/gae/service/info"
 )

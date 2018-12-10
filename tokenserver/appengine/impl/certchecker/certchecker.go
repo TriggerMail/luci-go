@@ -27,12 +27,12 @@ import (
 
 	ds "go.chromium.org/gae/service/datastore"
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/caching/lazyslot"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/data/caching/lazyslot"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/server/caching"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/certconfig"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/certconfig"
 )
 
 // CN string => *CertChecker.

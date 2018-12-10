@@ -18,9 +18,9 @@ import (
 	"context"
 	"net"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
 )
 
 // ErroringDB implements DB by forbidding all access and returning errors.

@@ -23,7 +23,7 @@ import (
 	"math/rand"
 	"sync"
 
-	"go.chromium.org/luci/server/secrets"
+	"github.com/TriggerMail/luci-go/server/secrets"
 )
 
 // Store implements secrets.Store in the simplest way possible using memory as

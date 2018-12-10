@@ -24,18 +24,18 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/clock/testclock"
-	memcfg "go.chromium.org/luci/config/impl/memory"
-	"go.chromium.org/luci/config/server/cfgclient/backend/testconfig"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	memcfg "github.com/TriggerMail/luci-go/config/impl/memory"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/testconfig"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/authtest"
 
 	"go.chromium.org/gae/impl/memory"
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"go.chromium.org/luci/milo/buildsource/swarming/testdata"
+	"github.com/TriggerMail/luci-go/milo/buildsource/swarming/testdata"
 )
 
 var generate = flag.Bool("test.generate", false, "Generate expectations instead of running tests.")

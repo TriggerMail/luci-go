@@ -3,7 +3,7 @@
 
 package buildbot
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -401,7 +401,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/grpc/prpc/talk/buildbot/proto/buildbot.proto", fileDescriptor_64b66e62512000da)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/grpc/prpc/talk/buildbot/proto/buildbot.proto", fileDescriptor_64b66e62512000da)
 }
 
 var fileDescriptor_64b66e62512000da = []byte{
@@ -568,5 +568,5 @@ var _Buildbot_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/grpc/prpc/talk/buildbot/proto/buildbot.proto",
+	Metadata: "github.com/TriggerMail/luci-go/grpc/prpc/talk/buildbot/proto/buildbot.proto",
 }

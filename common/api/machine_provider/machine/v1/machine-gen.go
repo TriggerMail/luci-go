@@ -16,10 +16,10 @@
 //
 // Usage example:
 //
-//   import "go.chromium.org/luci/common/api/machine_provider/machine/v1"
+//   import "github.com/TriggerMail/luci-go/common/api/machine_provider/machine/v1"
 //   ...
 //   machineService, err := machine.New(oauthHttpClient)
-package machine // import "go.chromium.org/luci/common/api/machine_provider/machine/v1"
+package machine // import "github.com/TriggerMail/luci-go/common/api/machine_provider/machine/v1"
 
 import (
 	"bytes"

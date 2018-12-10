@@ -6,7 +6,7 @@ package config
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	proto1 "go.chromium.org/luci/buildbucket/proto"
+	proto1 "github.com/TriggerMail/luci-go/buildbucket/proto"
 	math "math"
 )
 
@@ -506,7 +506,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/luci_notify/api/config/notify.proto", fileDescriptor_9a6945a7af0ec43b)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/luci_notify/api/config/notify.proto", fileDescriptor_9a6945a7af0ec43b)
 }
 
 var fileDescriptor_9a6945a7af0ec43b = []byte{

@@ -23,16 +23,16 @@ import (
 	"net/http"
 	"time"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/config/validation"
+	"github.com/TriggerMail/luci-go/server/auth"
 
 	"github.com/golang/protobuf/proto"
 	structpb "github.com/golang/protobuf/ptypes/struct"
 
 	"google.golang.org/api/pubsub/v1"
 
-	"go.chromium.org/luci/scheduler/appengine/internal"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/internal"
 )
 
 // Status is status of a single job invocation.

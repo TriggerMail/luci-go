@@ -28,11 +28,11 @@ import (
 	"unicode"
 
 	"github.com/golang/protobuf/proto"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/milo"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/proto/milo"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

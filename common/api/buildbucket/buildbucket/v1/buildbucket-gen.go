@@ -16,10 +16,10 @@
 //
 // Usage example:
 //
-//   import "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
+//   import "github.com/TriggerMail/luci-go/common/api/buildbucket/buildbucket/v1"
 //   ...
 //   buildbucketService, err := buildbucket.New(oauthHttpClient)
-package buildbucket // import "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
+package buildbucket // import "github.com/TriggerMail/luci-go/common/api/buildbucket/buildbucket/v1"
 
 import (
 	"bytes"

@@ -3,7 +3,7 @@
 
 package milo
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -380,7 +380,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/milo/api/proto/buildbot.proto", fileDescriptor_42752ec01fa9d3bf)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/milo/api/proto/buildbot.proto", fileDescriptor_42752ec01fa9d3bf)
 }
 
 var fileDescriptor_42752ec01fa9d3bf = []byte{
@@ -587,5 +587,5 @@ var _Buildbot_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/milo/api/proto/buildbot.proto",
+	Metadata: "github.com/TriggerMail/luci-go/milo/api/proto/buildbot.proto",
 }

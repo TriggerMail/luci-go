@@ -30,14 +30,14 @@ import (
 
 	"cloud.google.com/go/compute/metadata"
 
-	"go.chromium.org/luci/auth"
-	machine "go.chromium.org/luci/common/api/machine_provider/machine/v1"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/logging/teelogger"
-	"go.chromium.org/luci/common/tsmon"
+	"github.com/TriggerMail/luci-go/auth"
+	machine "github.com/TriggerMail/luci-go/common/api/machine_provider/machine/v1"
+	"github.com/TriggerMail/luci-go/common/data/rand/mathrand"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging/gologger"
+	"github.com/TriggerMail/luci-go/common/logging/teelogger"
+	"github.com/TriggerMail/luci-go/common/tsmon"
 )
 
 // Strategy is platform-specific agent implementation. See agent_*.go.

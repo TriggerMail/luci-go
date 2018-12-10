@@ -22,10 +22,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/server/caching"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 var certBlob = `-----BEGIN CERTIFICATE-----

@@ -28,12 +28,12 @@ import (
 	"os"
 	"time"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/logging/gologger"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/auth/client/authcli"
+	"github.com/TriggerMail/luci-go/common/logging/gologger"
 
-	"go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
+	"github.com/TriggerMail/luci-go/common/api/gitiles"
+	"github.com/TriggerMail/luci-go/hardcoded/chromeinfra"
 )
 
 var (

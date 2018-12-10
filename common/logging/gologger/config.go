@@ -22,8 +22,8 @@ import (
 
 	gol "github.com/op/go-logging"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/terminal"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/system/terminal"
 )
 
 // StdFormat is a preferred logging format to use.

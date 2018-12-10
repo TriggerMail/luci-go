@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // Encode is a convenience method for generating a ZLIB-compressed JSON-encoded

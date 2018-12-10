@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"go.chromium.org/luci/examples/appengine/helloworld_standard/proto"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/TriggerMail/luci-go/examples/appengine/helloworld_standard/proto"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
 )
 
 func main() {

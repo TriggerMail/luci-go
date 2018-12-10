@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/logdog/client/butler/streamserver"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/logdog/client/butler/streamserver"
 )
 
 type streamServerURI string

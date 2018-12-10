@@ -19,7 +19,7 @@ import (
 
 	"github.com/maruel/subcommands"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/common/cli"
+	"github.com/TriggerMail/luci-go/common/cli"
 )
 
 func TestFixSubcommands(t *testing.T) {

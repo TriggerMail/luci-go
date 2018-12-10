@@ -16,7 +16,7 @@ package model
 
 import (
 	"go.chromium.org/gae/service/datastore"
-	dm "go.chromium.org/luci/dm/api/service/v1"
+	dm "github.com/TriggerMail/luci-go/dm/api/service/v1"
 )
 
 // AttemptResult holds the raw, compressed json blob returned from the

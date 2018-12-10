@@ -26,13 +26,13 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/auth/client/authcli"
+	"github.com/TriggerMail/luci-go/common/cli"
+	"github.com/TriggerMail/luci-go/common/logging"
 
-	"go.chromium.org/luci/cipd/client/cipd"
-	"go.chromium.org/luci/cipd/client/cipd/deployer"
-	"go.chromium.org/luci/cipd/client/cipd/fs"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/deployer"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/fs"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

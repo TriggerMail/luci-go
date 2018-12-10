@@ -24,13 +24,13 @@ import (
 	"strings"
 	"unicode"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/iotools"
-	"go.chromium.org/luci/common/sync/parallel"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/iotools"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
 
-	"go.chromium.org/luci/cipd/client/cipd/deployer"
-	"go.chromium.org/luci/cipd/client/cipd/template"
-	"go.chromium.org/luci/cipd/common"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/deployer"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/template"
+	"github.com/TriggerMail/luci-go/cipd/common"
 )
 
 // File is an in-process representation of the 'ensure file' format.

@@ -19,10 +19,10 @@ import (
 
 	"github.com/Masterminds/squirrel"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
-	"go.chromium.org/luci/machine-db/appengine/database"
+	"github.com/TriggerMail/luci-go/machine-db/api/crimson/v1"
+	"github.com/TriggerMail/luci-go/machine-db/appengine/database"
 )
 
 // FindVMSlots handles a request to find available VM slots.

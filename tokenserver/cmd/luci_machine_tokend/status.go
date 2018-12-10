@@ -23,13 +23,13 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/common/logging/memlogger"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/TriggerMail/luci-go/common/logging/memlogger"
+	"github.com/TriggerMail/luci-go/common/tsmon"
+	"github.com/TriggerMail/luci-go/common/tsmon/metric"
+	"github.com/TriggerMail/luci-go/common/tsmon/types"
 
-	"go.chromium.org/luci/tokenserver/api"
-	"go.chromium.org/luci/tokenserver/client"
+	"github.com/TriggerMail/luci-go/tokenserver/api"
+	"github.com/TriggerMail/luci-go/tokenserver/client"
 )
 
 // UpdateOutcome describes overall status of tokend token update process.

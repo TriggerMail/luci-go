@@ -26,9 +26,9 @@ import (
 
 	"go.chromium.org/gae/service/taskqueue"
 
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/appengine/tq"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
 )
 
 // GetTestable returns an interface for TQ intended to be used only from tests.

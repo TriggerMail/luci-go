@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/url"
 
-	"go.chromium.org/luci/config"
+	"github.com/TriggerMail/luci-go/config"
 )
 
 // Params are parameters supplied to Backend methods. They are generated
@@ -53,7 +53,7 @@ type B interface {
 type Factory func(context.Context) B
 
 // configBackendKey is the Context key for the configuration backend.
-var configBackendKey = "go.chromium.org/luci/server/config:backend"
+var configBackendKey = "github.com/TriggerMail/luci-go/server/config:backend"
 
 // WithBackend returns a derivative Context with the supplied Backend installed.
 func WithBackend(c context.Context, b B) context.Context {

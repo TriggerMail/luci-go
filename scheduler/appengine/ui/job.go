@@ -25,16 +25,16 @@ import (
 	"time"
 
 	mc "go.chromium.org/gae/service/memcache"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/templates"
 
-	api "go.chromium.org/luci/scheduler/api/scheduler/v1"
-	"go.chromium.org/luci/scheduler/appengine/engine"
-	"go.chromium.org/luci/scheduler/appengine/internal"
+	api "github.com/TriggerMail/luci-go/scheduler/api/scheduler/v1"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/engine"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/internal"
 )
 
 func jobPage(ctx *router.Context) {

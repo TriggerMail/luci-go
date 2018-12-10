@@ -17,8 +17,8 @@ package file
 import (
 	"container/heap"
 
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butler/output"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/client/butler/output"
 )
 
 // stream is the stateful output for a single log stream.

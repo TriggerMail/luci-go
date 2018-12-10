@@ -24,19 +24,19 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go.chromium.org/luci/vpython/api/vpython"
-	"go.chromium.org/luci/vpython/python"
+	"github.com/TriggerMail/luci-go/vpython/api/vpython"
+	"github.com/TriggerMail/luci-go/vpython/python"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/common/system/filesystem"
-	"go.chromium.org/luci/common/testing/testfs"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging/gologger"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
+	"github.com/TriggerMail/luci-go/common/system/environ"
+	"github.com/TriggerMail/luci-go/common/system/filesystem"
+	"github.com/TriggerMail/luci-go/common/testing/testfs"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 var verbose = flag.Bool("test.gologger", false, "Enable Go logging.")

@@ -15,8 +15,8 @@
 package distributor
 
 import (
-	"go.chromium.org/luci/appengine/gaemiddleware"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/appengine/gaemiddleware"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 // InstallHandlers installs the taskqueue callback handler.

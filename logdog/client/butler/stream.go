@@ -18,10 +18,10 @@ import (
 	"context"
 	"io"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/iotools"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/client/butler/bundler"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/iotools"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/logdog/client/butler/bundler"
 )
 
 type stream struct {

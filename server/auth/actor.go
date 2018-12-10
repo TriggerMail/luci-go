@@ -25,12 +25,12 @@ import (
 	"golang.org/x/oauth2"
 	"google.golang.org/api/googleapi"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/jsontime"
-	"go.chromium.org/luci/common/gcloud/iam"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/data/jsontime"
+	"github.com/TriggerMail/luci-go/common/gcloud/iam"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/server/caching"
 )
 
 // MintAccessTokenParams is passed to MintAccessTokenForServiceAccount.

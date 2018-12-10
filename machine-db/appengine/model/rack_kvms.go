@@ -18,11 +18,11 @@ import (
 	"context"
 	"database/sql"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
 
-	"go.chromium.org/luci/machine-db/api/config/v1"
-	"go.chromium.org/luci/machine-db/appengine/database"
+	"github.com/TriggerMail/luci-go/machine-db/api/config/v1"
+	"github.com/TriggerMail/luci-go/machine-db/appengine/database"
 )
 
 // RackKVM represents a kvm_id column in a row in the racks table.

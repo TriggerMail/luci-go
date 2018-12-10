@@ -22,8 +22,8 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/golang/protobuf/ptypes/struct"
 
-	"go.chromium.org/luci/common/bq/testdata"
-	"go.chromium.org/luci/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/bq/testdata"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

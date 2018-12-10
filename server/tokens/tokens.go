@@ -29,8 +29,8 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/server/secrets"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/server/secrets"
 )
 
 // allowedClockDrift is clock drift between machines we can tolerate.

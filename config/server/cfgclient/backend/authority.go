@@ -17,7 +17,7 @@ package backend
 import (
 	"bytes"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // Authority is the authority that is requesting configurations. It can be

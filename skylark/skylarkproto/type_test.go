@@ -20,7 +20,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go.chromium.org/luci/skylark/skylarkproto/testprotos"
+	"github.com/TriggerMail/luci-go/skylark/skylarkproto/testprotos"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

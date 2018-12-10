@@ -19,12 +19,12 @@ import (
 	"errors"
 	"sync"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/tsmon/monitor"
-	"go.chromium.org/luci/common/tsmon/registry"
-	"go.chromium.org/luci/common/tsmon/store"
-	"go.chromium.org/luci/common/tsmon/target"
-	"go.chromium.org/luci/common/tsmon/types"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/tsmon/monitor"
+	"github.com/TriggerMail/luci-go/common/tsmon/registry"
+	"github.com/TriggerMail/luci-go/common/tsmon/store"
+	"github.com/TriggerMail/luci-go/common/tsmon/target"
+	"github.com/TriggerMail/luci-go/common/tsmon/types"
 )
 
 // State holds the configuration of the tsmon library.  There is one global

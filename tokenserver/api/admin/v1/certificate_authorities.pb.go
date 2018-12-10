@@ -3,7 +3,7 @@
 
 package admin
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -546,7 +546,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/tokenserver/api/admin/v1/certificate_authorities.proto", fileDescriptor_10a363ff389b1807)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/tokenserver/api/admin/v1/certificate_authorities.proto", fileDescriptor_10a363ff389b1807)
 }
 
 var fileDescriptor_10a363ff389b1807 = []byte{
@@ -861,5 +861,5 @@ var _CertificateAuthorities_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/tokenserver/api/admin/v1/certificate_authorities.proto",
+	Metadata: "github.com/TriggerMail/luci-go/tokenserver/api/admin/v1/certificate_authorities.proto",
 }

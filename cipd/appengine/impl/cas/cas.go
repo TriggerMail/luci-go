@@ -28,20 +28,20 @@ import (
 	"google.golang.org/grpc/status"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/appengine/tq"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/server/auth"
 
-	api "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/appengine/impl/cas/tasks"
-	"go.chromium.org/luci/cipd/appengine/impl/cas/upload"
-	"go.chromium.org/luci/cipd/appengine/impl/gs"
-	"go.chromium.org/luci/cipd/appengine/impl/settings"
-	"go.chromium.org/luci/cipd/common"
+	api "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/cas/tasks"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/cas/upload"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/gs"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/settings"
+	"github.com/TriggerMail/luci-go/cipd/common"
 )
 
 // readBufferSize is size of a buffer used to read Google Storage files.

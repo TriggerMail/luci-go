@@ -20,13 +20,13 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/data/caching/lru"
-	"go.chromium.org/luci/common/data/jsontime"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/caching/cachingtest"
-	"go.chromium.org/luci/server/caching/layered"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/data/caching/lru"
+	"github.com/TriggerMail/luci-go/common/data/jsontime"
+	"github.com/TriggerMail/luci-go/server/caching"
+	"github.com/TriggerMail/luci-go/server/caching/cachingtest"
+	"github.com/TriggerMail/luci-go/server/caching/layered"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

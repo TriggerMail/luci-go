@@ -24,15 +24,15 @@ import (
 	"go.chromium.org/gae/service/datastore"
 	"go.chromium.org/gae/service/info"
 	"go.chromium.org/gae/service/mail"
-	"go.chromium.org/luci/appengine/tq"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	gitpb "go.chromium.org/luci/common/proto/git"
+	"github.com/TriggerMail/luci-go/appengine/tq"
+	buildbucketpb "github.com/TriggerMail/luci-go/buildbucket/proto"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	gitpb "github.com/TriggerMail/luci-go/common/proto/git"
 
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
-	"go.chromium.org/luci/luci_notify/internal"
+	notifypb "github.com/TriggerMail/luci-go/luci_notify/api/config"
+	"github.com/TriggerMail/luci-go/luci_notify/internal"
 )
 
 // createEmailTasks constructs EmailTasks to be dispatched onto the task queue.

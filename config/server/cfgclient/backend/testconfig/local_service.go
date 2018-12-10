@@ -18,10 +18,10 @@ import (
 	"context"
 	"net/url"
 
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient/access"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
-	"go.chromium.org/luci/config/server/cfgclient/backend/client"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/access"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/client"
 )
 
 // WithCommonClient installs a backend.B into the supplied Context that

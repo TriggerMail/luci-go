@@ -17,10 +17,10 @@ package ensure
 import (
 	"fmt"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 
-	"go.chromium.org/luci/cipd/client/cipd/template"
-	"go.chromium.org/luci/cipd/common"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/template"
+	"github.com/TriggerMail/luci-go/cipd/common"
 )
 
 // PackageDef defines a package line parsed out of an ensure file.

@@ -21,16 +21,16 @@ import (
 	"testing"
 
 	"go.chromium.org/gae/impl/memory"
-	"go.chromium.org/luci/auth/identity"
-	cfglib "go.chromium.org/luci/config"
-	"go.chromium.org/luci/logdog/api/config/svcconfig"
-	"go.chromium.org/luci/logdog/appengine/coordinator/config"
-	"go.chromium.org/luci/logdog/common/types"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	cfglib "github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/logdog/api/config/svcconfig"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator/config"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/authtest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 type testConfigProvider struct {

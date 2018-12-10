@@ -25,11 +25,11 @@ import (
 
 	"go.chromium.org/gae/service/info"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/auth/service"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/server/auth/service"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 const (

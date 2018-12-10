@@ -20,7 +20,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/grpc/prpc/talk/helloworld/proto"
+	"github.com/TriggerMail/luci-go/grpc/prpc/talk/helloworld/proto"
 )
 
 type greeterService struct{}

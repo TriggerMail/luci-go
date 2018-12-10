@@ -33,20 +33,20 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/logging/memlogger"
-	"go.chromium.org/luci/common/logging/teelogger"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/tsmon"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/data/rand/mathrand"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging/gologger"
+	"github.com/TriggerMail/luci-go/common/logging/memlogger"
+	"github.com/TriggerMail/luci-go/common/logging/teelogger"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/retry"
+	"github.com/TriggerMail/luci-go/common/tsmon"
 
-	"go.chromium.org/luci/tokenserver/api"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/api"
+	"github.com/TriggerMail/luci-go/tokenserver/api/minter/v1"
 
-	"go.chromium.org/luci/tokenserver/client"
+	"github.com/TriggerMail/luci-go/tokenserver/client"
 )
 
 // Version identifies the major revision of the tokend code.

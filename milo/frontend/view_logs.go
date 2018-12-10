@@ -5,10 +5,10 @@
 package frontend
 
 import (
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/templates"
 
-	"go.chromium.org/luci/milo/buildsource/swarming"
+	"github.com/TriggerMail/luci-go/milo/buildsource/swarming"
 )
 
 // HandleSwarmingLog renders a step log from a swarming build.

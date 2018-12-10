@@ -3,7 +3,7 @@
 
 package main
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -505,7 +505,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/grpc/cmd/prpc/printer_test.proto", fileDescriptor_93bc88ebfd26a5a0)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/grpc/cmd/prpc/printer_test.proto", fileDescriptor_93bc88ebfd26a5a0)
 }
 
 var fileDescriptor_93bc88ebfd26a5a0 = []byte{
@@ -619,7 +619,7 @@ var _S1_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/grpc/cmd/prpc/printer_test.proto",
+	Metadata: "github.com/TriggerMail/luci-go/grpc/cmd/prpc/printer_test.proto",
 }
 
 // S2Client is the client API for S2 service.
@@ -745,5 +745,5 @@ var _S2_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/grpc/cmd/prpc/printer_test.proto",
+	Metadata: "github.com/TriggerMail/luci-go/grpc/cmd/prpc/printer_test.proto",
 }

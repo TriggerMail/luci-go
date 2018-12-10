@@ -26,12 +26,12 @@ import (
 	"golang.org/x/oauth2"
 	"google.golang.org/grpc/credentials"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/tsmon/metric"
-	"go.chromium.org/luci/server/auth/delegation"
-	"go.chromium.org/luci/server/auth/internal"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/tsmon/metric"
+	"github.com/TriggerMail/luci-go/server/auth/delegation"
+	"github.com/TriggerMail/luci-go/server/auth/internal"
 )
 
 // RPCAuthorityKind defines under whose authority RPCs are made.

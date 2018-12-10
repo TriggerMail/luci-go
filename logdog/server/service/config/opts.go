@@ -18,13 +18,13 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/appengine/datastorecache"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/mutexpool"
-	"go.chromium.org/luci/config/appengine/backend/datastore"
-	"go.chromium.org/luci/config/appengine/gaeconfig"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
-	"go.chromium.org/luci/config/server/cfgclient/backend/caching"
+	"github.com/TriggerMail/luci-go/appengine/datastorecache"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/sync/mutexpool"
+	"github.com/TriggerMail/luci-go/config/appengine/backend/datastore"
+	"github.com/TriggerMail/luci-go/config/appengine/gaeconfig"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/caching"
 )
 
 // CacheOptions is the set of configuration options.

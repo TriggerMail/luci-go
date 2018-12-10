@@ -21,14 +21,14 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/auth/client/authcli"
+	"github.com/TriggerMail/luci-go/common/cli"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging/gologger"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
+	"github.com/TriggerMail/luci-go/machine-db/api/crimson/v1"
 )
 
 // clientKey is the key to the context value withClient uses to store the RPC client.

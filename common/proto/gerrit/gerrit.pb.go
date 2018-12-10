@@ -3,7 +3,7 @@
 
 package gerrit
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -363,7 +363,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/common/proto/gerrit/gerrit.proto", fileDescriptor_3c6e096860f6adc3)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/common/proto/gerrit/gerrit.proto", fileDescriptor_3c6e096860f6adc3)
 }
 
 var fileDescriptor_3c6e096860f6adc3 = []byte{
@@ -495,5 +495,5 @@ var _Gerrit_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/common/proto/gerrit/gerrit.proto",
+	Metadata: "github.com/TriggerMail/luci-go/common/proto/gerrit/gerrit.proto",
 }

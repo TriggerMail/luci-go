@@ -20,7 +20,7 @@ import (
 	"context"
 	"net/url"
 
-	"go.chromium.org/luci/config"
+	"github.com/TriggerMail/luci-go/config"
 )
 
 // New creates a new erroring interface. This interface will always return an

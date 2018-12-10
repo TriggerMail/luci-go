@@ -17,8 +17,8 @@ package archive
 import (
 	"context"
 
-	"go.chromium.org/luci/common/gcloud/gs"
-	"go.chromium.org/luci/logdog/common/storage"
+	"github.com/TriggerMail/luci-go/common/gcloud/gs"
+	"github.com/TriggerMail/luci-go/logdog/common/storage"
 )
 
 // cacheSchema represents the cache schema used by this version of the tail

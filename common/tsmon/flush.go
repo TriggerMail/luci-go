@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 // Flush sends all the metrics that are registered in the application.

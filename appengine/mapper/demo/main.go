@@ -22,12 +22,12 @@ import (
 
 	"go.chromium.org/gae/service/datastore"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/server/router"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/appengine/mapper"
-	"go.chromium.org/luci/appengine/tq"
+	"github.com/TriggerMail/luci-go/appengine/gaemiddleware/standard"
+	"github.com/TriggerMail/luci-go/appengine/mapper"
+	"github.com/TriggerMail/luci-go/appengine/tq"
 )
 
 func makeDumpingMapper(c context.Context, j *mapper.Job, shardIdx int) (mapper.Mapper, error) {

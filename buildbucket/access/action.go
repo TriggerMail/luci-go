@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 type Action uint32

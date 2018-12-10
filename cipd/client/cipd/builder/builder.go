@@ -27,12 +27,12 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/logging"
 
-	"go.chromium.org/luci/cipd/client/cipd/fs"
-	"go.chromium.org/luci/cipd/client/cipd/pkg"
-	"go.chromium.org/luci/cipd/common"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/fs"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/pkg"
+	"github.com/TriggerMail/luci-go/cipd/common"
 )
 
 // Options defines options for BuildInstance function.

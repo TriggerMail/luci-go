@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock"
 )
 
 // IDToken is verified deserialized ID token.

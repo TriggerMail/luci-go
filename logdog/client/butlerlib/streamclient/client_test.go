@@ -20,10 +20,10 @@ import (
 	"io"
 	"testing"
 
-	"go.chromium.org/luci/common/clock/clockflag"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/data/recordio"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/TriggerMail/luci-go/common/clock/clockflag"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/data/recordio"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamproto"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

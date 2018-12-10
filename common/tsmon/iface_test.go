@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"go.chromium.org/luci/common/tsmon/target"
+	"github.com/TriggerMail/luci-go/common/tsmon/target"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

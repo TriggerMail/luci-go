@@ -2,7 +2,7 @@
 
 package buildbucketpb
 
-import discovery "go.chromium.org/luci/grpc/discovery"
+import discovery "github.com/TriggerMail/luci-go/grpc/discovery"
 
 import "github.com/golang/protobuf/protoc-gen-go/descriptor"
 

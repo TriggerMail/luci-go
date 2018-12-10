@@ -20,18 +20,18 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/grpcmon"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/appengine/gaemiddleware/standard"
+	"github.com/TriggerMail/luci-go/common/data/rand/mathrand"
+	"github.com/TriggerMail/luci-go/grpc/discovery"
+	"github.com/TriggerMail/luci-go/grpc/grpcmon"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
+	"github.com/TriggerMail/luci-go/server/router"
 
-	"go.chromium.org/luci/machine-db/api/crimson/v1"
-	"go.chromium.org/luci/machine-db/appengine/config"
-	"go.chromium.org/luci/machine-db/appengine/database"
-	"go.chromium.org/luci/machine-db/appengine/rpc"
-	"go.chromium.org/luci/machine-db/appengine/ui"
+	"github.com/TriggerMail/luci-go/machine-db/api/crimson/v1"
+	"github.com/TriggerMail/luci-go/machine-db/appengine/config"
+	"github.com/TriggerMail/luci-go/machine-db/appengine/database"
+	"github.com/TriggerMail/luci-go/machine-db/appengine/rpc"
+	"github.com/TriggerMail/luci-go/machine-db/appengine/ui"
 )
 
 func init() {

@@ -17,16 +17,16 @@ package frontend
 import (
 	"net/http"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/dm/appengine/deps"
-	"go.chromium.org/luci/dm/appengine/distributor"
-	"go.chromium.org/luci/dm/appengine/distributor/jobsim"
-	"go.chromium.org/luci/dm/appengine/distributor/swarming/v1"
-	"go.chromium.org/luci/dm/appengine/mutate"
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/tumble"
+	"github.com/TriggerMail/luci-go/appengine/gaemiddleware/standard"
+	"github.com/TriggerMail/luci-go/dm/appengine/deps"
+	"github.com/TriggerMail/luci-go/dm/appengine/distributor"
+	"github.com/TriggerMail/luci-go/dm/appengine/distributor/jobsim"
+	"github.com/TriggerMail/luci-go/dm/appengine/distributor/swarming/v1"
+	"github.com/TriggerMail/luci-go/dm/appengine/mutate"
+	"github.com/TriggerMail/luci-go/grpc/discovery"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/tumble"
 )
 
 func init() {

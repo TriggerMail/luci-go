@@ -15,7 +15,7 @@
 package auth
 
 import (
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 // Authenticate returns a middleware that performs authentication.

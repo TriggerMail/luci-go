@@ -20,8 +20,8 @@ import (
 	ds "go.chromium.org/gae/service/datastore"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/memlogger"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging/memlogger"
 )
 
 func TestAddToJournal(t *testing.T) {

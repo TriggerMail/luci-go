@@ -22,10 +22,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.chromium.org/luci/common/iotools"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/runtime/paniccatcher"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/TriggerMail/luci-go/common/iotools"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/runtime/paniccatcher"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamproto"
 )
 
 // streamParams are parameters representing a negotiated stream ready to

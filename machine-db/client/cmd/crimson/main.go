@@ -18,10 +18,10 @@ package main
 import (
 	"os"
 
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/hardcoded/chromeinfra"
+	"github.com/TriggerMail/luci-go/common/data/rand/mathrand"
+	"github.com/TriggerMail/luci-go/hardcoded/chromeinfra"
 
-	"go.chromium.org/luci/machine-db/client/cli"
+	"github.com/TriggerMail/luci-go/machine-db/client/cli"
 )
 
 func main() {

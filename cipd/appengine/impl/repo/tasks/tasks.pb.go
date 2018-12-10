@@ -6,7 +6,7 @@ package tasks
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	v1 "go.chromium.org/luci/cipd/api/cipd/v1"
+	v1 "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
 	math "math"
 )
 
@@ -66,7 +66,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/cipd/appengine/impl/repo/tasks/tasks.proto", fileDescriptor_d2aa67c95ad0b65e)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/cipd/appengine/impl/repo/tasks/tasks.proto", fileDescriptor_d2aa67c95ad0b65e)
 }
 
 var fileDescriptor_d2aa67c95ad0b65e = []byte{

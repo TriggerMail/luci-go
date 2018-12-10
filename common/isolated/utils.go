@@ -20,7 +20,7 @@ import (
 	"io"
 	"os"
 
-	"go.chromium.org/luci/common/api/isolate/isolateservice/v1"
+	"github.com/TriggerMail/luci-go/common/api/isolate/isolateservice/v1"
 )
 
 // Sum is a shortcut to get a HexDigest from a hash.Hash.

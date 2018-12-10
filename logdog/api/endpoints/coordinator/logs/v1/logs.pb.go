@@ -3,14 +3,14 @@
 
 package logdog
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	logpb "go.chromium.org/luci/logdog/api/logpb"
+	logpb "github.com/TriggerMail/luci-go/logdog/api/logpb"
 	context "golang.org/x/net/context"
 	grpc "google.golang.org/grpc"
 	math "math"
@@ -847,7 +847,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1/logs.proto", fileDescriptor_fc34668f0f01b99d)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/logs/v1/logs.proto", fileDescriptor_fc34668f0f01b99d)
 }
 
 var fileDescriptor_fc34668f0f01b99d = []byte{
@@ -1086,5 +1086,5 @@ var _Logs_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1/logs.proto",
+	Metadata: "github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/logs/v1/logs.proto",
 }

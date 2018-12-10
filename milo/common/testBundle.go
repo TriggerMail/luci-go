@@ -17,7 +17,7 @@
 package common
 
 import (
-	"go.chromium.org/luci/server/templates"
+	"github.com/TriggerMail/luci-go/server/templates"
 )
 
 // TestBundle is a template arg associated with a description used for testing.

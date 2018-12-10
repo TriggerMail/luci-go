@@ -21,18 +21,18 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	"go.chromium.org/gae/impl/memory"
-	miloProto "go.chromium.org/luci/common/proto/milo"
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1/fakelogs"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
-	"go.chromium.org/luci/logdog/common/types"
-	"go.chromium.org/luci/milo/api/buildbot"
-	milo "go.chromium.org/luci/milo/api/proto"
-	"go.chromium.org/luci/milo/buildsource/buildbot/buildstore"
-	"go.chromium.org/luci/milo/buildsource/rawpresentation"
-	"go.chromium.org/luci/server/caching"
+	miloProto "github.com/TriggerMail/luci-go/common/proto/milo"
+	"github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/logs/v1/fakelogs"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamproto"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
+	"github.com/TriggerMail/luci-go/milo/api/buildbot"
+	milo "github.com/TriggerMail/luci-go/milo/api/proto"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbot/buildstore"
+	"github.com/TriggerMail/luci-go/milo/buildsource/rawpresentation"
+	"github.com/TriggerMail/luci-go/server/caching"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func writeDatagram(c *fakelogs.Client, prefix, path types.StreamName, msg proto.Message) {

@@ -19,10 +19,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/templates"
 
-	"go.chromium.org/luci/scheduler/appengine/engine"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/engine"
 )
 
 func invocationPage(c *router.Context) {

@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 func TestFakeState(t *testing.T) {

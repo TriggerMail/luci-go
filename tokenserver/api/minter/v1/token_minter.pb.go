@@ -3,14 +3,14 @@
 
 package minter
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	messages "go.chromium.org/luci/server/auth/delegation/messages"
-	api "go.chromium.org/luci/tokenserver/api"
+	messages "github.com/TriggerMail/luci-go/server/auth/delegation/messages"
+	api "github.com/TriggerMail/luci-go/tokenserver/api"
 	context "golang.org/x/net/context"
 	grpc "google.golang.org/grpc"
 	math "math"
@@ -999,7 +999,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/tokenserver/api/minter/v1/token_minter.proto", fileDescriptor_f6e01e20f1811b60)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/tokenserver/api/minter/v1/token_minter.proto", fileDescriptor_f6e01e20f1811b60)
 }
 
 var fileDescriptor_f6e01e20f1811b60 = []byte{
@@ -1410,5 +1410,5 @@ var _TokenMinter_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/tokenserver/api/minter/v1/token_minter.proto",
+	Metadata: "github.com/TriggerMail/luci-go/tokenserver/api/minter/v1/token_minter.proto",
 }

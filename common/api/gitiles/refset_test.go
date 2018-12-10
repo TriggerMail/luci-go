@@ -20,9 +20,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/proto/gitiles"
-	"go.chromium.org/luci/config/validation"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/proto/gitiles"
+	"github.com/TriggerMail/luci-go/config/validation"
 )
 
 func TestRefSet(t *testing.T) {

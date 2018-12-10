@@ -18,11 +18,11 @@ import (
 	"testing"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/memlogger"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging/memlogger"
 
-	api "go.chromium.org/luci/cipd/api/admin/v1"
-	"go.chromium.org/luci/cipd/appengine/impl/model"
+	api "github.com/TriggerMail/luci-go/cipd/api/admin/v1"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

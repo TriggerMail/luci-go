@@ -18,11 +18,11 @@ import (
 	"context"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config/appengine/gaeconfig"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
-	"go.chromium.org/luci/logdog/appengine/coordinator/endpoints"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/config/appengine/gaeconfig"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator/endpoints"
 )
 
 // GetConfig allows a service to retrieve the current service configuration

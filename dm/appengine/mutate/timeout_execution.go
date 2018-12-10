@@ -20,13 +20,13 @@ import (
 	"time"
 
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/distributor"
-	"go.chromium.org/luci/dm/appengine/model"
-	"go.chromium.org/luci/tumble"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	dm "github.com/TriggerMail/luci-go/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/dm/appengine/distributor"
+	"github.com/TriggerMail/luci-go/dm/appengine/model"
+	"github.com/TriggerMail/luci-go/tumble"
 )
 
 // TimeoutExecution is a named mutation which triggers on a delay. If the

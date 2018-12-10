@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/buildbucket/proto"
-	v1 "go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
-	"go.chromium.org/luci/common/data/strpair"
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/buildbucket/proto"
+	v1 "github.com/TriggerMail/luci-go/common/api/buildbucket/buildbucket/v1"
+	"github.com/TriggerMail/luci-go/common/data/strpair"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // Build is a buildbucket build.
@@ -76,7 +76,7 @@ type Build struct {
 // If b has a number, the address is "<bucket>/<builder>/<number>".
 // Otherwise it is "<id>".
 //
-// See also "go.chromium.org/luci/common/api/buildbucket/v1".FormatBuildAddress.
+// See also "github.com/TriggerMail/luci-go/common/api/buildbucket/v1".FormatBuildAddress.
 func (b *Build) Address() string {
 	num := 0
 	if b.Number != nil {

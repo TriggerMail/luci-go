@@ -20,16 +20,16 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/logging"
-	miloProto "go.chromium.org/luci/common/proto/milo"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/logdog/common/types"
-	"go.chromium.org/luci/milo/api/buildbot"
-	milo "go.chromium.org/luci/milo/api/proto"
-	"go.chromium.org/luci/milo/buildsource/buildbot/buildstore"
-	"go.chromium.org/luci/milo/buildsource/rawpresentation"
-	"go.chromium.org/luci/milo/common"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/logging"
+	miloProto "github.com/TriggerMail/luci-go/common/proto/milo"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
+	"github.com/TriggerMail/luci-go/milo/api/buildbot"
+	milo "github.com/TriggerMail/luci-go/milo/api/proto"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbot/buildstore"
+	"github.com/TriggerMail/luci-go/milo/buildsource/rawpresentation"
+	"github.com/TriggerMail/luci-go/milo/common"
 )
 
 // GetBuildInfo resolves a Milo protobuf Step for a given BuildBot build.

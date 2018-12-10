@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"net"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth/service/protocol"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/server/auth/service/protocol"
 )
 
 // validateAuthDB returns nil if AuthDB looks correct.

@@ -17,14 +17,14 @@ package module
 import (
 	"net/http"
 
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/logdog/appengine/coordinator/endpoints"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/tumble"
+	"github.com/TriggerMail/luci-go/appengine/gaemiddleware/standard"
+	"github.com/TriggerMail/luci-go/logdog/appengine/coordinator/endpoints"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/tumble"
 
 	// Include mutations package so its Mutations will register with tumble via
 	// init().
-	_ "go.chromium.org/luci/logdog/appengine/coordinator/mutations"
+	_ "github.com/TriggerMail/luci-go/logdog/appengine/coordinator/mutations"
 )
 
 func init() {

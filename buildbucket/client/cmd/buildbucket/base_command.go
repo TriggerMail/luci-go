@@ -24,12 +24,12 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/client/authcli"
-	"go.chromium.org/luci/common/api/buildbucket/buildbucket/v1"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/auth/client/authcli"
+	"github.com/TriggerMail/luci-go/common/api/buildbucket/buildbucket/v1"
 
-	"go.chromium.org/luci/common/lhttp"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/lhttp"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 type baseCommandRun struct {

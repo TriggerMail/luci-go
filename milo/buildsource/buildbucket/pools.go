@@ -21,17 +21,17 @@ import (
 	"time"
 
 	"go.chromium.org/gae/service/datastore"
-	swarmbucketAPI "go.chromium.org/luci/common/api/buildbucket/swarmbucket/v1"
-	swarmingAPI "go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/milo/buildsource/swarming"
-	"go.chromium.org/luci/milo/common/model"
-	"go.chromium.org/luci/milo/frontend/ui"
-	"go.chromium.org/luci/server/auth"
+	swarmbucketAPI "github.com/TriggerMail/luci-go/common/api/buildbucket/swarmbucket/v1"
+	swarmingAPI "github.com/TriggerMail/luci-go/common/api/swarming/swarming/v1"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
+	"github.com/TriggerMail/luci-go/milo/buildsource/swarming"
+	"github.com/TriggerMail/luci-go/milo/common/model"
+	"github.com/TriggerMail/luci-go/milo/frontend/ui"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 func getPool(c context.Context, bid BuilderID) (*ui.MachinePool, error) {

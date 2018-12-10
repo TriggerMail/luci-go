@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"go.chromium.org/luci/scheduler/appengine/schedule"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/schedule"
 )
 
 // State stores serializable state of the cron machine.

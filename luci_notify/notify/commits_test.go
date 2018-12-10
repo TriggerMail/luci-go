@@ -18,14 +18,14 @@ import (
 	"context"
 	"testing"
 
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/data/stringset"
-	gitpb "go.chromium.org/luci/common/proto/git"
+	buildbucketpb "github.com/TriggerMail/luci-go/buildbucket/proto"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	gitpb "github.com/TriggerMail/luci-go/common/proto/git"
 
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
+	notifypb "github.com/TriggerMail/luci-go/luci_notify/api/config"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 var (

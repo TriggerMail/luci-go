@@ -26,20 +26,20 @@ import (
 	"github.com/maruel/subcommands"
 	"github.com/mitchellh/go-homedir"
 
-	"go.chromium.org/luci/vpython"
-	vpythonAPI "go.chromium.org/luci/vpython/api/vpython"
-	"go.chromium.org/luci/vpython/python"
-	"go.chromium.org/luci/vpython/spec"
-	"go.chromium.org/luci/vpython/venv"
+	"github.com/TriggerMail/luci-go/vpython"
+	vpythonAPI "github.com/TriggerMail/luci-go/vpython/api/vpython"
+	"github.com/TriggerMail/luci-go/vpython/python"
+	"github.com/TriggerMail/luci-go/vpython/spec"
+	"github.com/TriggerMail/luci-go/vpython/venv"
 
-	cipdVersion "go.chromium.org/luci/cipd/version"
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/common/system/filesystem"
-	"go.chromium.org/luci/common/system/prober"
+	cipdVersion "github.com/TriggerMail/luci-go/cipd/version"
+	"github.com/TriggerMail/luci-go/common/cli"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging/gologger"
+	"github.com/TriggerMail/luci-go/common/system/environ"
+	"github.com/TriggerMail/luci-go/common/system/filesystem"
+	"github.com/TriggerMail/luci-go/common/system/prober"
 )
 
 const (
@@ -106,7 +106,7 @@ type Config struct {
 	// that include both the wrapper and a real implementation, to force the
 	// wrapper to use the bundled implementation if present.
 	//
-	// See "go.chromium.org/luci/common/wrapper/prober.Probe"'s
+	// See "github.com/TriggerMail/luci-go/common/wrapper/prober.Probe"'s
 	// RelativePathOverride member for more information.
 	RelativePathOverride []string
 

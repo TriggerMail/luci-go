@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/milo/common/model"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/milo/common/model"
 )
 
 // BuildSummary is a summary of a build, with just enough information for display

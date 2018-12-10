@@ -20,9 +20,9 @@ import (
 
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/templates"
 )
 
 // renderErr is a handler wrapper converts gRPC errors into HTML pages.

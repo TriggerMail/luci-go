@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 // FileSystem abstracts operations that touch single file system subpath.

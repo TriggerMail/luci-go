@@ -158,7 +158,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/common/tsmon/ts_mon_proto/acquisition_task.proto", fileDescriptor_c9556040af6e102a)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/common/tsmon/ts_mon_proto/acquisition_task.proto", fileDescriptor_c9556040af6e102a)
 }
 
 var fileDescriptor_c9556040af6e102a = []byte{

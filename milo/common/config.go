@@ -26,23 +26,23 @@ import (
 	"go.chromium.org/gae/service/datastore"
 	"go.chromium.org/gae/service/info"
 
-	"go.chromium.org/luci/buildbucket/access"
-	"go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	configInterface "go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/buildbucket/access"
+	"github.com/TriggerMail/luci-go/common/api/gitiles"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	configInterface "github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/config/validation"
+	"github.com/TriggerMail/luci-go/server/caching"
 
-	"go.chromium.org/luci/milo/api/config"
-	"go.chromium.org/luci/milo/git/gitacls"
+	"github.com/TriggerMail/luci-go/milo/api/config"
+	"github.com/TriggerMail/luci-go/milo/git/gitacls"
 
 	// Register "${appid}" placeholder for config validation rules.
-	_ "go.chromium.org/luci/config/appengine/gaeconfig"
+	_ "github.com/TriggerMail/luci-go/config/appengine/gaeconfig"
 )
 
 // Project is a datastore entity representing a single project.  Its children

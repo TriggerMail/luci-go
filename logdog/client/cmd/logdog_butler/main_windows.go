@@ -18,7 +18,7 @@ import (
 	"context"
 	"os"
 
-	"go.chromium.org/luci/logdog/client/butler/streamserver"
+	"github.com/TriggerMail/luci-go/logdog/client/butler/streamserver"
 )
 
 var platformStreamServerExamples = []string{

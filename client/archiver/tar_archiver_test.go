@@ -23,7 +23,7 @@ import (
 	"testing"
 	"testing/iotest"
 
-	"go.chromium.org/luci/common/isolated"
+	"github.com/TriggerMail/luci-go/common/isolated"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

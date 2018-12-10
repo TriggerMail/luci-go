@@ -28,11 +28,11 @@ import (
 	"cloud.google.com/go/bigquery"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/appengine/gaemiddleware/standard"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/server/router"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/bqlog"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/utils/bqlog"
 )
 
 var goatTeleportations = bqlog.Log{

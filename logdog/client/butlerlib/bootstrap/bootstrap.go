@@ -17,11 +17,11 @@ package bootstrap
 import (
 	"fmt"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamclient"
-	"go.chromium.org/luci/logdog/common/types"
-	"go.chromium.org/luci/logdog/common/viewer"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/system/environ"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamclient"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
+	"github.com/TriggerMail/luci-go/logdog/common/viewer"
 )
 
 // ErrNotBootstrapped is returned by Get when the current process is not

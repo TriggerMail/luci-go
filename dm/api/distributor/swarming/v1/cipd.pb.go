@@ -178,7 +178,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/dm/api/distributor/swarming/v1/cipd.proto", fileDescriptor_d6ef6bc8018ba385)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/dm/api/distributor/swarming/v1/cipd.proto", fileDescriptor_d6ef6bc8018ba385)
 }
 
 var fileDescriptor_d6ef6bc8018ba385 = []byte{

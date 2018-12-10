@@ -14,7 +14,7 @@
 
 package ui
 
-import "go.chromium.org/luci/milo/common"
+import "github.com/TriggerMail/luci-go/milo/common"
 
 type Frontpage struct {
 	Projects []common.Project

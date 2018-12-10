@@ -10,14 +10,14 @@ import (
 	"sort"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/sync/parallel"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
 
-	"go.chromium.org/luci/milo/buildsource/buildbot"
-	"go.chromium.org/luci/milo/buildsource/buildbucket"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/common/model"
-	"go.chromium.org/luci/milo/frontend/ui"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbot"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbucket"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/milo/common/model"
+	"github.com/TriggerMail/luci-go/milo/frontend/ui"
 )
 
 // BuilderID is the universal ID of a builder, and has the form:

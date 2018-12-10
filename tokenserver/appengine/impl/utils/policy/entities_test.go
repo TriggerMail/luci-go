@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

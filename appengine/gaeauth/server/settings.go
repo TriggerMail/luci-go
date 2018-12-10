@@ -23,8 +23,8 @@ import (
 	"strings"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/appengine/gaeauth/server/internal/authdbimpl"
-	"go.chromium.org/luci/server/portal"
+	"github.com/TriggerMail/luci-go/appengine/gaeauth/server/internal/authdbimpl"
+	"github.com/TriggerMail/luci-go/server/portal"
 )
 
 type settingsPage struct {

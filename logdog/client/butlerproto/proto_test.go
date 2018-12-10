@@ -21,9 +21,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/common/data/recordio"
-	"go.chromium.org/luci/common/testing/assertions"
-	"go.chromium.org/luci/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/common/data/recordio"
+	"github.com/TriggerMail/luci-go/common/testing/assertions"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
 )
 
 func read(ir io.Reader) (*Reader, error) {

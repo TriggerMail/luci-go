@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/vpython/api/vpython"
+	"github.com/TriggerMail/luci-go/vpython/api/vpython"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -18,15 +18,15 @@ import (
 	"context"
 	"os"
 
-	"go.chromium.org/luci/vpython/api/vpython"
-	"go.chromium.org/luci/vpython/python"
-	"go.chromium.org/luci/vpython/spec"
-	"go.chromium.org/luci/vpython/venv"
+	"github.com/TriggerMail/luci-go/vpython/api/vpython"
+	"github.com/TriggerMail/luci-go/vpython/python"
+	"github.com/TriggerMail/luci-go/vpython/spec"
+	"github.com/TriggerMail/luci-go/vpython/venv"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/environ"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/system/environ"
+	"github.com/TriggerMail/luci-go/common/system/filesystem"
 )
 
 // IsUserError is tagged into errors caused by bad user inputs (e.g. modules or

@@ -3,7 +3,7 @@
 
 package scheduler
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -666,7 +666,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/scheduler/api/scheduler/v1/scheduler.proto", fileDescriptor_e96332fbbddc17fa)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/scheduler/api/scheduler/v1/scheduler.proto", fileDescriptor_e96332fbbddc17fa)
 }
 
 var fileDescriptor_e96332fbbddc17fa = []byte{
@@ -1186,5 +1186,5 @@ var _Scheduler_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/scheduler/api/scheduler/v1/scheduler.proto",
+	Metadata: "github.com/TriggerMail/luci-go/scheduler/api/scheduler/v1/scheduler.proto",
 }

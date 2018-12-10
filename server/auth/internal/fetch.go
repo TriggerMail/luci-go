@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 
 	"golang.org/x/net/context/ctxhttp"
 )

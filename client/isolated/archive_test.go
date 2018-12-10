@@ -25,10 +25,10 @@ import (
 	"runtime"
 	"testing"
 
-	"go.chromium.org/luci/client/archiver"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/isolatedclient/isolatedfake"
+	"github.com/TriggerMail/luci-go/client/archiver"
+	"github.com/TriggerMail/luci-go/common/isolated"
+	"github.com/TriggerMail/luci-go/common/isolatedclient"
+	"github.com/TriggerMail/luci-go/common/isolatedclient/isolatedfake"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

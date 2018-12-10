@@ -18,11 +18,11 @@ import (
 	"context"
 	"fmt"
 
-	"go.chromium.org/luci/common/data/text/templateproto"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient"
-	"go.chromium.org/luci/config/server/cfgclient/textproto"
-	dm "go.chromium.org/luci/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/common/data/text/templateproto"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/textproto"
+	dm "github.com/TriggerMail/luci-go/dm/api/service/v1"
 )
 
 // LoadFile loads a File by configSet and path.

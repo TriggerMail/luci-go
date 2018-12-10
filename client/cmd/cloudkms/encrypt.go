@@ -23,10 +23,10 @@ import (
 
 	cloudkms "google.golang.org/api/cloudkms/v1"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 )
 
 func doEncrypt(ctx context.Context, service *cloudkms.Service, input []byte, keyPath string) ([]byte, error) {

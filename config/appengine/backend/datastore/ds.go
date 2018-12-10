@@ -18,14 +18,14 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/appengine/datastorecache"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient/access"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
-	"go.chromium.org/luci/config/server/cfgclient/backend/caching"
+	"github.com/TriggerMail/luci-go/appengine/datastorecache"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/access"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/caching"
 )
 
 const (
@@ -35,7 +35,7 @@ const (
 	RPCDeadline = 10 * time.Minute
 )
 
-var dsHandlerKey = "go.chromium.org/luci/appengine/gaeconfig.dsHandlerKey"
+var dsHandlerKey = "github.com/TriggerMail/luci-go/appengine/gaeconfig.dsHandlerKey"
 
 func getCacheHandler(c context.Context) datastorecache.Handler {
 	v, _ := c.Value(&dsHandlerKey).(datastorecache.Handler)
@@ -46,7 +46,7 @@ func getCacheHandler(c context.Context) datastorecache.Handler {
 // generator function is used by the cache manager task to get a Handler
 // instance during refresh.
 var Cache = datastorecache.Cache{
-	Name:                 "go.chromium.org/luci/appengine/gaeconfig",
+	Name:                 "github.com/TriggerMail/luci-go/appengine/gaeconfig",
 	AccessUpdateInterval: 24 * time.Hour,
 	PruneFactor:          4,
 	Parallel:             16,

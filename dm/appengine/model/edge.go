@@ -18,7 +18,7 @@ import (
 	"context"
 
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/dm/api/service/v1"
 )
 
 // FwdEdge represents a forward-dependency from one attempt to another. The

@@ -31,14 +31,14 @@ import (
 	"text/template"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/sync/parallel"
+	"github.com/TriggerMail/luci-go/common/clock"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
 )
 
 const (
-	defaultPackageBase = "go.chromium.org/luci/common/api"
+	defaultPackageBase = "github.com/TriggerMail/luci-go/common/api"
 
 	// chromiumLicence is the standard Chromium license header.
 	chromiumLicense = `` +

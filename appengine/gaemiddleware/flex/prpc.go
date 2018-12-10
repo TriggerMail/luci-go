@@ -15,10 +15,10 @@
 package flex
 
 import (
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
+	"github.com/TriggerMail/luci-go/server/auth"
 
-	"go.chromium.org/luci/appengine/gaeauth/server"
+	"github.com/TriggerMail/luci-go/appengine/gaeauth/server"
 )
 
 func init() {

@@ -35,7 +35,7 @@ import (
 	"go/token"
 
 	"github.com/yosuke-furukawa/json5/encoding/json5"
-	"go.chromium.org/luci/common/isolated"
+	"github.com/TriggerMail/luci-go/common/isolated"
 )
 
 var osPathSeparator = string(os.PathSeparator)

@@ -17,7 +17,7 @@ package testfs
 import (
 	"testing"
 
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/TriggerMail/luci-go/common/system/filesystem"
 )
 
 // WithTempDir creates a temporary directory and passes it to fn. After fn

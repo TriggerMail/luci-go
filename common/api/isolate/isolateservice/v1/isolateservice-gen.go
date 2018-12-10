@@ -16,10 +16,10 @@
 //
 // Usage example:
 //
-//   import "go.chromium.org/luci/common/api/isolate/isolateservice/v1"
+//   import "github.com/TriggerMail/luci-go/common/api/isolate/isolateservice/v1"
 //   ...
 //   isolateserviceService, err := isolateservice.New(oauthHttpClient)
-package isolateservice // import "go.chromium.org/luci/common/api/isolate/isolateservice/v1"
+package isolateservice // import "github.com/TriggerMail/luci-go/common/api/isolate/isolateservice/v1"
 
 import (
 	"bytes"

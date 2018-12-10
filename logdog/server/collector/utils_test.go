@@ -25,13 +25,13 @@ import (
 	"strings"
 	"sync"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butlerproto"
-	"go.chromium.org/luci/logdog/common/storage"
-	"go.chromium.org/luci/logdog/common/types"
-	cc "go.chromium.org/luci/logdog/server/collector/coordinator"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerproto"
+	"github.com/TriggerMail/luci-go/logdog/common/storage"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
+	cc "github.com/TriggerMail/luci-go/logdog/server/collector/coordinator"
 )
 
 var testSecret = bytes.Repeat([]byte{0x55}, types.PrefixSecretLength)

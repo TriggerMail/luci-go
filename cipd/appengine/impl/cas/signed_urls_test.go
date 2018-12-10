@@ -22,13 +22,13 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/cipd/appengine/impl/testutil"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl/testutil"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/server/caching"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestGetSignedURL(t *testing.T) {

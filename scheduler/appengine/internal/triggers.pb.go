@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	v1 "go.chromium.org/luci/scheduler/api/scheduler/v1"
+	v1 "github.com/TriggerMail/luci-go/scheduler/api/scheduler/v1"
 	math "math"
 )
 
@@ -432,7 +432,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/scheduler/appengine/internal/triggers.proto", fileDescriptor_c2ad71048335c7d0)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/scheduler/appengine/internal/triggers.proto", fileDescriptor_c2ad71048335c7d0)
 }
 
 var fileDescriptor_c2ad71048335c7d0 = []byte{

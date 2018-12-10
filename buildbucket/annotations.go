@@ -23,11 +23,11 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/timestamp"
 
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	annotpb "go.chromium.org/luci/common/proto/milo"
-	"go.chromium.org/luci/logdog/common/types"
+	buildbucketpb "github.com/TriggerMail/luci-go/buildbucket/proto"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	annotpb "github.com/TriggerMail/luci-go/common/proto/milo"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 // This code converts annotation steps to Buildbucket v2 steps.

@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	"go.chromium.org/gae/impl/memory"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/secrets"
+	"github.com/TriggerMail/luci-go/server/caching"
+	"github.com/TriggerMail/luci-go/server/secrets"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

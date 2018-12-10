@@ -35,7 +35,7 @@ import (
 	"reflect"
 	"sync"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // EnvKey is the environment variable key for the LUCI_CONTEXT file.

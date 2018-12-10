@@ -6,7 +6,7 @@ package internal
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	milo "go.chromium.org/luci/common/proto/milo"
+	milo "github.com/TriggerMail/luci-go/common/proto/milo"
 	math "math"
 )
 
@@ -77,7 +77,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/milo/buildsource/rawpresentation/internal/stream.proto", fileDescriptor_cb0610adfc09d59c)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/milo/buildsource/rawpresentation/internal/stream.proto", fileDescriptor_cb0610adfc09d59c)
 }
 
 var fileDescriptor_cb0610adfc09d59c = []byte{

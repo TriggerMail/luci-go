@@ -19,19 +19,19 @@ package frontend
 import (
 	"net/http"
 
-	"go.chromium.org/luci/appengine/gaeauth/server"
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/grpc/discovery"
-	"go.chromium.org/luci/grpc/grpcmon"
-	"go.chromium.org/luci/grpc/grpcutil"
-	"go.chromium.org/luci/grpc/prpc"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/appengine/gaeauth/server"
+	"github.com/TriggerMail/luci-go/appengine/gaemiddleware/standard"
+	"github.com/TriggerMail/luci-go/grpc/discovery"
+	"github.com/TriggerMail/luci-go/grpc/grpcmon"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/router"
 
-	adminapi "go.chromium.org/luci/cipd/api/admin/v1"
-	pubapi "go.chromium.org/luci/cipd/api/cipd/v1"
-	"go.chromium.org/luci/cipd/appengine/impl"
-	"go.chromium.org/luci/cipd/appengine/ui"
+	adminapi "github.com/TriggerMail/luci-go/cipd/api/admin/v1"
+	pubapi "github.com/TriggerMail/luci-go/cipd/api/cipd/v1"
+	"github.com/TriggerMail/luci-go/cipd/appengine/impl"
+	"github.com/TriggerMail/luci-go/cipd/appengine/ui"
 )
 
 func init() {

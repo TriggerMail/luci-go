@@ -18,10 +18,10 @@ import (
 	"bytes"
 	"testing"
 
-	"go.chromium.org/luci/cipd/client/cipd/template"
+	"github.com/TriggerMail/luci-go/cipd/client/cipd/template"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 var badEnsureFiles = []struct {

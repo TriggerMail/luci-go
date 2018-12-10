@@ -18,10 +18,10 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/common/testing/prpctest"
+	"github.com/TriggerMail/luci-go/common/testing/prpctest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 type service struct {

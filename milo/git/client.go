@@ -32,16 +32,16 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/api/gerrit"
-	"go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/errors"
-	gerritpb "go.chromium.org/luci/common/proto/gerrit"
-	gitpb "go.chromium.org/luci/common/proto/git"
-	gitilespb "go.chromium.org/luci/common/proto/gitiles"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/git/gitacls"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/api/gerrit"
+	"github.com/TriggerMail/luci-go/common/api/gitiles"
+	"github.com/TriggerMail/luci-go/common/errors"
+	gerritpb "github.com/TriggerMail/luci-go/common/proto/gerrit"
+	gitpb "github.com/TriggerMail/luci-go/common/proto/git"
+	gitilespb "github.com/TriggerMail/luci-go/common/proto/gitiles"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/milo/git/gitacls"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // Client provides high level API for Git/Gerrit data.

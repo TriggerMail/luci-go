@@ -22,9 +22,9 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/api/gerrit"
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/common/api/gerrit"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 type apiCallInput struct {

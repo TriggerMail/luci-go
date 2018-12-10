@@ -20,10 +20,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	structpb "github.com/golang/protobuf/ptypes/struct"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 
-	"go.chromium.org/luci/scheduler/appengine/task"
-	"go.chromium.org/luci/scheduler/appengine/task/utils"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/task"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/task/utils"
 )
 
 // putRequestIntoInv copies task.Request fields into Invocation.

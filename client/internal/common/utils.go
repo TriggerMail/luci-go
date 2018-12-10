@@ -19,7 +19,7 @@ import (
 	"os"
 	"runtime"
 
-	"go.chromium.org/luci/common/system/terminal"
+	"github.com/TriggerMail/luci-go/common/system/terminal"
 )
 
 // IsWindows returns True when running on the best OS there is.

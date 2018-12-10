@@ -20,13 +20,13 @@ import (
 	"strings"
 	"testing"
 
-	"go.chromium.org/luci/common/testing/testfs"
-	"go.chromium.org/luci/vpython/api/vpython"
+	"github.com/TriggerMail/luci-go/common/testing/testfs"
+	"github.com/TriggerMail/luci-go/vpython/api/vpython"
 
 	"github.com/golang/protobuf/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestLoadForScript(t *testing.T) {

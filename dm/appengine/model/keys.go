@@ -20,7 +20,7 @@ import (
 	"math"
 
 	ds "go.chromium.org/gae/service/datastore"
-	dm "go.chromium.org/luci/dm/api/service/v1"
+	dm "github.com/TriggerMail/luci-go/dm/api/service/v1"
 )
 
 // QuestKeyFromID makes a datastore.Key given the QuestID.

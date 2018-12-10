@@ -76,9 +76,9 @@ import (
 	"strings"
 	"sync"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/config"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/config"
 )
 
 // ProjectConfiguration is the struct that will be used to read the

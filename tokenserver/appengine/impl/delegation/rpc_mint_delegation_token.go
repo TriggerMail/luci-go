@@ -26,21 +26,21 @@ import (
 	"google.golang.org/grpc/status"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authdb"
-	"go.chromium.org/luci/server/auth/delegation/messages"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/authdb"
+	"github.com/TriggerMail/luci-go/server/auth/delegation/messages"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
 
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/api/admin/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/api/minter/v1"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/identityset"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils/revocation"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/utils"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/utils/identityset"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/utils/revocation"
 )
 
 // tokenIDSequenceKind defines the namespace of int64 IDs for delegation tokens.

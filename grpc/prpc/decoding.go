@@ -28,7 +28,7 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"go.chromium.org/luci/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock"
 )
 
 // This file implements decoding of HTTP requests to RPC parameters.

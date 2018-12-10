@@ -20,10 +20,10 @@ import (
 	"errors"
 	"fmt"
 
-	"go.chromium.org/luci/common/data/recordio"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/common/storage"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/common/data/recordio"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/logdog/common/storage"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 
 	"cloud.google.com/go/bigtable"
 	"google.golang.org/api/option"

@@ -22,14 +22,14 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/data/jsontime"
-	"go.chromium.org/luci/common/data/rand/mathrand"
-	"go.chromium.org/luci/server/auth/delegation"
-	"go.chromium.org/luci/server/auth/delegation/messages"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/data/jsontime"
+	"github.com/TriggerMail/luci-go/common/data/rand/mathrand"
+	"github.com/TriggerMail/luci-go/server/auth/delegation"
+	"github.com/TriggerMail/luci-go/server/auth/delegation/messages"
+	"github.com/TriggerMail/luci-go/server/caching"
+	"github.com/TriggerMail/luci-go/tokenserver/api/minter/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

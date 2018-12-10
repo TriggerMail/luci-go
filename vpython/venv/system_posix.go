@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // venvBinDir resolves the path where VirtualEnv binaries are installed.

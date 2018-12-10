@@ -22,9 +22,9 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	miloProto "go.chromium.org/luci/common/proto/milo"
-	"go.chromium.org/luci/milo/common/model"
-	"go.chromium.org/luci/milo/frontend/ui"
+	miloProto "github.com/TriggerMail/luci-go/common/proto/milo"
+	"github.com/TriggerMail/luci-go/milo/common/model"
+	"github.com/TriggerMail/luci-go/milo/frontend/ui"
 )
 
 // URLBuilder constructs URLs for various link types.

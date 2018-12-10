@@ -19,10 +19,10 @@ import (
 	"testing"
 
 	"go.chromium.org/gae/impl/memory"
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/authtest"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

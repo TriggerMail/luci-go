@@ -23,7 +23,7 @@ import (
 	"runtime"
 	"strings"
 
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging"
 
 	"google.golang.org/grpc/grpclog"
 )

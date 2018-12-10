@@ -18,8 +18,8 @@ import (
 	"context"
 	"net/http"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // InboundAppIDAuthMethod implements auth.Method by checking special HTTP

@@ -24,9 +24,9 @@ import (
 
 	"go.chromium.org/gae/service/info"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
+	"github.com/TriggerMail/luci-go/server/caching"
 )
 
 // Signer implements signing.Signer using GAE App Identity API.

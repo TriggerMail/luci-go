@@ -18,7 +18,7 @@ import (
 	"bytes"
 
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/data/cmpbin"
+	"github.com/TriggerMail/luci-go/common/data/cmpbin"
 )
 
 // ManifestLink is an in-MILO link to a named source manifest.

@@ -24,13 +24,13 @@ import (
 	"net/url"
 	"testing"
 
-	configApi "go.chromium.org/luci/common/api/luci_config/config/v1"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/authtest"
-	"go.chromium.org/luci/server/auth/delegation"
+	configApi "github.com/TriggerMail/luci-go/common/api/luci_config/config/v1"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/authtest"
+	"github.com/TriggerMail/luci-go/server/auth/delegation"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

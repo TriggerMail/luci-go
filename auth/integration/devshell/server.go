@@ -29,12 +29,12 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/iotools"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/runtime/paniccatcher"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/iotools"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/runtime/paniccatcher"
 
-	"go.chromium.org/luci/auth/integration/internal/localsrv"
+	"github.com/TriggerMail/luci-go/auth/integration/internal/localsrv"
 )
 
 // EnvKey is the name of the environment variable which contains the Devshell

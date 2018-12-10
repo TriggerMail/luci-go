@@ -18,10 +18,10 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/gcloud/pubsub"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/gcloud/pubsub"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/services/v1"
 
 	gcps "cloud.google.com/go/pubsub"
 	"github.com/golang/protobuf/proto"

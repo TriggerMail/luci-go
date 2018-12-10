@@ -226,7 +226,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/tools/cmd/bqschemaupdater/testdata/event.proto", fileDescriptor0)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/tools/cmd/bqschemaupdater/testdata/event.proto", fileDescriptor0)
 }
 
 var fileDescriptor0 = []byte{

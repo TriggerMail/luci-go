@@ -18,9 +18,9 @@ import (
 	"context"
 	"net/url"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
 )
 
 // Authority is the authority on whose behalf a request is operating.

@@ -3,7 +3,7 @@
 
 package descutil
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -537,7 +537,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/common/proto/google/descutil/util_test.proto", fileDescriptor_9f72c199a85bb2bb)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/common/proto/google/descutil/util_test.proto", fileDescriptor_9f72c199a85bb2bb)
 }
 
 var fileDescriptor_9f72c199a85bb2bb = []byte{
@@ -653,7 +653,7 @@ var _S1_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/common/proto/google/descutil/util_test.proto",
+	Metadata: "github.com/TriggerMail/luci-go/common/proto/google/descutil/util_test.proto",
 }
 
 // S2Client is the client API for S2 service.
@@ -779,5 +779,5 @@ var _S2_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/common/proto/google/descutil/util_test.proto",
+	Metadata: "github.com/TriggerMail/luci-go/common/proto/google/descutil/util_test.proto",
 }

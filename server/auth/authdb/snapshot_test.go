@@ -21,12 +21,12 @@ import (
 	"net/http"
 	"testing"
 
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/server/auth/internal"
-	"go.chromium.org/luci/server/auth/service/protocol"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/auth/signing/signingtest"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/server/auth/internal"
+	"github.com/TriggerMail/luci-go/server/auth/service/protocol"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
+	"github.com/TriggerMail/luci-go/server/auth/signing/signingtest"
+	"github.com/TriggerMail/luci-go/server/caching"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

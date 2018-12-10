@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"net"
 
-	"go.chromium.org/luci/common/errors"
-	log "go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/errors"
+	log "github.com/TriggerMail/luci-go/common/logging"
 )
 
 // tcpStreamServer is a StreamServer implementation that binds to a TCP/IP

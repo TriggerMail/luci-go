@@ -26,12 +26,12 @@ import (
 	"google.golang.org/grpc/codes"
 
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/rand/cryptorand"
-	"go.chromium.org/luci/common/logging"
-	google_pb "go.chromium.org/luci/common/proto/google"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/data/rand/cryptorand"
+	"github.com/TriggerMail/luci-go/common/logging"
+	google_pb "github.com/TriggerMail/luci-go/common/proto/google"
+	dm "github.com/TriggerMail/luci-go/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
 )
 
 const ek = logging.ErrorKey

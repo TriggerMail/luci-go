@@ -22,14 +22,14 @@ import (
 	"go.chromium.org/gae/service/info"
 	"go.chromium.org/gae/service/memcache"
 
-	bbAccess "go.chromium.org/luci/buildbucket/access"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	accessProto "go.chromium.org/luci/common/proto/access"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient/access"
-	"go.chromium.org/luci/config/server/cfgclient/backend"
-	"go.chromium.org/luci/server/auth"
+	bbAccess "github.com/TriggerMail/luci-go/buildbucket/access"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	accessProto "github.com/TriggerMail/luci-go/common/proto/access"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/access"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // Helper functions for ACL checking.

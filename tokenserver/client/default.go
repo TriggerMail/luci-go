@@ -17,10 +17,10 @@ package client
 import (
 	"net/http"
 
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/grpc/prpc"
+	"github.com/TriggerMail/luci-go/common/retry"
+	"github.com/TriggerMail/luci-go/grpc/prpc"
 
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/api/minter/v1"
 )
 
 // Parameters is passed to New.

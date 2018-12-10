@@ -15,10 +15,10 @@
 package policy
 
 import (
-	"go.chromium.org/luci/auth/identity"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/scheduler/appengine/internal"
+	"github.com/TriggerMail/luci-go/auth/identity"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/internal"
 )
 
 // basePolicy returns a generic policy customizable by the `reduce` func.

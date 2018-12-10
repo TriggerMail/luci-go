@@ -18,7 +18,7 @@ import (
 	"flag"
 	"time"
 
-	"go.chromium.org/luci/common/tsmon/target"
+	"github.com/TriggerMail/luci-go/common/tsmon/target"
 )
 
 // Flags defines command line flags related to tsmon.  Use NewFlags()

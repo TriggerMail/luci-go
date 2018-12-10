@@ -22,12 +22,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.chromium.org/luci/appengine/memlock"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/sync/parallel"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/appengine/memlock"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/sync/parallel"
+	"github.com/TriggerMail/luci-go/server/router"
 
 	"go.chromium.org/gae/service/datastore"
 	"go.chromium.org/gae/service/info"

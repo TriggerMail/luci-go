@@ -6,7 +6,7 @@ package config
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	v1 "go.chromium.org/luci/machine-db/api/common/v1"
+	v1 "github.com/TriggerMail/luci-go/machine-db/api/common/v1"
 	math "math"
 )
 
@@ -136,7 +136,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/machine-db/api/config/v1/vlans.proto", fileDescriptor_bb654d86333e52aa)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/machine-db/api/config/v1/vlans.proto", fileDescriptor_bb654d86333e52aa)
 }
 
 var fileDescriptor_bb654d86333e52aa = []byte{

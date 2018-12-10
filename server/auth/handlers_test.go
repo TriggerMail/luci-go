@@ -21,12 +21,12 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/caching"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
+	"github.com/TriggerMail/luci-go/server/caching"
+	"github.com/TriggerMail/luci-go/server/router"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func withSigner(s signing.Signer) router.MiddlewareChain {

@@ -20,8 +20,8 @@ import (
 	"sort"
 	"sync"
 
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/common/types"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/common/types"
 )
 
 // Range marks an inclusive log entry index range [Start-End].

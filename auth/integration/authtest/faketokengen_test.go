@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/auth/integration/localauth"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/lucictx"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/auth/integration/localauth"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/lucictx"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -30,17 +30,17 @@ import (
 
 	ds "go.chromium.org/gae/service/datastore"
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/server/auth/signing"
-	"go.chromium.org/luci/server/auth/signing/signingtest"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
+	"github.com/TriggerMail/luci-go/server/auth/signing/signingtest"
 
-	tokenserver "go.chromium.org/luci/tokenserver/api"
-	admin "go.chromium.org/luci/tokenserver/api/admin/v1"
-	minter "go.chromium.org/luci/tokenserver/api/minter/v1"
-	"go.chromium.org/luci/tokenserver/appengine/impl/certconfig"
+	tokenserver "github.com/TriggerMail/luci-go/tokenserver/api"
+	admin "github.com/TriggerMail/luci-go/tokenserver/api/admin/v1"
+	minter "github.com/TriggerMail/luci-go/tokenserver/api/minter/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/certconfig"
 )
 
 const pkey = `-----BEGIN RSA PRIVATE KEY-----

@@ -22,14 +22,14 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/grpc/grpcutil"
-	milo "go.chromium.org/luci/milo/api/proto"
-	"go.chromium.org/luci/milo/buildsource/buildbot"
-	"go.chromium.org/luci/milo/buildsource/buildbucket"
-	"go.chromium.org/luci/milo/buildsource/swarming"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	milo "github.com/TriggerMail/luci-go/milo/api/proto"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbot"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbucket"
+	"github.com/TriggerMail/luci-go/milo/buildsource/swarming"
 )
 
 // BuildInfoService is a BuildInfoServer implementation.

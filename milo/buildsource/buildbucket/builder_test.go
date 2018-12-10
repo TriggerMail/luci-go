@@ -26,15 +26,15 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/config"
-	memcfg "go.chromium.org/luci/config/impl/memory"
-	"go.chromium.org/luci/config/server/cfgclient/backend/testconfig"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/config"
+	memcfg "github.com/TriggerMail/luci-go/config/impl/memory"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/testconfig"
 
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/git"
-	"go.chromium.org/luci/milo/git/gittest"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/milo/git"
+	"github.com/TriggerMail/luci-go/milo/git/gittest"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

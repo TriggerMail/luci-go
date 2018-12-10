@@ -21,10 +21,10 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	ds "go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/clock"
-	google_pb "go.chromium.org/luci/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/clock"
+	google_pb "github.com/TriggerMail/luci-go/common/proto/google"
 
-	dm "go.chromium.org/luci/dm/api/service/v1"
+	dm "github.com/TriggerMail/luci-go/dm/api/service/v1"
 )
 
 // NewQuest builds a new Quest object with a correct ID given the current

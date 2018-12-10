@@ -17,10 +17,10 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/common/cli"
-	"go.chromium.org/luci/common/data/text/indented"
+	"github.com/TriggerMail/luci-go/common/cli"
+	"github.com/TriggerMail/luci-go/common/data/text/indented"
 
-	configpb "go.chromium.org/luci/buildbucket/proto/config"
+	configpb "github.com/TriggerMail/luci-go/buildbucket/proto/config"
 )
 
 var cmdConvertBuilders = &subcommands.Command{

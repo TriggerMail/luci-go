@@ -18,9 +18,9 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/tokens"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/tokens"
 )
 
 // pprofToken described how to generate tokens.

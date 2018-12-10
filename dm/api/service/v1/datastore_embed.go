@@ -22,7 +22,7 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/data/sortby"
+	"github.com/TriggerMail/luci-go/common/data/sortby"
 )
 
 const flipMask uint32 = 0xFFFFFFFF

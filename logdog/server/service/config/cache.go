@@ -18,10 +18,10 @@ import (
 	"context"
 	"time"
 
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient"
-	"go.chromium.org/luci/config/server/cfgclient/textproto"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/textproto"
+	"github.com/TriggerMail/luci-go/server/caching"
 
 	"github.com/golang/protobuf/proto"
 )

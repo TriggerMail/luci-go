@@ -20,10 +20,10 @@ import (
 	"html/template"
 	"strconv"
 
-	"go.chromium.org/luci/common/clock/clockflag"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/TriggerMail/luci-go/common/clock/clockflag"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/server/portal"
+	"github.com/TriggerMail/luci-go/server/settings"
 )
 
 const (

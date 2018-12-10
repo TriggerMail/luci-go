@@ -17,16 +17,16 @@ package config
 import (
 	"context"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/server/cfgclient"
-	"go.chromium.org/luci/config/server/cfgclient/textproto"
-	"go.chromium.org/luci/config/validation"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/textproto"
+	"github.com/TriggerMail/luci-go/config/validation"
 
-	configPB "go.chromium.org/luci/machine-db/api/config/v1"
-	"go.chromium.org/luci/machine-db/appengine/model"
+	configPB "github.com/TriggerMail/luci-go/machine-db/api/config/v1"
+	"github.com/TriggerMail/luci-go/machine-db/appengine/model"
 )
 
 // osesFilename is the name of the config file enumerating operating systems.

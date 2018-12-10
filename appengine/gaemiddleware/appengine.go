@@ -18,8 +18,8 @@ import (
 	"net/http"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/server/router"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/server/router"
 )
 
 var devAppserverBypassFn = info.IsDevAppServer

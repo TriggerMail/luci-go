@@ -6,7 +6,7 @@ package dm
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	templateproto "go.chromium.org/luci/common/data/text/templateproto"
+	templateproto "github.com/TriggerMail/luci-go/common/data/text/templateproto"
 	math "math"
 )
 
@@ -485,7 +485,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/dm/api/service/v1/ensure_graph_data.proto", fileDescriptor_d2be8364c35d3177)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/dm/api/service/v1/ensure_graph_data.proto", fileDescriptor_d2be8364c35d3177)
 }
 
 var fileDescriptor_d2be8364c35d3177 = []byte{

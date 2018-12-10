@@ -3,14 +3,14 @@
 
 package admin
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	empty "github.com/golang/protobuf/ptypes/empty"
-	messages "go.chromium.org/luci/server/auth/delegation/messages"
-	api "go.chromium.org/luci/tokenserver/api"
+	messages "github.com/TriggerMail/luci-go/server/auth/delegation/messages"
+	api "github.com/TriggerMail/luci-go/tokenserver/api"
 	context "golang.org/x/net/context"
 	grpc "google.golang.org/grpc"
 	math "math"
@@ -665,7 +665,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/tokenserver/api/admin/v1/admin.proto", fileDescriptor_303c2e4773396ed5)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/tokenserver/api/admin/v1/admin.proto", fileDescriptor_303c2e4773396ed5)
 }
 
 var fileDescriptor_303c2e4773396ed5 = []byte{
@@ -1110,5 +1110,5 @@ var _Admin_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/tokenserver/api/admin/v1/admin.proto",
+	Metadata: "github.com/TriggerMail/luci-go/tokenserver/api/admin/v1/admin.proto",
 }

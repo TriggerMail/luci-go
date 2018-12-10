@@ -19,8 +19,8 @@ import (
 
 	"github.com/maruel/subcommands"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/cli"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/common/cli"
 )
 
 func cmdCancel(defaultAuthOpts auth.Options) *subcommands.Command {

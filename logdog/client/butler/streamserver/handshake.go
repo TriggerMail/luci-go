@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"io"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/data/recordio"
-	"go.chromium.org/luci/common/iotools"
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/logdog/api/logpb"
-	"go.chromium.org/luci/logdog/client/butlerlib/streamproto"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/data/recordio"
+	"github.com/TriggerMail/luci-go/common/iotools"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/logdog/api/logpb"
+	"github.com/TriggerMail/luci-go/logdog/client/butlerlib/streamproto"
 )
 
 // handshakeProtocol is an implementation of a Butler handshake protocol V1

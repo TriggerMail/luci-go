@@ -17,7 +17,7 @@ package annotation
 import (
 	"os"
 
-	"go.chromium.org/luci/common/system/environ"
+	"github.com/TriggerMail/luci-go/common/system/environ"
 )
 
 // Execution describes the high-level execution metadata.

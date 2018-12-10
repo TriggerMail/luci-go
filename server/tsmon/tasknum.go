@@ -18,7 +18,7 @@ import (
 	"context"
 	"errors"
 
-	"go.chromium.org/luci/common/tsmon/target"
+	"github.com/TriggerMail/luci-go/common/tsmon/target"
 )
 
 // ErrNoTaskNumber is returned by NotifyTaskIsAlive if the task wasn't given

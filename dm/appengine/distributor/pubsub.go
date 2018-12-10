@@ -22,11 +22,11 @@ import (
 	"strconv"
 	"time"
 
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/tokens"
-	"go.chromium.org/luci/tumble"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/tokens"
+	"github.com/TriggerMail/luci-go/tumble"
 )
 
 const notifyTopicSuffix = "dm-distributor-notify"

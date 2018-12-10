@@ -17,7 +17,7 @@ package config
 import (
 	"testing"
 
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
+	buildbucketpb "github.com/TriggerMail/luci-go/buildbucket/proto"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

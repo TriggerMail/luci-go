@@ -368,7 +368,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/cipd/client/cipd/internal/messages/messages.proto", fileDescriptor_3c2431e10c52fd39)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/cipd/client/cipd/internal/messages/messages.proto", fileDescriptor_3c2431e10c52fd39)
 }
 
 var fileDescriptor_3c2431e10c52fd39 = []byte{

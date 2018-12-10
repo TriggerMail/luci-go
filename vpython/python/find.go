@@ -18,9 +18,9 @@ import (
 	"context"
 	"os/exec"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/filesystem"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/system/filesystem"
 )
 
 // LookPathResult is the result of LookPathFunc.

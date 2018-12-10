@@ -7,7 +7,7 @@ package buildsource
 import (
 	"context"
 
-	"go.chromium.org/luci/milo/frontend/ui"
+	"github.com/TriggerMail/luci-go/milo/frontend/ui"
 )
 
 // ID represents a universal 'build' ID. Each subpackage of buildsource

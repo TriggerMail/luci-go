@@ -22,10 +22,10 @@ import (
 	"html/template"
 	"strconv"
 
-	"go.chromium.org/luci/common/tsmon/monitor"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/TriggerMail/luci-go/common/tsmon/monitor"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/portal"
+	"github.com/TriggerMail/luci-go/server/settings"
 )
 
 // prodXEndpoint is endpoint to send metrics to.

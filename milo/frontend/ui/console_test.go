@@ -17,7 +17,7 @@ package ui
 import (
 	"testing"
 
-	"go.chromium.org/luci/milo/common/model"
+	"github.com/TriggerMail/luci-go/milo/common/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

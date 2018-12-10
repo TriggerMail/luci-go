@@ -25,9 +25,9 @@ import (
 	"time"
 
 	mc "go.chromium.org/gae/service/memcache"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry"
 )
 
 // ErrFailedToLock is returned from TryWithLock when it fails to obtain a lock

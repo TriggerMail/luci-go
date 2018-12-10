@@ -19,8 +19,8 @@ import (
 	"errors"
 	"html/template"
 
-	"go.chromium.org/luci/server/portal"
-	"go.chromium.org/luci/server/settings"
+	"github.com/TriggerMail/luci-go/server/portal"
+	"github.com/TriggerMail/luci-go/server/settings"
 )
 
 // SettingsKey is key for OpenID settings (described by Settings struct) in

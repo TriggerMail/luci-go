@@ -23,15 +23,15 @@ import (
 
 	"go.chromium.org/gae/service/info"
 
-	"go.chromium.org/luci/appengine/gaeauth/server"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/xsrf"
-	"go.chromium.org/luci/server/router"
-	"go.chromium.org/luci/server/templates"
+	"github.com/TriggerMail/luci-go/appengine/gaeauth/server"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/xsrf"
+	"github.com/TriggerMail/luci-go/server/router"
+	"github.com/TriggerMail/luci-go/server/templates"
 
-	"go.chromium.org/luci/scheduler/appengine/catalog"
-	"go.chromium.org/luci/scheduler/appengine/engine"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/catalog"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/engine"
 )
 
 // Config is global configuration of UI handlers.

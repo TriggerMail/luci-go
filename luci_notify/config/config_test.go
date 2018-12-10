@@ -19,17 +19,17 @@ import (
 
 	"go.chromium.org/gae/service/datastore"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/logging/gologger"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/impl/memory"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	buildbucketpb "github.com/TriggerMail/luci-go/buildbucket/proto"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/logging/gologger"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/impl/memory"
 
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
+	notifypb "github.com/TriggerMail/luci-go/luci_notify/api/config"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestConfigIngestion(t *testing.T) {

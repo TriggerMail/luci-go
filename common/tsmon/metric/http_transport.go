@@ -19,11 +19,11 @@ import (
 	"io"
 	"net/http"
 
-	"go.chromium.org/luci/auth"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/iotools"
-	"go.chromium.org/luci/common/tsmon"
-	"go.chromium.org/luci/common/tsmon/store"
+	"github.com/TriggerMail/luci-go/auth"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/iotools"
+	"github.com/TriggerMail/luci-go/common/tsmon"
+	"github.com/TriggerMail/luci-go/common/tsmon/store"
 )
 
 // instrumentedHTTPRoundTripper reports tsmon metrics about the requests that

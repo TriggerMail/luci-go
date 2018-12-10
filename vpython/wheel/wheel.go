@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // Name is a parsed Python wheel name, defined here:

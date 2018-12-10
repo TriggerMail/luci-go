@@ -3,7 +3,7 @@
 
 package helloworld
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -110,7 +110,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/examples/appengine/helloworld_standard/proto/helloworld.proto", fileDescriptor_2a45dd7ca0973b79)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/examples/appengine/helloworld_standard/proto/helloworld.proto", fileDescriptor_2a45dd7ca0973b79)
 }
 
 var fileDescriptor_2a45dd7ca0973b79 = []byte{
@@ -216,5 +216,5 @@ var _Greeter_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/examples/appengine/helloworld_standard/proto/helloworld.proto",
+	Metadata: "github.com/TriggerMail/luci-go/examples/appengine/helloworld_standard/proto/helloworld.proto",
 }

@@ -26,11 +26,11 @@ import (
 	"net/http"
 	"strings"
 
-	isolateservice "go.chromium.org/luci/common/api/isolate/isolateservice/v1"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/lhttp"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/runtime/tracer"
+	isolateservice "github.com/TriggerMail/luci-go/common/api/isolate/isolateservice/v1"
+	"github.com/TriggerMail/luci-go/common/isolated"
+	"github.com/TriggerMail/luci-go/common/lhttp"
+	"github.com/TriggerMail/luci-go/common/retry"
+	"github.com/TriggerMail/luci-go/common/runtime/tracer"
 )
 
 // DefaultNamespace is the namespace that should be used with the New function.

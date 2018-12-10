@@ -19,7 +19,7 @@ import (
 	"errors"
 	"testing"
 
-	"go.chromium.org/luci/auth/identity"
+	"github.com/TriggerMail/luci-go/auth/identity"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

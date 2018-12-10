@@ -18,9 +18,9 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
-	dm "go.chromium.org/luci/dm/api/service/v1"
-	"go.chromium.org/luci/dm/appengine/distributor/fake"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
+	dm "github.com/TriggerMail/luci-go/dm/api/service/v1"
+	"github.com/TriggerMail/luci-go/dm/appengine/distributor/fake"
 )
 
 func TestActivateExecution(t *testing.T) {

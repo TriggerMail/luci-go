@@ -190,7 +190,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/tokenserver/api/oauth_token_grant.proto", fileDescriptor_2e508b3aaac47612)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/tokenserver/api/oauth_token_grant.proto", fileDescriptor_2e508b3aaac47612)
 }
 
 var fileDescriptor_2e508b3aaac47612 = []byte{

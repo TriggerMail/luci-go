@@ -18,19 +18,19 @@ import (
 	"context"
 	"net/http"
 
-	authServer "go.chromium.org/luci/appengine/gaeauth/server"
-	"go.chromium.org/luci/appengine/gaemiddleware"
-	"go.chromium.org/luci/appengine/gaemiddleware/standard"
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/config/appengine/gaeconfig"
-	"go.chromium.org/luci/config/impl/remote"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/router"
+	authServer "github.com/TriggerMail/luci-go/appengine/gaeauth/server"
+	"github.com/TriggerMail/luci-go/appengine/gaemiddleware"
+	"github.com/TriggerMail/luci-go/appengine/gaemiddleware/standard"
+	"github.com/TriggerMail/luci-go/appengine/tq"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/config/appengine/gaeconfig"
+	"github.com/TriggerMail/luci-go/config/impl/remote"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/router"
 
-	"go.chromium.org/luci/luci_notify/config"
-	"go.chromium.org/luci/luci_notify/notify"
+	"github.com/TriggerMail/luci-go/luci_notify/config"
+	"github.com/TriggerMail/luci-go/luci_notify/notify"
 )
 
 func init() {

@@ -18,15 +18,15 @@ import (
 	"context"
 	"testing"
 
-	swarming "go.chromium.org/luci/common/api/swarming/swarming/v1"
-	"go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1/fakelogs"
-	milo "go.chromium.org/luci/milo/api/proto"
-	"go.chromium.org/luci/milo/buildsource/rawpresentation"
+	swarming "github.com/TriggerMail/luci-go/common/api/swarming/swarming/v1"
+	"github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/logs/v1/fakelogs"
+	milo "github.com/TriggerMail/luci-go/milo/api/proto"
+	"github.com/TriggerMail/luci-go/milo/buildsource/rawpresentation"
 
 	"go.chromium.org/gae/impl/memory"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 type testSwarmingService struct {

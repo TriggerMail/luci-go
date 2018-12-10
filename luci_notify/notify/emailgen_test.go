@@ -19,10 +19,10 @@ import (
 
 	"go.chromium.org/gae/service/datastore"
 
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/buildbucket/proto"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/buildbucket/proto"
 
-	"go.chromium.org/luci/luci_notify/config"
+	"github.com/TriggerMail/luci-go/luci_notify/config"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

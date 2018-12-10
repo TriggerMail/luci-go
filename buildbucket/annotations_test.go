@@ -22,9 +22,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	buildbucketpb "go.chromium.org/luci/buildbucket/proto"
-	luci "go.chromium.org/luci/common/proto"
-	annotpb "go.chromium.org/luci/common/proto/milo"
+	buildbucketpb "github.com/TriggerMail/luci-go/buildbucket/proto"
+	luci "github.com/TriggerMail/luci-go/common/proto"
+	annotpb "github.com/TriggerMail/luci-go/common/proto/milo"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

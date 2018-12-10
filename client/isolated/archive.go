@@ -23,11 +23,11 @@ import (
 	"path/filepath"
 	"sort"
 
-	"go.chromium.org/luci/client/archiver"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/isolated"
-	"go.chromium.org/luci/common/isolatedclient"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/client/archiver"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/isolated"
+	"github.com/TriggerMail/luci-go/common/isolatedclient"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 // ArchiveOptions for achiving trees.

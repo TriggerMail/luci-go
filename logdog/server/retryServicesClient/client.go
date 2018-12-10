@@ -18,11 +18,11 @@ import (
 	"context"
 	"time"
 
-	log "go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/retry"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/grpc/grpcutil"
-	s "go.chromium.org/luci/logdog/api/endpoints/coordinator/services/v1"
+	log "github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/retry"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
+	s "github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/services/v1"
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"google.golang.org/grpc"

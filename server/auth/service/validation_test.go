@@ -17,10 +17,10 @@ package service
 import (
 	"testing"
 
-	"go.chromium.org/luci/server/auth/service/protocol"
+	"github.com/TriggerMail/luci-go/server/auth/service/protocol"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestValidateAuthDB(t *testing.T) {

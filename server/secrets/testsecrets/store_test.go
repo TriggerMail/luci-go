@@ -17,7 +17,7 @@ package testsecrets
 import (
 	"testing"
 
-	"go.chromium.org/luci/server/secrets"
+	"github.com/TriggerMail/luci-go/server/secrets"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

@@ -26,9 +26,9 @@ import (
 	"strings"
 	"time"
 
-	"go.chromium.org/luci/buildbucket/proto"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/milo/common/model"
+	"github.com/TriggerMail/luci-go/buildbucket/proto"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/milo/common/model"
 )
 
 // StepDisplayPref is the display preference for the steps.

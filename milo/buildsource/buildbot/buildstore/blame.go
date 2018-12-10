@@ -27,14 +27,14 @@ import (
 	"google.golang.org/grpc/status"
 
 	"go.chromium.org/gae/service/memcache"
-	"go.chromium.org/luci/common/api/gitiles"
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	gitpb "go.chromium.org/luci/common/proto/git"
+	"github.com/TriggerMail/luci-go/common/api/gitiles"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	gitpb "github.com/TriggerMail/luci-go/common/proto/git"
 
-	"go.chromium.org/luci/milo/api/buildbot"
-	"go.chromium.org/luci/milo/git"
+	"github.com/TriggerMail/luci-go/milo/api/buildbot"
+	"github.com/TriggerMail/luci-go/milo/git"
 )
 
 // This file computes a static blamelist of a buildbot build via Gitiles RPCs.

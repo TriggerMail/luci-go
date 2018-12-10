@@ -27,13 +27,13 @@ import (
 	"go.chromium.org/gae/service/datastore"
 	"go.chromium.org/gae/service/memcache"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 
-	"go.chromium.org/luci/scheduler/appengine/internal"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/internal"
 )
 
 // assertInTransaction panics if the context is not transactional.

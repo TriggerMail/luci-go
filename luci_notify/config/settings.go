@@ -21,12 +21,12 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/config/server/cfgclient"
-	"go.chromium.org/luci/config/validation"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient"
+	"github.com/TriggerMail/luci-go/config/validation"
 
-	notifypb "go.chromium.org/luci/luci_notify/api/config"
+	notifypb "github.com/TriggerMail/luci-go/luci_notify/api/config"
 )
 
 // Settings represents the luci-notify configuration for a single instance of the service.

@@ -18,7 +18,7 @@ import (
 	"io"
 	"net"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 func tcpProtocolClientFactory(netType string) ClientFactory {

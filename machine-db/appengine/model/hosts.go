@@ -24,10 +24,10 @@ import (
 	"github.com/VividCortex/mysqlerr"
 	"github.com/go-sql-driver/mysql"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 
-	"go.chromium.org/luci/machine-db/appengine/database"
-	"go.chromium.org/luci/machine-db/common"
+	"github.com/TriggerMail/luci-go/machine-db/appengine/database"
+	"github.com/TriggerMail/luci-go/machine-db/common"
 )
 
 // AssignHostnameAndIP assigns the given hostname and IP address using the given transaction.

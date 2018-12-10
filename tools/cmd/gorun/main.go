@@ -29,8 +29,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/system/exitcode"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/system/exitcode"
 )
 
 func mainImpl(args []string) (int, error) {

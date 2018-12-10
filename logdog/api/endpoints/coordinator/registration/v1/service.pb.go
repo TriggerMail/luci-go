@@ -3,7 +3,7 @@
 
 package logdog
 
-import prpc "go.chromium.org/luci/grpc/prpc"
+import prpc "github.com/TriggerMail/luci-go/grpc/prpc"
 
 import (
 	fmt "fmt"
@@ -179,7 +179,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("go.chromium.org/luci/logdog/api/endpoints/coordinator/registration/v1/service.proto", fileDescriptor_317a8d00c4420d83)
+	proto.RegisterFile("github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/registration/v1/service.proto", fileDescriptor_317a8d00c4420d83)
 }
 
 var fileDescriptor_317a8d00c4420d83 = []byte{
@@ -314,5 +314,5 @@ var _Registration_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "go.chromium.org/luci/logdog/api/endpoints/coordinator/registration/v1/service.proto",
+	Metadata: "github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/registration/v1/service.proto",
 }

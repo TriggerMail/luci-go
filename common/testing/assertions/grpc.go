@@ -18,7 +18,7 @@ import (
 	"fmt"
 
 	"github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/grpc/grpcutil"
+	"github.com/TriggerMail/luci-go/grpc/grpcutil"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 )

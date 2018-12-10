@@ -21,13 +21,13 @@ import (
 	"github.com/golang/protobuf/ptypes/timestamp"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/config"
-	"go.chromium.org/luci/config/impl/memory"
-	"go.chromium.org/luci/config/server/cfgclient/backend/testconfig"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/config"
+	"github.com/TriggerMail/luci-go/config/impl/memory"
+	"github.com/TriggerMail/luci-go/config/server/cfgclient/backend/testconfig"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestConfigFetcher(t *testing.T) {

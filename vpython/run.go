@@ -19,12 +19,12 @@ import (
 	"os"
 	"strings"
 
-	"go.chromium.org/luci/vpython/python"
-	"go.chromium.org/luci/vpython/venv"
+	"github.com/TriggerMail/luci-go/vpython/python"
+	"github.com/TriggerMail/luci-go/vpython/venv"
 
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/system/environ"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/system/environ"
 )
 
 type runCommand struct {

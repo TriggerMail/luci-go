@@ -26,20 +26,20 @@ import (
 	"google.golang.org/grpc/status"
 
 	"go.chromium.org/gae/service/info"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
-	"go.chromium.org/luci/server/auth"
-	"go.chromium.org/luci/server/auth/signing"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
+	"github.com/TriggerMail/luci-go/server/auth"
+	"github.com/TriggerMail/luci-go/server/auth/signing"
 
-	tokenserver "go.chromium.org/luci/tokenserver/api"
-	"go.chromium.org/luci/tokenserver/api/admin/v1"
-	"go.chromium.org/luci/tokenserver/api/minter/v1"
+	tokenserver "github.com/TriggerMail/luci-go/tokenserver/api"
+	"github.com/TriggerMail/luci-go/tokenserver/api/admin/v1"
+	"github.com/TriggerMail/luci-go/tokenserver/api/minter/v1"
 
-	"go.chromium.org/luci/tokenserver/appengine/impl/certchecker"
-	"go.chromium.org/luci/tokenserver/appengine/impl/certconfig"
-	"go.chromium.org/luci/tokenserver/appengine/impl/utils"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/certchecker"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/certconfig"
+	"github.com/TriggerMail/luci-go/tokenserver/appengine/impl/utils"
 )
 
 // MintMachineTokenRPC implements TokenMinter.MintMachineToken RPC method.

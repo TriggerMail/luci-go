@@ -21,8 +21,8 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/server/auth"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/server/auth"
 )
 
 // MockAuthConfig configures auth library for unit tests environment.

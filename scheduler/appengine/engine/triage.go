@@ -22,19 +22,19 @@ import (
 	"time"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/appengine/tq"
-	"go.chromium.org/luci/common/clock"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
-	"go.chromium.org/luci/common/proto/google"
-	"go.chromium.org/luci/common/retry/transient"
+	"github.com/TriggerMail/luci-go/appengine/tq"
+	"github.com/TriggerMail/luci-go/common/clock"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
+	"github.com/TriggerMail/luci-go/common/proto/google"
+	"github.com/TriggerMail/luci-go/common/retry/transient"
 
-	"go.chromium.org/luci/scheduler/appengine/engine/cron"
-	"go.chromium.org/luci/scheduler/appengine/engine/dsset"
-	"go.chromium.org/luci/scheduler/appengine/engine/policy"
-	"go.chromium.org/luci/scheduler/appengine/internal"
-	"go.chromium.org/luci/scheduler/appengine/messages"
-	"go.chromium.org/luci/scheduler/appengine/task"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/engine/cron"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/engine/dsset"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/engine/policy"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/internal"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/messages"
+	"github.com/TriggerMail/luci-go/scheduler/appengine/task"
 )
 
 // TODO(vadimsh): Surface triage status in Monitoring.

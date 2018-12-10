@@ -19,7 +19,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // CommandLineFlag is a command-line flag and its associated argument, if one

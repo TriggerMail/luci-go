@@ -22,7 +22,7 @@ import (
 	"syscall"
 	"time"
 
-	"go.chromium.org/luci/common/errors"
+	"github.com/TriggerMail/luci-go/common/errors"
 )
 
 // IsNotExist calls os.IsNotExist on the unwrapped err.

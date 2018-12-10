@@ -21,9 +21,9 @@ import (
 	"strings"
 	"sync"
 
-	"go.chromium.org/luci/common/data/text/pattern"
-	"go.chromium.org/luci/common/errors"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/data/text/pattern"
+	"github.com/TriggerMail/luci-go/common/errors"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 // Rules is the default validation rule set used by the process.

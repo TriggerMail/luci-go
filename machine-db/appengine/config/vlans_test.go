@@ -18,12 +18,12 @@ import (
 	"context"
 	"testing"
 
-	"go.chromium.org/luci/config/validation"
-	"go.chromium.org/luci/machine-db/api/common/v1"
-	"go.chromium.org/luci/machine-db/api/config/v1"
+	"github.com/TriggerMail/luci-go/config/validation"
+	"github.com/TriggerMail/luci-go/machine-db/api/common/v1"
+	"github.com/TriggerMail/luci-go/machine-db/api/config/v1"
 
 	. "github.com/smartystreets/goconvey/convey"
-	. "go.chromium.org/luci/common/testing/assertions"
+	. "github.com/TriggerMail/luci-go/common/testing/assertions"
 )
 
 func TestValidateVLANs(t *testing.T) {

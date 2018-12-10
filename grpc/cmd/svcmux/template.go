@@ -17,7 +17,7 @@ package main
 import (
 	"text/template"
 
-	"go.chromium.org/luci/grpc/internal/svctool"
+	"github.com/TriggerMail/luci-go/grpc/internal/svctool"
 )
 
 var (
@@ -29,7 +29,7 @@ package {{.PackageName}}
 import (
 	"context"
 
-	svcmux "go.chromium.org/luci/server/svcmux"
+	svcmux "github.com/TriggerMail/luci-go/server/svcmux"
 
 	{{range .ExtraImports}}
 	{{.Name}} "{{.Path}}"{{end}}

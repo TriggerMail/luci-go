@@ -20,15 +20,15 @@ import (
 	"time"
 
 	"go.chromium.org/gae/service/datastore"
-	"go.chromium.org/luci/appengine/gaetesting"
-	"go.chromium.org/luci/common/clock/testclock"
-	"go.chromium.org/luci/server/caching"
+	"github.com/TriggerMail/luci-go/appengine/gaetesting"
+	"github.com/TriggerMail/luci-go/common/clock/testclock"
+	"github.com/TriggerMail/luci-go/server/caching"
 
-	"go.chromium.org/luci/milo/common"
-	"go.chromium.org/luci/milo/common/model"
+	"github.com/TriggerMail/luci-go/milo/common"
+	"github.com/TriggerMail/luci-go/milo/common/model"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"go.chromium.org/luci/milo/buildsource/buildbot/buildstore"
+	"github.com/TriggerMail/luci-go/milo/buildsource/buildbot/buildstore"
 )
 
 func TestGetBuilderHistories(t *testing.T) {

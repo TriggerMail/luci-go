@@ -22,8 +22,8 @@ import (
 
 	"golang.org/x/oauth2/google"
 
-	"go.chromium.org/luci/common/data/stringset"
-	"go.chromium.org/luci/common/logging"
+	"github.com/TriggerMail/luci-go/common/data/stringset"
+	"github.com/TriggerMail/luci-go/common/logging"
 )
 
 type gceTokenProvider struct {

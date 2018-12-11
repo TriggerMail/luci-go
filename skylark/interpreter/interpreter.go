@@ -308,7 +308,7 @@ func (intr *Interpreter) loadIfMissing(key string, loader func() (skylark.String
 //     executing script ("../a/b/c.sky").
 //  2) A protobuf file (compiled into the interpreter binary), referenced by
 //     the location of the proto file in the protobuf lib registry:
-//        "builtin:go.chromium.org/luci/.../file.proto"
+//        "builtin:github.com/TriggerMail/luci-go/.../file.proto"
 //  3) An stdlib module, as supplied by Stdlib callback:
 //        "builtin:some/path/to/be/passed/to/the/callback.sky"
 func (intr *Interpreter) loadImpl(thread *skylark.Thread, module string) (skylark.StringDict, error) {

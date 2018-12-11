@@ -206,7 +206,7 @@ func ValidateSubdir(subdir string) error {
 // ValidatePrincipalName validates strings used to identify principals in ACLs.
 //
 // The expected format is "<key>:<value>" pair, where <key> is one of "group",
-// "user", "anonymous", "service". See also go.chromium.org/luci/auth/identity.
+// "user", "anonymous", "service". See also github.com/TriggerMail/luci-go/auth/identity.
 func ValidatePrincipalName(p string) error {
 	chunks := strings.Split(p, ":")
 	if len(chunks) != 2 || chunks[0] == "" || chunks[1] == "" {

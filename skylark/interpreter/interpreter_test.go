@@ -118,7 +118,7 @@ func TestInterpreter(t *testing.T) {
 		_, logs, err := runIntr(intrParams{
 			scripts: map[string]string{
 				"main.sky": `
-					load("builtin:go.chromium.org/luci/skylark/skylarkproto/testprotos/test.proto", "testprotos")
+					load("builtin:github.com/TriggerMail/luci-go/skylark/skylarkproto/testprotos/test.proto", "testprotos")
 					print(proto.to_pbtext(testprotos.SimpleFields(i64=123)))
 				`,
 			},

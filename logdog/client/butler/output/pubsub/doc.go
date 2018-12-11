@@ -16,5 +16,5 @@
 //
 // The "pubsub" (Google Cloud Pub/Sub) Output publishes ButlerLogBundle
 // protobufs to a Google Cloud Pub/Sub topic using the protocol defined in:
-//   go.chromium.org/luci/common/logdog/butlerproto
+//   github.com/TriggerMail/luci-go/common/logdog/butlerproto
 package pubsub

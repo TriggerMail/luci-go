@@ -44,7 +44,7 @@ func (settingsPage) Overview(c context.Context) (template.HTML, error) {
 	return template.HTML(`<p>Configuration parameters for the
 <a href="https://github.com/luci/luci-go/tree/master/tumble">tumble
 service</a> can be found in its
-<a href="https://godoc.org/go.chromium.org/luci/tumble">
+<a href="https://godoc.org/github.com/TriggerMail/luci-go/tumble">
 documentation</a>.</p>.`), nil
 }
 

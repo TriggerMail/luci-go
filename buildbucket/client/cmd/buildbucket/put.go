@@ -34,7 +34,7 @@ func cmdPutBatch(defaultAuthOpts auth.Options) *subcommands.Command {
 		UsageLine: `put [flags] <JSON request>...`,
 		ShortDesc: "schedule builds",
 		LongDesc: "Schedule builds. \n" +
-			"See https://godoc.org/go.chromium.org/luci/common/api/" +
+			"See https://godoc.org/github.com/TriggerMail/luci-go/common/api/" +
 			"buildbucket/buildbucket/v1#ApiPutBatchRequestMessage " +
 			"for JSON request message schema.",
 		CommandRun: func() subcommands.CommandRun {

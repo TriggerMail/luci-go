@@ -30,7 +30,7 @@ type StreamServer interface {
 	// return a client for this StreamServer.
 	//
 	// Full package is:
-	// go.chromium.org/luci/logdog/butlerlib/streamclient
+	// github.com/TriggerMail/luci-go/logdog/butlerlib/streamclient
 	//
 	// Address may only be called while the StreamServer is actively listening.
 	Address() string

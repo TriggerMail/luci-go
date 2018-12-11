@@ -18,7 +18,7 @@
 // It hardcodes default CIPD backend URL, OAuth client ID, location of the token
 // cache, etc.
 //
-// See go.chromium.org/luci/cipd/client/cli if you want to build your own
+// See github.com/TriggerMail/luci-go/cipd/client/cli if you want to build your own
 // version with different defaults.
 package main
 

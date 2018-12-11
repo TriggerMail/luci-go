@@ -24,7 +24,7 @@ import (
 )
 
 // SettingsKey is key for OpenID settings (described by Settings struct) in
-// settings store. See go.chromium.org/luci/server/settings.
+// settings store. See github.com/TriggerMail/luci-go/server/settings.
 const SettingsKey = "openid_auth"
 
 var (

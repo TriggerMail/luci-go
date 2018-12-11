@@ -104,9 +104,9 @@ func (k *Key) Params() backend.Params {
 // Content, which will hold the formatted value if it has been formatted.
 //
 // See Formatter in
-// go.chromium.org/luci/config/server/cfgclient
+// github.com/TriggerMail/luci-go/config/server/cfgclient
 // and Backend in
-// go.chromium.org/luci/config/server/cfgclient.backend/format
+// github.com/TriggerMail/luci-go/config/server/cfgclient.backend/format
 // for more information.
 type ValueItem struct {
 	ConfigSet string `json:"cs,omitempty"`

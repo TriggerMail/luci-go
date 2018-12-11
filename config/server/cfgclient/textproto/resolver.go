@@ -15,7 +15,7 @@
 // Package textproto implements a textproto config service Resolver.
 //
 // It uses the "luci-go" text protobuf multi-line extension. For more
-// information, see: go.chromium.org/luci/common/proto
+// information, see: github.com/TriggerMail/luci-go/common/proto
 //
 // The textproto protobuf Resolver internally formats its content as a binary
 // protobuf, rather than its raw text content. This has some advantages over raw

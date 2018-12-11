@@ -49,7 +49,7 @@ var fakeLogKey = "holds a logdog.LogsClient"
 // InjectFakeLogdogClient adds the given logdog.LogsClient to the context.
 //
 // You can obtain a fake logs client from
-//   go.chromium.org/luci/logdog/api/endpoints/coordinator/logs/v1/fakelogs
+//   github.com/TriggerMail/luci-go/logdog/api/endpoints/coordinator/logs/v1/fakelogs
 //
 // Injecting a nil logs client will panic.
 func InjectFakeLogdogClient(c context.Context, client logdog.LogsClient) context.Context {

@@ -25,7 +25,7 @@ import (
 )
 
 // settingsKey is key for global GAE settings (described by gaeSettings struct)
-// in the settings store. See go.chromium.org/luci/server/settings.
+// in the settings store. See github.com/TriggerMail/luci-go/server/settings.
 const settingsKey = "gae"
 
 // gaeSettings contain global Appengine related tweaks. They are stored in app

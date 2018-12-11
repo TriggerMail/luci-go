@@ -19,7 +19,7 @@
 // AppEngine module, and must be running on an instance with read/write
 // datastore access.
 //
-// See go.chromium.org/luci/server/settings for more details.
+// See github.com/TriggerMail/luci-go/server/settings for more details.
 package gaesettings
 
 import (

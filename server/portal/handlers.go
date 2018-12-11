@@ -18,7 +18,7 @@
 // /admin/portal.
 //
 // Typically they read/write `settings` as defined by
-// `go.chromium.org/luci/server/settings`, but they can also be used to provide
+// `github.com/TriggerMail/luci-go/server/settings`, but they can also be used to provide
 // information to administrators or to provide admin-only actions (such as
 // clearing queues or providing admin tokens).
 package portal

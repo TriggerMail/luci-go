@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Package cfgclient contains service implementations for the LUCI configuration
-// service defined in go.chromium.org/luci/config.
+// service defined in github.com/TriggerMail/luci-go/config.
 //
 // This defines an interface to the LUCI configuration service properties and
 // files. The interface is designed to be used by services which handle user

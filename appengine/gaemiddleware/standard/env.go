@@ -113,7 +113,7 @@ var classicEnv = gaemiddleware.Environment{
 // Basically, it installs GAE-specific backends and caches for various
 // subsystems to make them work in GAE environment.
 //
-// One example is a backend for Logging: go.chromium.org/luci/common/logging.
+// One example is a backend for Logging: github.com/TriggerMail/luci-go/common/logging.
 // Logs emitted through a With() context go to GAE logs.
 //
 // 'Production' here means the services will use real GAE APIs (not mocks or

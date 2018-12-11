@@ -718,7 +718,7 @@ type ensureFileOptions struct {
 func (opts *ensureFileOptions) registerFlags(f *flag.FlagSet, out ensureOutFlag, list legacyListFlag) {
 	f.StringVar(&opts.ensureFile, "ensure-file", "<path>",
 		`An "ensure" file. See syntax described here: `+
-			`https://godoc.org/go.chromium.org/luci/cipd/client/cipd/ensure.`+
+			`https://godoc.org/github.com/TriggerMail/luci-go/cipd/client/cipd/ensure.`+
 			` Providing '-' will read from stdin.`)
 	if out {
 		f.StringVar(&opts.ensureFileOut, "ensure-file-output", "",

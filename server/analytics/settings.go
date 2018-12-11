@@ -25,7 +25,7 @@ import (
 )
 
 // settingsKey is key for global GAE settings (described by analyticsSettings struct)
-// in the settings store. See go.chromium.org/luci/server/settings.
+// in the settings store. See github.com/TriggerMail/luci-go/server/settings.
 const settingsKey = "analytics"
 
 // analyticsSettings contain settings to enable Google Analytics.

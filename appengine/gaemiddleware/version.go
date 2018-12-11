@@ -22,7 +22,7 @@ import (
 //
 // It is bumped whenever we add new features or fix important bugs. It is
 // reported to monitoring as 'luci/components/version' string metric with
-// 'component' field set to 'go.chromium.org/luci/appengine/gaemiddleware'.
+// 'component' field set to 'github.com/TriggerMail/luci-go/appengine/gaemiddleware'.
 //
 // It allows to track what GAE apps use what version of the library, so it's
 // easier to detect stale code running in production.

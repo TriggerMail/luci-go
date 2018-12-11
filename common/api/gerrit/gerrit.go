@@ -42,7 +42,7 @@ const contentType = "application/json; charset=UTF-8"
 // Gerrit-supported keys will be populated).
 //
 // TODO(nodir): replace this type with
-// https://godoc.org/go.chromium.org/luci/common/proto/gerrit#ChangeInfo.
+// https://godoc.org/github.com/TriggerMail/luci-go/common/proto/gerrit#ChangeInfo.
 type Change struct {
 	ChangeNumber           int                     `json:"_number"`
 	ID                     string                  `json:"id"`

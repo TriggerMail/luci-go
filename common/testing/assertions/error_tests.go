@@ -19,7 +19,7 @@ import (
 
 	"github.com/TriggerMail/luci-go/common/errors"
 
-	"github.com/smartystreets/assertions"
+	"github.com/smarty/assertions"
 )
 
 // ShouldErrLike compares an `error` or `string` on the left side, to an `error`
